@@ -1,0 +1,5 @@
+cd "C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot"
+python deploy_final_working.py
+
+
+SECRET KEY (MJ 2): jnrYg69vAti6t1DUaBTxfu7NifXXm5vNbwBeR2AnompHyVpT4Bf1Mx8KMyghZl3T
