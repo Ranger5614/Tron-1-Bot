@@ -21,7 +21,7 @@ st.set_page_config(
     }
 )
 
-# Custom CSS for futuristic look
+# Custom CSS
 st.markdown("""
 <style>
     /* Global Styles */
@@ -205,72 +205,6 @@ st.markdown("""
         50% { height: 100%; }
         100% { height: 10%; }
     }
-    
-    /* Sidebar styling */
-    .css-1d391kg, .css-12oz5g7 {
-        background-color: #161a25;
-    }
-    
-    /* Button styling */
-    .stButton>button {
-        background: linear-gradient(90deg, #3a1c71, #d76d77);
-        color: white;
-        border: none;
-        border-radius: 5px;
-        padding: 10px 15px;
-        font-weight: bold;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        transition: all 0.3s ease;
-    }
-    
-    .stButton>button:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 6px 8px rgba(0,0,0,0.2);
-        background: linear-gradient(90deg, #4a2c81, #e77d87);
-    }
-    
-    /* Select box styling */
-    .stSelectbox>div>div {
-        background-color: #1e273a;
-        border: 1px solid #2e3c54;
-        color: #e0e0e0;
-    }
-    
-    .stDateInput>div>div {
-        background-color: #1e273a;
-        border: 1px solid #2e3c54;
-        color: #e0e0e0;
-    }
-    
-    /* Tabs styling */
-    .stTabs [data-baseweb="tab-list"] {
-        gap: 8px;
-    }
-    
-    .stTabs [data-baseweb="tab"] {
-        background-color: #1e273a;
-        border-radius: 4px 4px 0px 0px;
-        color: #a0a0a0;
-        padding: 10px 20px;
-        border: 1px solid #2e3c54;
-        border-bottom: none;
-    }
-    
-    .stTabs [aria-selected="true"] {
-        background-color: #2a3544;
-        color: #e0e0e0;
-    }
-    
-    /* Custom chart tooltips */
-    .tooltip {
-        position: absolute;
-        background-color: #1e273a;
-        border: 1px solid #2e3c54;
-        border-radius: 5px;
-        padding: 10px;
-        color: #e0e0e0;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-    }
 </style>
 
 <!-- Import Orbitron font -->
@@ -292,7 +226,7 @@ def generate_sample_data(days=30):
         start_date = end_date - timedelta(days=days)
         
         dates = pd.date_range(start=start_date, end=end_date, freq='H')
-        pairs = ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'DOGE/USDT', 'ADA/USDT']
+        pairs = ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'XRPUSDT']
         
         data = []
         cumulative_profit = 0
@@ -321,17 +255,23 @@ def generate_sample_data(days=30):
                 'action': action,
                 'price': price,
                 'quantity': quantity,
-                'gross_profit': profit,
-                'profit_pct': profit_pct,
-                'fee_cost': fee,
                 'net_profit': net_profit,
-                'cumulative_net_profit': cumulative_profit if action == 'SELL' else None
+                'profit_pct': profit_pct
             })
         
         # Sort by timestamp
         df = pd.DataFrame(data)
         df = df.sort_values('timestamp')
         
+        # Calculate cumulative profit
+        df['cumulative_net_profit'] = None
+        running_total = 0
+        
+        for idx, row in df.iterrows():
+            if row['action'] == 'SELL' and pd.notna(row['net_profit']):
+                running_total += row['net_profit']
+            df.at[idx, 'cumulative_net_profit'] = running_total
+            
         # Fill forward cumulative profit
         df['cumulative_net_profit'] = df['cumulative_net_profit'].fillna(method='ffill')
         return df
@@ -340,36 +280,89 @@ def generate_sample_data(days=30):
         # Return a minimal dataframe to avoid breaking the app
         return pd.DataFrame({
             'timestamp': [datetime.now()],
-            'pair': ['BTC/USDT'],
+            'pair': ['BTCUSDT'],
             'action': ['BUY'],
             'price': [50000],
             'quantity': [0.1],
-            'gross_profit': [None],
-            'profit_pct': [None],
-            'fee_cost': [5.0],
             'net_profit': [None],
+            'profit_pct': [None],
             'cumulative_net_profit': [0]
         })
 
 # Load data
 try:
-    csv_file = "trade_log.csv"
+    # Search for trade log file in multiple possible locations
+    possible_paths = [
+        "trade_log.csv",  # Root directory
+        os.path.join("trades", "trade_log.csv"),  # Trades directory
+        os.path.join(os.getcwd(), "trade_log.csv"),  # Absolute path
+        os.path.join(os.getcwd(), "trades", "trade_log.csv"),  # Absolute path in trades dir
+    ]
     
-    # Always check if we're in the correct directory
-    # List files in current directory to debug
-    current_files = os.listdir()
-    st.sidebar.write("Available files:", ", ".join(current_files))
+    csv_file = None
+    st.sidebar.write("Searching for trade log in:")
     
-    if not os.path.exists(csv_file) or os.path.getsize(csv_file) == 0:
-        st.sidebar.warning("⚠️ No trade_log.csv found or file is empty. Using sample data.")
+    for path in possible_paths:
+        st.sidebar.write(f"- {path}")
+        if os.path.exists(path):
+            if os.path.getsize(path) > 0:
+                csv_file = path
+                st.sidebar.success(f"✅ Found valid trade log at: {path}")
+                break
+            else:
+                st.sidebar.warning(f"⚠️ Found empty file at: {path}")
+    
+    # If no valid trade log is found
+    if csv_file is None:
+        st.sidebar.warning("⚠️ No valid trade_log.csv found. Using sample data.")
         df = generate_sample_data()
+        
+        # Show debug info for file paths
+        current_files = os.listdir()
+        st.sidebar.write("Files in current directory:", ", ".join(current_files))
+        
+        # Check if trades directory exists
+        trades_dir = "trades"
+        if os.path.exists(trades_dir) and os.path.isdir(trades_dir):
+            trades_files = os.listdir(trades_dir)
+            st.sidebar.write(f"Files in {trades_dir} directory:", ", ".join(trades_files))
     else:
         try:
             df = pd.read_csv(csv_file)
             # Convert timestamp column to datetime
             df['timestamp'] = pd.to_datetime(df['timestamp'])
+            
+            # Make sure we have the required columns
+            required_columns = ['timestamp', 'pair', 'action', 'price', 'quantity']
+            for col in required_columns:
+                if col not in df.columns:
+                    st.sidebar.error(f"Missing required column: {col}")
+                    df = generate_sample_data()
+                    break
+            
+            # If net_profit column is missing or empty, it likely won't have cumulative_net_profit either
+            if 'net_profit' not in df.columns or df['net_profit'].isna().all():
+                st.sidebar.warning("No profit data found in trade log. Using zeros.")
+                df['net_profit'] = 0.0
+            
+            # Calculate cumulative profit if not present
+            if 'cumulative_net_profit' not in df.columns:
+                st.sidebar.info("Calculating cumulative profit...")
+                df['cumulative_net_profit'] = None
+                running_total = 0
+                
+                for idx, row in df.iterrows():
+                    if row['action'] == 'SELL' and pd.notna(row['net_profit']):
+                        running_total += row['net_profit']
+                    df.at[idx, 'cumulative_net_profit'] = running_total
+                
+                # Fill forward cumulative profit
+                df['cumulative_net_profit'] = df['cumulative_net_profit'].fillna(method='ffill')
+            
+            st.sidebar.success(f"Successfully loaded {len(df)} trades from {csv_file}")
+            
         except Exception as e:
-            st.sidebar.error(f"Error reading trade_log.csv: {e}")
+            st.sidebar.error(f"Error reading {csv_file}: {e}")
             st.sidebar.info("Falling back to sample data.")
             df = generate_sample_data()
 except Exception as e:
@@ -416,7 +409,7 @@ with st.sidebar:
     try:
         pairs = ["All"] + sorted(df['pair'].unique().tolist())
     except:
-        pairs = ["All", "BTC/USDT", "ETH/USDT", "SOL/USDT"]
+        pairs = ["All", "BTCUSDT", "ETHUSDT", "SOLUSDT", "XRPUSDT"]
     
     selected_pair = st.selectbox(
         "Trading Pair",
@@ -478,10 +471,10 @@ with st.sidebar:
         if st.button("Stop Bot"):
             st.error("Bot stopped!")
     
-    if st.button("Test Webhook"):
-        with st.spinner("Testing webhook..."):
+    if st.button("Force Sell All"):
+        with st.spinner("Selling all positions..."):
             time.sleep(1)
-            st.success("Webhook test successful!")
+            st.success("All positions liquidated!")
     
     st.markdown("</div>", unsafe_allow_html=True)
 
@@ -1113,22 +1106,40 @@ with tab3:
             # Close the container
             st.markdown('</div>', unsafe_allow_html=True)
             
-            # Show pagination controls
-            col1, col2, col3 = st.columns([1, 2, 1])
-            with col2:
-                st.markdown("""
-                <div style="display: flex; justify-content: center; gap: 10px; margin-top: 10px;">
-                    <button class="stButton" style="border: none; background: none; cursor: pointer;">
-                        <span style="color: #7f9cf5;">◀ Previous</span>
-                    </button>
-                    <span style="color: #8b9eba;">Page 1 of 1</span>
-                    <button class="stButton" style="border: none; background: none; cursor: pointer;">
-                        <span style="color: #7f9cf5;">Next ▶</span>
-                    </button>
-                </div>
-                """, unsafe_allow_html=True)
         else:
-            st.info("No trades found for the selected filters.")
+            st.info("No trades found for the selected filters. The trade log may be empty.")
+            
+            # Offer to generate a sample trade
+            if st.button("Generate Test Trade Log Entry"):
+                test_trade_html = """
+                <div style="background-color: #1e273a; border: 1px solid #2e3c54; border-radius: 8px; padding: 15px; margin-top: 15px;">
+                    <h4 style="margin-top: 0;">How to Generate Trades</h4>
+                    <p>Your bot needs to execute trades for them to appear here. To test trade logging, add code like this:</p>
+                    <pre style="background-color: #0e1117; padding: 10px; border-radius: 5px; overflow-x: auto;">
+# In your testing script
+from logger_utils import log_trade_to_csv
+
+# Test BUY trade
+log_trade_to_csv(
+    pair="BTCUSDT", 
+    action="BUY",
+    price=65420.50, 
+    quantity=0.001
+)
+
+# Later, test SELL trade with profit
+log_trade_to_csv(
+    pair="BTCUSDT", 
+    action="SELL",
+    price=66750.25, 
+    quantity=0.001,
+    pnl=1.33,  # Profit in USDT
+    pnl_pct=2.03  # Percent gain
+)
+                    </pre>
+                </div>
+                """
+                st.markdown(test_trade_html, unsafe_allow_html=True)
     except Exception as e:
         st.error(f"Error displaying recent trades: {e}")
         st.info("Recent trades could not be displayed due to an error.")
@@ -1166,50 +1177,71 @@ with col1:
     """, unsafe_allow_html=True)
 
 with col2:
-    # Create a styled alerts panel
-    st.markdown("""
-    <div style="background-color: #1e273a; border-radius: 8px; padding: 15px; border: 1px solid #2e3c54;">
-        <h4 style="margin-top: 0;">Recent Alerts</h4>
-        <div style="margin-bottom: 10px; padding-bottom: 10px; border-bottom: 1px solid #2e3c54;">
-            <div style="display: flex; justify-content: space-between;">
-                <span style="color: #00ff9f;">✓ BTC/USDT</span>
-                <span style="color: #8b9eba; font-size: 0.8em;">5 min ago</span>
+    # Read latest scan file if available
+    try:
+        if os.path.exists("latest_scan.txt"):
+            with open("latest_scan.txt", "r") as f:
+                scan_content = f.read()
+            
+            # Format the scan content for display
+            scan_lines = scan_content.split('\n')
+            scan_title = scan_lines[0] if len(scan_lines) > 0 else "Latest Market Scan"
+            
+            # Create a scan display panel
+            st.markdown(f"""
+            <div style="background-color: #1e273a; border-radius: 8px; padding: 15px; border: 1px solid #2e3c54;">
+                <h4 style="margin-top: 0;">Latest Scan Result</h4>
+                <pre style="background-color: #0e1117; padding: 10px; border-radius: 5px; max-height: 200px; overflow-y: auto; font-size: 0.9em;">{scan_content}</pre>
             </div>
-            <div>Buy signal detected at $61,245.00</div>
-        </div>
-        <div style="margin-bottom: 10px; padding-bottom: 10px; border-bottom: 1px solid #2e3c54;">
-            <div style="display: flex; justify-content: space-between;">
-                <span style="color: #ffaf7b;">⚠ ETH/USDT</span>
-                <span style="color: #8b9eba; font-size: 0.8em;">27 min ago</span>
+            """, unsafe_allow_html=True)
+        else:
+            # Sample alerts if no scan file
+            st.markdown("""
+            <div style="background-color: #1e273a; border-radius: 8px; padding: 15px; border: 1px solid #2e3c54;">
+                <h4 style="margin-top: 0;">Recent Alerts</h4>
+                <div style="margin-bottom: 10px; padding-bottom: 10px; border-bottom: 1px solid #2e3c54;">
+                    <div style="display: flex; justify-content: space-between;">
+                        <span style="color: #ffaf7b;">⚠ System</span>
+                        <span style="color: #8b9eba; font-size: 0.8em;">Just now</span>
+                    </div>
+                    <div>No market scans found. Check your scan logging.</div>
+                </div>
+                <div>
+                    <div style="display: flex; justify-content: space-between;">
+                        <span style="color: #7f9cf5;">ℹ️ Info</span>
+                        <span style="color: #8b9eba; font-size: 0.8em;">Just now</span>
+                    </div>
+                    <div>Dashboard initialized with no trade data.</div>
+                </div>
             </div>
-            <div>Volatility alert - Price dropped 3.2% in 5 minutes</div>
-        </div>
-        <div>
-            <div style="display: flex; justify-content: space-between;">
-                <span style="color: #ff5c87;">⚠ System</span>
-                <span style="color: #8b9eba; font-size: 0.8em;">1 hour ago</span>
-            </div>
-            <div>Rate limit warning from exchange API</div>
-        </div>
-    </div>
-    """, unsafe_allow_html=True)
+            """, unsafe_allow_html=True)
+    except Exception as e:
+        st.error(f"Error reading latest scan: {e}")
+        st.info("Could not read the latest market scan.")
 
 st.markdown('</div>', unsafe_allow_html=True)
 
 # Footer
 st.markdown("""
 <div style="margin-top: 30px; text-align: center; color: #8b9eba; font-size: 0.8em;">
-    <p>HYPERION TRADING SYSTEM v1.0 | © 2025 | Powered by Advanced AI </p>
+    <p>HYPERION TRADING SYSTEM v1.0 | © 2025</p>
 </div>
 """, unsafe_allow_html=True)
 
-# Add a note about sample data
-st.sidebar.markdown("""
----
-**Note:** This dashboard is currently using sample data since no trades have been executed yet. Real trade data will automatically populate once the bot starts executing trades.
-""")
-
-# Debug info for Streamlit Cloud
-st.sidebar.markdown("### Debug Info")
-st.sidebar.text(f"Current directory: {os.getcwd()}")
-st.sidebar.text(f"Python version: {sys.version}")
+# Add an instructions section
+if os.path.exists("trade_log.csv") and os.path.getsize("trade_log.csv") > 0:
+    st.sidebar.success("✅ Trade log found and loaded successfully.")
+else:
+    st.sidebar.markdown("""
+    ---
+    ### No Trade Data Found
+    
+    To fix this:
+    
+    1. Make sure your bot is executing trades
+    2. Verify `log_trade_to_csv()` is being called when trades execute
+    3. Check that trades are being logged to "trade_log.csv"
+    4. Try running the bot manually to generate some test trades
+    
+    Dashboard will automatically update when trades are detected.
+    """)
