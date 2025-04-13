@@ -742,12 +742,16 @@ with col2:
     """, unsafe_allow_html=True)
 
 with col3:
+    # Calculate win and loss counts first
+    win_count = len(profit_df[profit_df['net_profit'] > 0]) if not profit_df.empty else 0
+    loss_count = len(profit_df[profit_df['net_profit'] < 0]) if not profit_df.empty else 0
+    
     win_class = "metric-positive" if win_rate >= 50 else "metric-negative"
     st.markdown(f"""
     <div class="metric-card">
         <div class="metric-title">WIN RATE</div>
         <div class="metric-value {win_class}">{win_rate:.1f}%</div>
-        <div>W: {len(profit_df[profit_df['net_profit'] > 0]) if not profit_df.empty else 0} | L: {len(profit_df[profit_df['net_profit'] < 0]) if not profit_df.empty else 0}</div>
+        <div>W: {win_count} | L: {loss_count}</div>
     </div>
     """, unsafe_allow_html=True)
 
