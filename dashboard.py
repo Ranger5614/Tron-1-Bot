@@ -9,6 +9,19 @@ import altair as alt
 import time
 import logging
 
+import os
+print(f"Current working directory: {os.getcwd()}")
+print(f"Files in directory: {os.listdir()}")
+
+try:
+    import database
+    print("Successfully imported database module")
+except Exception as e:
+    print(f"Error importing database module: {str(e)}")
+    import traceback
+    print(traceback.format_exc())
+
+    
 # Set up logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("dashboard")
