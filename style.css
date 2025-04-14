@@ -1,0 +1,137 @@
+/* Global Styles */
+.main {
+    background-color: #0e1117;
+    color: #e0e0e0;
+}
+
+/* Header styling */
+.hyperion-header {
+    background: linear-gradient(90deg, #3a1c71, #d76d77, #ffaf7b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Orbitron', sans-serif;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+/* Metric card styling */
+.metric-card {
+    background: linear-gradient(145deg, #1e2430, #14191f);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    text-align: center;
+    border: 1px solid #2a3544;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.metric-title {
+    color: #8b9eba;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.metric-value {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.metric-positive {
+    color: #00ff9f;
+}
+
+.metric-negative {
+    color: #ff5c87;
+}
+
+.metric-neutral {
+    color: #e0e0e0;
+}
+
+/* Pulsing dot for live status */
+.live-indicator {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #00ff9f;
+    border-radius: 50%;
+    margin-right: 8px;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 255, 159, 0.7);
+    }
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(0, 255, 159, 0);
+    }
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 255, 159, 0);
+    }
+}
+
+/* Panel styling */
+.hyperion-panel {
+    background-color: #161a25;
+    border-radius: 10px;
+    border: 1px solid #2e3c54;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Table styling */
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.styled-table th {
+    background-color: #1a1f2c;
+    color: #7f9cf5;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px;
+    text-align: left;
+}
+
+.styled-table td {
+    padding: 8px 10px;
+    border-bottom: 1px solid #2e3c54;
+}
+
+.styled-table tr:nth-child(even) {
+    background-color: #131720;
+}
+
+.styled-table tr:hover {
+    background-color: #1e273a;
+}
+
+/* Trade badges */
+.buy-badge {
+    background-color: rgba(0, 255, 159, 0.2);
+    color: #00ff9f;
+    border: 1px solid #00ff9f;
+    border-radius: 4px;
+    padding: 2px 6px;
+    font-size: 0.8em;
+}
+
+.sell-badge {
+    background-color: rgba(255, 92, 135, 0.2);
+    color: #ff5c87;
+    border: 1px solid #ff5c87;
+    border-radius: 4px;
+    padding: 2px 6px;
+    font-size: 0.8em;
