@@ -1,0 +1,1582 @@
+2025-04-13 13:03:00,688 - Binance API client initialized (testnet: True)
+2025-04-13 13:03:00,690 - Initialized Small Account Growth Strategy with strict risk controls
+2025-04-13 13:09:02,604 - Binance API client initialized (testnet: True)
+2025-04-13 13:09:02,604 - Initialized Small Account Growth Strategy with strict risk controls
+2025-04-13 13:09:02,983 - Binance API client initialized (testnet: False)
+2025-04-13 13:09:02,984 - Initialized Small Account Growth Strategy with strict risk controls
+2025-04-13 13:09:02,984 - Initialized optimized risk manager with max_risk_per_trade=0.03%, stop_loss_pct=0.02%, take_profit_pct=3.0%, max_trades_per_day=5, daily_loss_limit_pct=0.06%
+2025-04-13 13:09:02,984 - Initialized optimized trading bot with strategy: Small Account Growth Strategy, all available pairs: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'XRPUSDT', 'ADAUSDT', 'AVAXUSDT', 'DOGEUSDT', 'BNBUSDT'], testnet: False
+2025-04-13 13:09:03,193 - Retrieved server time: 2025-04-13 13:09:03.299000
+2025-04-13 13:09:03,194 - Connected to Binance API. Server time: 2025-04-13 13:09:03.299000
+2025-04-13 13:09:03,423 - Retrieved non-zero balances
+2025-04-13 13:09:03,633 - Retrieved current price for BTCUSDT: 84800.0
+2025-04-13 13:09:03,854 - Retrieved current price for ETHUSDT: 1621.27
+2025-04-13 13:09:04,074 - Retrieved current price for XRPUSDT: 2.2181
+2025-04-13 13:09:04,295 - Retrieved current price for SOLUSDT: 130.94
+2025-04-13 13:09:04,295 - Total account value: $140.83
+2025-04-13 13:09:04,295 - Initial account value: $140.83
+2025-04-13 13:09:04,295 - Selecting best trading pairs for small account...
+2025-04-13 13:09:04,781 - Retrieved 7 historical klines for BTCUSDT (1d)
+2025-04-13 13:09:04,781 - Error analyzing BTCUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:09:05,214 - Retrieved 7 historical klines for ETHUSDT (1d)
+2025-04-13 13:09:05,214 - Error analyzing ETHUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:09:05,632 - Retrieved 7 historical klines for SOLUSDT (1d)
+2025-04-13 13:09:05,632 - Error analyzing SOLUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:09:06,049 - Retrieved 7 historical klines for XRPUSDT (1d)
+2025-04-13 13:09:06,049 - Error analyzing XRPUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:09:06,480 - Retrieved 7 historical klines for ADAUSDT (1d)
+2025-04-13 13:09:06,481 - Error analyzing ADAUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:09:06,915 - Retrieved 7 historical klines for AVAXUSDT (1d)
+2025-04-13 13:09:06,916 - Error analyzing AVAXUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:09:07,367 - Retrieved 7 historical klines for DOGEUSDT (1d)
+2025-04-13 13:09:07,367 - Error analyzing DOGEUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:09:07,809 - Retrieved 7 historical klines for BNBUSDT (1d)
+2025-04-13 13:09:07,809 - Error analyzing BNBUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:09:07,810 - Selected best trading pairs: []
+2025-04-13 13:09:07,810 - Failed to select best pairs, using default pairs
+2025-04-13 13:09:07,811 - Selected best trading pairs: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT']
+2025-04-13 13:09:08,401 - Retrieved information for symbol BTCUSDT
+2025-04-13 13:09:08,401 - Validated trading pair: BTCUSDT
+2025-04-13 13:09:08,943 - Retrieved information for symbol ETHUSDT
+2025-04-13 13:09:08,943 - Validated trading pair: ETHUSDT
+2025-04-13 13:09:09,505 - Retrieved information for symbol SOLUSDT
+2025-04-13 13:09:09,505 - Validated trading pair: SOLUSDT
+2025-04-13 13:09:09,505 - Trading bot initialization completed successfully
+2025-04-13 13:09:09,505 - Failed to send initialization notification: send_status_update() got an unexpected keyword argument 'note'
+2025-04-13 13:09:09,505 - Using existing pair selection: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT']
+2025-04-13 13:09:09,505 - Error running trading bot: 'RiskManager' object has no attribute 'can_trade_today'
+2025-04-13 13:09:09,506 - Traceback: Traceback (most recent call last):
+  File "C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\src\trading_bot.py", line 297, in run_once
+    if not self.risk_manager.can_trade_today():
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RiskManager' object has no attribute 'can_trade_today'
+
+2025-04-13 13:12:48,637 - Binance API client initialized (testnet: True)
+2025-04-13 13:12:48,637 - Initialized Small Account Growth Strategy with strict risk controls
+2025-04-13 13:12:49,022 - Binance API client initialized (testnet: False)
+2025-04-13 13:12:49,022 - Initialized Small Account Growth Strategy with strict risk controls
+2025-04-13 13:12:49,023 - Initialized optimized risk manager with max_risk_per_trade=0.03%, stop_loss_pct=0.02%, take_profit_pct=3.0%, max_trades_per_day=5, daily_loss_limit_pct=0.06%
+2025-04-13 13:12:49,023 - Initialized optimized trading bot with strategy: Small Account Growth Strategy, all available pairs: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'XRPUSDT', 'ADAUSDT', 'AVAXUSDT', 'DOGEUSDT', 'BNBUSDT'], testnet: False
+2025-04-13 13:12:49,232 - Retrieved server time: 2025-04-13 13:12:49.338000
+2025-04-13 13:12:49,232 - Connected to Binance API. Server time: 2025-04-13 13:12:49.338000
+2025-04-13 13:12:49,450 - Retrieved non-zero balances
+2025-04-13 13:12:49,661 - Retrieved current price for BTCUSDT: 84836.91
+2025-04-13 13:12:49,861 - Retrieved current price for ETHUSDT: 1622.23
+2025-04-13 13:12:50,081 - Retrieved current price for XRPUSDT: 2.2207
+2025-04-13 13:12:50,291 - Retrieved current price for SOLUSDT: 131.21
+2025-04-13 13:12:50,291 - Total account value: $140.93
+2025-04-13 13:12:50,291 - Initial account value: $140.93
+2025-04-13 13:12:50,291 - Selecting best trading pairs for small account...
+2025-04-13 13:12:50,743 - Retrieved 7 historical klines for BTCUSDT (1d)
+2025-04-13 13:12:50,743 - Error analyzing BTCUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:12:51,174 - Retrieved 7 historical klines for ETHUSDT (1d)
+2025-04-13 13:12:51,174 - Error analyzing ETHUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:12:51,584 - Retrieved 7 historical klines for SOLUSDT (1d)
+2025-04-13 13:12:51,585 - Error analyzing SOLUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:12:52,023 - Retrieved 7 historical klines for XRPUSDT (1d)
+2025-04-13 13:12:52,024 - Error analyzing XRPUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:12:52,472 - Retrieved 7 historical klines for ADAUSDT (1d)
+2025-04-13 13:12:52,473 - Error analyzing ADAUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:12:52,927 - Retrieved 7 historical klines for AVAXUSDT (1d)
+2025-04-13 13:12:52,929 - Error analyzing AVAXUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:12:53,361 - Retrieved 7 historical klines for DOGEUSDT (1d)
+2025-04-13 13:12:53,361 - Error analyzing DOGEUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:12:53,811 - Retrieved 7 historical klines for BNBUSDT (1d)
+2025-04-13 13:12:53,811 - Error analyzing BNBUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:12:53,812 - Selected best trading pairs: []
+2025-04-13 13:12:53,812 - Failed to select best pairs, using default pairs
+2025-04-13 13:12:53,812 - Selected best trading pairs: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT']
+2025-04-13 13:12:54,430 - Retrieved information for symbol BTCUSDT
+2025-04-13 13:12:54,430 - Validated trading pair: BTCUSDT
+2025-04-13 13:12:55,014 - Retrieved information for symbol ETHUSDT
+2025-04-13 13:12:55,014 - Validated trading pair: ETHUSDT
+2025-04-13 13:12:55,441 - Retrieved information for symbol SOLUSDT
+2025-04-13 13:12:55,441 - Validated trading pair: SOLUSDT
+2025-04-13 13:12:55,441 - Trading bot initialization completed successfully
+2025-04-13 13:12:55,927 - Sent initialization notification to Discord
+2025-04-13 13:12:55,928 - Using existing pair selection: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT']
+2025-04-13 13:12:55,928 - Error running trading bot: RiskManager.track_account_growth() takes 1 positional argument but 2 were given
+2025-04-13 13:12:55,928 - Traceback: Traceback (most recent call last):
+  File "C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\src\trading_bot.py", line 302, in run_once
+    growth_metrics = self.risk_manager.track_account_growth(self.initial_balance)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: RiskManager.track_account_growth() takes 1 positional argument but 2 were given
+
+2025-04-13 13:15:42,983 - Binance API client initialized (testnet: True)
+2025-04-13 13:15:42,985 - Initialized Small Account Growth Strategy with strict risk controls
+2025-04-13 13:15:43,379 - Binance API client initialized (testnet: False)
+2025-04-13 13:15:43,380 - Initialized Small Account Growth Strategy with strict risk controls
+2025-04-13 13:15:43,380 - Initialized optimized risk manager with max_risk_per_trade=0.03%, stop_loss_pct=0.02%, take_profit_pct=3.0%, max_trades_per_day=5, daily_loss_limit_pct=0.06%
+2025-04-13 13:15:43,381 - Initialized optimized trading bot with strategy: Small Account Growth Strategy, all available pairs: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'XRPUSDT', 'ADAUSDT', 'AVAXUSDT', 'DOGEUSDT', 'BNBUSDT'], testnet: False
+2025-04-13 13:15:43,596 - Retrieved server time: 2025-04-13 13:15:43.689000
+2025-04-13 13:15:43,596 - Connected to Binance API. Server time: 2025-04-13 13:15:43.689000
+2025-04-13 13:15:43,815 - Retrieved non-zero balances
+2025-04-13 13:15:44,027 - Retrieved current price for BTCUSDT: 84787.45
+2025-04-13 13:15:44,256 - Retrieved current price for ETHUSDT: 1621.27
+2025-04-13 13:15:44,464 - Retrieved current price for XRPUSDT: 2.2169
+2025-04-13 13:15:44,695 - Retrieved current price for SOLUSDT: 130.96
+2025-04-13 13:15:44,696 - Total account value: $140.80
+2025-04-13 13:15:44,696 - Initial account value: $140.80
+2025-04-13 13:15:44,696 - Selecting best trading pairs for small account...
+2025-04-13 13:15:45,161 - Retrieved 7 historical klines for BTCUSDT (1d)
+2025-04-13 13:15:45,161 - Error analyzing BTCUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:15:45,584 - Retrieved 7 historical klines for ETHUSDT (1d)
+2025-04-13 13:15:45,585 - Error analyzing ETHUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:15:46,010 - Retrieved 7 historical klines for SOLUSDT (1d)
+2025-04-13 13:15:46,010 - Error analyzing SOLUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:15:46,457 - Retrieved 7 historical klines for XRPUSDT (1d)
+2025-04-13 13:15:46,457 - Error analyzing XRPUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:15:46,898 - Retrieved 7 historical klines for ADAUSDT (1d)
+2025-04-13 13:15:46,898 - Error analyzing ADAUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:15:47,301 - Retrieved 7 historical klines for AVAXUSDT (1d)
+2025-04-13 13:15:47,301 - Error analyzing AVAXUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:15:47,726 - Retrieved 7 historical klines for DOGEUSDT (1d)
+2025-04-13 13:15:47,727 - Error analyzing DOGEUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:15:48,154 - Retrieved 7 historical klines for BNBUSDT (1d)
+2025-04-13 13:15:48,155 - Error analyzing BNBUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:15:48,155 - Selected best trading pairs: []
+2025-04-13 13:15:48,156 - Failed to select best pairs, using default pairs
+2025-04-13 13:15:48,156 - Selected best trading pairs: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT']
+2025-04-13 13:15:48,751 - Retrieved information for symbol BTCUSDT
+2025-04-13 13:15:48,752 - Validated trading pair: BTCUSDT
+2025-04-13 13:15:49,457 - Retrieved information for symbol ETHUSDT
+2025-04-13 13:15:49,458 - Validated trading pair: ETHUSDT
+2025-04-13 13:15:50,030 - Retrieved information for symbol SOLUSDT
+2025-04-13 13:15:50,030 - Validated trading pair: SOLUSDT
+2025-04-13 13:15:50,030 - Trading bot initialization completed successfully
+2025-04-13 13:15:50,494 - Sent initialization notification to Discord
+2025-04-13 13:15:50,494 - Using existing pair selection: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT']
+2025-04-13 13:15:50,701 - Retrieved non-zero balances
+2025-04-13 13:15:50,927 - Retrieved current price for BTCUSDT: 84796.62
+2025-04-13 13:15:51,150 - Retrieved current price for ETHUSDT: 1621.17
+2025-04-13 13:15:51,364 - Retrieved current price for XRPUSDT: 2.2164
+2025-04-13 13:15:51,590 - Retrieved current price for SOLUSDT: 130.93
+2025-04-13 13:15:51,590 - Total account value: $140.80
+2025-04-13 13:15:51,591 - Account growth: $140.80 (8.31%), Risk adjustment factor: 1.0
+2025-04-13 13:15:51,591 - Account growth: 8.31%, Risk factor: 1.0
+2025-04-13 13:15:51,591 - Processing trading pair: BTCUSDT
+2025-04-13 13:15:51,591 - Checking market conditions for BTCUSDT
+2025-04-13 13:15:52,040 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 13:15:52,041 - Error checking market conditions for BTCUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:15:52,041 - Market conditions unfavorable for BTCUSDT, skipping
+2025-04-13 13:15:52,041 - Processing trading pair: ETHUSDT
+2025-04-13 13:15:52,042 - Checking market conditions for ETHUSDT
+2025-04-13 13:15:52,492 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 13:15:52,492 - Error checking market conditions for ETHUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:15:52,492 - Market conditions unfavorable for ETHUSDT, skipping
+2025-04-13 13:15:52,492 - Processing trading pair: SOLUSDT
+2025-04-13 13:15:52,492 - Checking market conditions for SOLUSDT
+2025-04-13 13:15:52,950 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 13:15:52,951 - Error checking market conditions for SOLUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:15:52,951 - Market conditions unfavorable for SOLUSDT, skipping
+2025-04-13 13:15:53,171 - Retrieved non-zero balances
+2025-04-13 13:15:53,392 - Retrieved current price for BTCUSDT: 84784.89
+2025-04-13 13:15:53,600 - Retrieved current price for ETHUSDT: 1621.04
+2025-04-13 13:15:53,799 - Retrieved current price for XRPUSDT: 2.2165
+2025-04-13 13:15:54,017 - Retrieved current price for SOLUSDT: 130.9
+2025-04-13 13:15:54,017 - Total account value: $140.79
+2025-04-13 13:15:54,017 - Current drawdown: 0.01% (limit: 15.0%)
+2025-04-13 13:32:13,763 - Binance API client initialized (testnet: False)
+2025-04-13 13:32:13,764 - Initialized Small Account Growth Strategy with strict risk controls
+2025-04-13 13:32:13,765 - Initialized optimized risk manager with max_risk_per_trade=0.03%, stop_loss_pct=0.02%, take_profit_pct=3.0%, max_trades_per_day=5, daily_loss_limit_pct=0.06%
+2025-04-13 13:32:13,765 - Initialized optimized trading bot with strategy: Small Account Growth Strategy, all available pairs: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'XRPUSDT', 'ADAUSDT', 'AVAXUSDT', 'DOGEUSDT', 'BNBUSDT'], testnet: False
+2025-04-13 13:32:13,996 - Retrieved server time: 2025-04-13 13:32:14.051000
+2025-04-13 13:32:13,996 - Connected to Binance API. Server time: 2025-04-13 13:32:14.051000
+2025-04-13 13:32:14,208 - Retrieved non-zero balances
+2025-04-13 13:32:14,437 - Retrieved current price for BTCUSDT: 84532.21
+2025-04-13 13:32:14,648 - Retrieved current price for ETHUSDT: 1614.11
+2025-04-13 13:32:14,862 - Retrieved current price for XRPUSDT: 2.1986
+2025-04-13 13:32:15,059 - Retrieved current price for SOLUSDT: 130.23
+2025-04-13 13:32:15,059 - Total account value: $140.22
+2025-04-13 13:32:15,060 - Initial account value: $140.22
+2025-04-13 13:32:15,060 - Selecting best trading pairs for small account...
+2025-04-13 13:32:15,512 - Retrieved 7 historical klines for BTCUSDT (1d)
+2025-04-13 13:32:15,512 - Error analyzing BTCUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:32:15,953 - Retrieved 7 historical klines for ETHUSDT (1d)
+2025-04-13 13:32:15,954 - Error analyzing ETHUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:32:16,414 - Retrieved 7 historical klines for SOLUSDT (1d)
+2025-04-13 13:32:16,414 - Error analyzing SOLUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:32:16,861 - Retrieved 7 historical klines for XRPUSDT (1d)
+2025-04-13 13:32:16,862 - Error analyzing XRPUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:32:17,294 - Retrieved 7 historical klines for ADAUSDT (1d)
+2025-04-13 13:32:17,294 - Error analyzing ADAUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:32:17,718 - Retrieved 7 historical klines for AVAXUSDT (1d)
+2025-04-13 13:32:17,719 - Error analyzing AVAXUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:32:18,162 - Retrieved 7 historical klines for DOGEUSDT (1d)
+2025-04-13 13:32:18,163 - Error analyzing DOGEUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:32:18,591 - Retrieved 7 historical klines for BNBUSDT (1d)
+2025-04-13 13:32:18,592 - Error analyzing BNBUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:32:18,592 - Selected best trading pairs: []
+2025-04-13 13:32:18,592 - Failed to select best pairs, using default pairs
+2025-04-13 13:32:18,592 - Selected best trading pairs: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT']
+2025-04-13 13:32:19,183 - Retrieved information for symbol BTCUSDT
+2025-04-13 13:32:19,183 - Validated trading pair: BTCUSDT
+2025-04-13 13:32:19,733 - Retrieved information for symbol ETHUSDT
+2025-04-13 13:32:19,733 - Validated trading pair: ETHUSDT
+2025-04-13 13:32:20,270 - Retrieved information for symbol SOLUSDT
+2025-04-13 13:32:20,270 - Validated trading pair: SOLUSDT
+2025-04-13 13:32:20,270 - Trading bot initialization completed successfully
+2025-04-13 13:32:20,749 - Sent initialization notification to Discord
+2025-04-13 13:32:20,751 - Using existing pair selection: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT']
+2025-04-13 13:32:20,980 - Retrieved non-zero balances
+2025-04-13 13:32:21,191 - Retrieved current price for BTCUSDT: 84532.22
+2025-04-13 13:32:21,419 - Retrieved current price for ETHUSDT: 1613.45
+2025-04-13 13:32:21,640 - Retrieved current price for XRPUSDT: 2.1956
+2025-04-13 13:32:21,852 - Retrieved current price for SOLUSDT: 130.21
+2025-04-13 13:32:21,853 - Total account value: $140.18
+2025-04-13 13:32:21,853 - Account growth: $140.18 (7.83%), Risk adjustment factor: 1.0
+2025-04-13 13:32:21,853 - Account growth: 7.83%, Risk factor: 1.0
+2025-04-13 13:32:21,853 - Processing trading pair: BTCUSDT
+2025-04-13 13:32:21,854 - Checking market conditions for BTCUSDT
+2025-04-13 13:32:22,299 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 13:32:22,299 - Error checking market conditions for BTCUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:32:22,299 - Market conditions unfavorable for BTCUSDT, skipping
+2025-04-13 13:32:22,299 - Processing trading pair: ETHUSDT
+2025-04-13 13:32:22,299 - Checking market conditions for ETHUSDT
+2025-04-13 13:32:22,758 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 13:32:22,758 - Error checking market conditions for ETHUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:32:22,758 - Market conditions unfavorable for ETHUSDT, skipping
+2025-04-13 13:32:22,758 - Processing trading pair: SOLUSDT
+2025-04-13 13:32:22,758 - Checking market conditions for SOLUSDT
+2025-04-13 13:32:23,213 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 13:32:23,213 - Error checking market conditions for SOLUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:32:23,214 - Market conditions unfavorable for SOLUSDT, skipping
+2025-04-13 13:32:23,451 - Retrieved non-zero balances
+2025-04-13 13:32:23,679 - Retrieved current price for BTCUSDT: 84532.22
+2025-04-13 13:32:23,891 - Retrieved current price for ETHUSDT: 1613.45
+2025-04-13 13:32:24,118 - Retrieved current price for XRPUSDT: 2.1958
+2025-04-13 13:32:24,329 - Retrieved current price for SOLUSDT: 130.21
+2025-04-13 13:32:24,329 - Total account value: $140.18
+2025-04-13 13:32:24,329 - Current drawdown: 0.03% (limit: 15.0%)
+2025-04-13 13:48:36,480 - Binance API client initialized (testnet: False)
+2025-04-13 13:48:36,480 - Initialized Small Account Growth Strategy with strict risk controls
+2025-04-13 13:48:36,480 - Initialized optimized risk manager with max_risk_per_trade=0.03%, stop_loss_pct=0.02%, take_profit_pct=3.0%, max_trades_per_day=5, daily_loss_limit_pct=0.06%
+2025-04-13 13:48:36,481 - Initialized optimized trading bot with strategy: Small Account Growth Strategy, all available pairs: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'XRPUSDT', 'ADAUSDT', 'AVAXUSDT', 'DOGEUSDT', 'BNBUSDT'], testnet: False
+2025-04-13 13:48:36,703 - Retrieved server time: 2025-04-13 13:48:36.767000
+2025-04-13 13:48:36,704 - Connected to Binance API. Server time: 2025-04-13 13:48:36.767000
+2025-04-13 13:48:36,933 - Retrieved non-zero balances
+2025-04-13 13:48:37,153 - Retrieved current price for BTCUSDT: 84676.39
+2025-04-13 13:48:37,361 - Retrieved current price for ETHUSDT: 1617.29
+2025-04-13 13:48:37,597 - Retrieved current price for XRPUSDT: 2.2152
+2025-04-13 13:48:37,802 - Retrieved current price for SOLUSDT: 130.82
+2025-04-13 13:48:37,802 - Total account value: $140.62
+2025-04-13 13:48:37,802 - Initial account value: $140.62
+2025-04-13 13:48:37,802 - Selecting best trading pairs for small account...
+2025-04-13 13:48:38,234 - Retrieved 7 historical klines for BTCUSDT (1d)
+2025-04-13 13:48:38,234 - Error analyzing BTCUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:48:38,670 - Retrieved 7 historical klines for ETHUSDT (1d)
+2025-04-13 13:48:38,671 - Error analyzing ETHUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:48:39,114 - Retrieved 7 historical klines for SOLUSDT (1d)
+2025-04-13 13:48:39,115 - Error analyzing SOLUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:48:39,544 - Retrieved 7 historical klines for XRPUSDT (1d)
+2025-04-13 13:48:39,544 - Error analyzing XRPUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:48:40,027 - Retrieved 7 historical klines for ADAUSDT (1d)
+2025-04-13 13:48:40,028 - Error analyzing ADAUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:48:40,471 - Retrieved 7 historical klines for AVAXUSDT (1d)
+2025-04-13 13:48:40,471 - Error analyzing AVAXUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:48:40,922 - Retrieved 7 historical klines for DOGEUSDT (1d)
+2025-04-13 13:48:40,923 - Error analyzing DOGEUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:48:41,386 - Retrieved 7 historical klines for BNBUSDT (1d)
+2025-04-13 13:48:41,386 - Error analyzing BNBUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:48:41,386 - Selected best trading pairs: []
+2025-04-13 13:48:41,386 - Failed to select best pairs, using default pairs
+2025-04-13 13:48:41,386 - Selected best trading pairs: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT']
+2025-04-13 13:48:41,970 - Retrieved information for symbol BTCUSDT
+2025-04-13 13:48:41,970 - Validated trading pair: BTCUSDT
+2025-04-13 13:48:42,536 - Retrieved information for symbol ETHUSDT
+2025-04-13 13:48:42,536 - Validated trading pair: ETHUSDT
+2025-04-13 13:48:43,291 - Retrieved information for symbol SOLUSDT
+2025-04-13 13:48:43,291 - Validated trading pair: SOLUSDT
+2025-04-13 13:48:43,291 - Trading bot initialization completed successfully
+2025-04-13 13:48:43,763 - Sent initialization notification to Discord
+2025-04-13 13:48:43,764 - Using existing pair selection: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT']
+2025-04-13 13:48:43,993 - Retrieved non-zero balances
+2025-04-13 13:48:44,221 - Retrieved current price for BTCUSDT: 84676.39
+2025-04-13 13:48:44,443 - Retrieved current price for ETHUSDT: 1617.19
+2025-04-13 13:48:44,661 - Retrieved current price for XRPUSDT: 2.2144
+2025-04-13 13:48:44,882 - Retrieved current price for SOLUSDT: 130.78
+2025-04-13 13:48:44,882 - Total account value: $140.61
+2025-04-13 13:48:44,882 - Account growth: $140.61 (8.16%), Risk adjustment factor: 1.0
+2025-04-13 13:48:44,882 - Account growth: 8.16%, Risk factor: 1.0
+2025-04-13 13:48:44,883 - Processing trading pair: BTCUSDT
+2025-04-13 13:48:44,883 - Checking market conditions for BTCUSDT
+2025-04-13 13:48:45,361 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 13:48:45,361 - Error checking market conditions for BTCUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:48:45,361 - Market conditions unfavorable for BTCUSDT, skipping
+2025-04-13 13:48:45,361 - Processing trading pair: ETHUSDT
+2025-04-13 13:48:45,361 - Checking market conditions for ETHUSDT
+2025-04-13 13:48:45,791 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 13:48:45,792 - Error checking market conditions for ETHUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:48:45,792 - Market conditions unfavorable for ETHUSDT, skipping
+2025-04-13 13:48:45,792 - Processing trading pair: SOLUSDT
+2025-04-13 13:48:45,792 - Checking market conditions for SOLUSDT
+2025-04-13 13:48:46,244 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 13:48:46,244 - Error checking market conditions for SOLUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:48:46,245 - Market conditions unfavorable for SOLUSDT, skipping
+2025-04-13 13:48:46,480 - Retrieved non-zero balances
+2025-04-13 13:48:46,687 - Retrieved current price for BTCUSDT: 84676.39
+2025-04-13 13:48:46,893 - Retrieved current price for ETHUSDT: 1617.01
+2025-04-13 13:48:47,102 - Retrieved current price for XRPUSDT: 2.214
+2025-04-13 13:48:47,338 - Retrieved current price for SOLUSDT: 130.76
+2025-04-13 13:48:47,338 - Total account value: $140.60
+2025-04-13 13:48:47,338 - Current drawdown: 0.01% (limit: 15.0%)
+2025-04-13 13:48:47,560 - Retrieved non-zero balances
+2025-04-13 13:48:47,780 - Retrieved current price for BTCUSDT: 84676.39
+2025-04-13 13:48:47,981 - Retrieved current price for ETHUSDT: 1617.01
+2025-04-13 13:48:48,201 - Retrieved current price for XRPUSDT: 2.2138
+2025-04-13 13:48:48,421 - Retrieved current price for SOLUSDT: 130.75
+2025-04-13 13:48:48,421 - Total account value: $140.60
+2025-04-13 13:48:48,872 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 13:48:49,305 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 13:48:49,796 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 13:48:50,264 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 13:48:50,265 - Error checking market conditions for BTCUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:48:50,728 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 13:48:51,490 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 13:48:51,490 - Error checking market conditions for ETHUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:48:51,924 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 13:48:52,689 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 13:48:52,689 - Error checking market conditions for SOLUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 13:48:53,171 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 13:48:53,392 - Retrieved non-zero balances
+2025-04-13 13:48:53,593 - Retrieved current price for BTCUSDT: 84676.39
+2025-04-13 13:48:53,803 - Retrieved current price for ETHUSDT: 1617.01
+2025-04-13 13:48:54,012 - Retrieved current price for XRPUSDT: 2.2154
+2025-04-13 13:48:54,229 - Retrieved current price for SOLUSDT: 130.76
+2025-04-13 13:48:54,231 - Total account value: $140.61
+2025-04-13 13:48:54,231 - SUMMARY: === TRON 1 SCAN SUMMARY (2025-04-13 13:48:47) ===
+2025-04-13 13:48:54,231 - SUMMARY: Account Value: $140.60
+2025-04-13 13:48:54,231 - SUMMARY: --- NO ACTIVE TRADES ---
+2025-04-13 13:48:54,231 - SUMMARY: --- SCAN RESULTS ---
+2025-04-13 13:48:54,235 - SUMMARY: --- MARKET CONDITIONS ---
+2025-04-13 13:48:54,238 - SUMMARY: --- PERFORMANCE ---
+2025-04-13 13:48:54,238 - SUMMARY: Trades: 0 | Win Rate: 0.0% (0W/0L)
+2025-04-13 13:48:54,238 - SUMMARY: Growth: -0.00% since start
+2025-04-13 14:03:59,328 - Binance API client initialized (testnet: False)
+2025-04-13 14:03:59,329 - Initialized Small Account Growth Strategy with strict risk controls
+2025-04-13 14:03:59,329 - Initialized optimized risk manager with max_risk_per_trade=0.03%, stop_loss_pct=0.02%, take_profit_pct=3.0%, max_trades_per_day=5, daily_loss_limit_pct=0.06%
+2025-04-13 14:03:59,329 - Initialized optimized trading bot with strategy: Small Account Growth Strategy, all available pairs: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'XRPUSDT', 'ADAUSDT', 'AVAXUSDT', 'DOGEUSDT', 'BNBUSDT'], testnet: False
+2025-04-13 14:03:59,551 - Retrieved server time: 2025-04-13 14:03:59.598000
+2025-04-13 14:03:59,552 - Connected to Binance API. Server time: 2025-04-13 14:03:59.598000
+2025-04-13 14:03:59,798 - Retrieved non-zero balances
+2025-04-13 14:04:00,018 - Retrieved current price for BTCUSDT: 84719.2
+2025-04-13 14:04:00,225 - Retrieved current price for ETHUSDT: 1617.51
+2025-04-13 14:04:00,466 - Retrieved current price for XRPUSDT: 2.2264
+2025-04-13 14:04:00,687 - Retrieved current price for SOLUSDT: 130.67
+2025-04-13 14:04:00,687 - Total account value: $140.76
+2025-04-13 14:04:00,687 - Initial account value: $140.76
+2025-04-13 14:04:00,687 - Selecting best trading pairs for small account...
+2025-04-13 14:04:01,160 - Retrieved 7 historical klines for BTCUSDT (1d)
+2025-04-13 14:04:01,160 - Error analyzing BTCUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 14:04:01,601 - Retrieved 7 historical klines for ETHUSDT (1d)
+2025-04-13 14:04:01,602 - Error analyzing ETHUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 14:04:02,056 - Retrieved 7 historical klines for SOLUSDT (1d)
+2025-04-13 14:04:02,056 - Error analyzing SOLUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 14:04:02,512 - Retrieved 7 historical klines for XRPUSDT (1d)
+2025-04-13 14:04:02,513 - Error analyzing XRPUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 14:04:02,958 - Retrieved 7 historical klines for ADAUSDT (1d)
+2025-04-13 14:04:02,959 - Error analyzing ADAUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 14:04:03,390 - Retrieved 7 historical klines for AVAXUSDT (1d)
+2025-04-13 14:04:03,391 - Error analyzing AVAXUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 14:04:03,833 - Retrieved 7 historical klines for DOGEUSDT (1d)
+2025-04-13 14:04:03,834 - Error analyzing DOGEUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 14:04:04,291 - Retrieved 7 historical klines for BNBUSDT (1d)
+2025-04-13 14:04:04,291 - Error analyzing BNBUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 14:04:04,292 - Selected best trading pairs: []
+2025-04-13 14:04:04,292 - Failed to select best pairs, using default pairs
+2025-04-13 14:04:04,292 - Selected best trading pairs: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT']
+2025-04-13 14:04:04,972 - Retrieved information for symbol BTCUSDT
+2025-04-13 14:04:04,972 - Validated trading pair: BTCUSDT
+2025-04-13 14:04:05,580 - Retrieved information for symbol ETHUSDT
+2025-04-13 14:04:05,580 - Validated trading pair: ETHUSDT
+2025-04-13 14:04:06,027 - Retrieved information for symbol SOLUSDT
+2025-04-13 14:04:06,027 - Validated trading pair: SOLUSDT
+2025-04-13 14:04:06,028 - Trading bot initialization completed successfully
+2025-04-13 14:04:06,459 - Sent initialization notification to Discord
+2025-04-13 14:04:06,460 - Using existing pair selection: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT']
+2025-04-13 14:04:06,692 - Retrieved non-zero balances
+2025-04-13 14:04:06,927 - Retrieved current price for BTCUSDT: 84719.19
+2025-04-13 14:04:07,147 - Retrieved current price for ETHUSDT: 1617.6
+2025-04-13 14:04:07,395 - Retrieved current price for XRPUSDT: 2.2265
+2025-04-13 14:04:07,626 - Retrieved current price for SOLUSDT: 130.65
+2025-04-13 14:04:07,626 - Total account value: $140.76
+2025-04-13 14:04:07,627 - Account growth: $140.76 (8.28%), Risk adjustment factor: 1.0
+2025-04-13 14:04:07,627 - Account growth: 8.28%, Risk factor: 1.0
+2025-04-13 14:04:07,627 - Processing trading pair: BTCUSDT
+2025-04-13 14:04:07,627 - Checking market conditions for BTCUSDT
+2025-04-13 14:04:08,065 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 14:04:08,065 - Error checking market conditions for BTCUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 14:04:08,065 - Market conditions unfavorable for BTCUSDT, skipping
+2025-04-13 14:04:08,065 - Processing trading pair: ETHUSDT
+2025-04-13 14:04:08,065 - Checking market conditions for ETHUSDT
+2025-04-13 14:04:08,765 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 14:04:08,765 - Error checking market conditions for ETHUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 14:04:08,766 - Market conditions unfavorable for ETHUSDT, skipping
+2025-04-13 14:04:08,766 - Processing trading pair: SOLUSDT
+2025-04-13 14:04:08,766 - Checking market conditions for SOLUSDT
+2025-04-13 14:04:09,200 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 14:04:09,200 - Error checking market conditions for SOLUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 14:04:09,200 - Market conditions unfavorable for SOLUSDT, skipping
+2025-04-13 14:04:09,414 - Retrieved non-zero balances
+2025-04-13 14:04:09,635 - Retrieved current price for BTCUSDT: 84719.2
+2025-04-13 14:04:09,879 - Retrieved current price for ETHUSDT: 1617.68
+2025-04-13 14:04:10,106 - Retrieved current price for XRPUSDT: 2.228
+2025-04-13 14:04:10,655 - Retrieved current price for SOLUSDT: 130.7
+2025-04-13 14:04:10,656 - Total account value: $140.78
+2025-04-13 14:04:10,656 - Current drawdown: -0.01% (limit: 15.0%)
+2025-04-13 14:04:10,888 - Retrieved non-zero balances
+2025-04-13 14:04:11,115 - Retrieved current price for BTCUSDT: 84719.2
+2025-04-13 14:04:11,328 - Retrieved current price for ETHUSDT: 1617.69
+2025-04-13 14:04:11,547 - Retrieved current price for XRPUSDT: 2.228
+2025-04-13 14:04:11,775 - Retrieved current price for SOLUSDT: 130.7
+2025-04-13 14:04:11,775 - Total account value: $140.78
+2025-04-13 14:04:12,228 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 14:04:12,699 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 14:04:13,164 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 14:04:13,623 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 14:04:13,623 - Error checking market conditions for BTCUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 14:04:14,382 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 14:04:14,832 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 14:04:14,832 - Error checking market conditions for ETHUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 14:04:15,604 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 14:04:16,057 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 14:04:16,057 - Error checking market conditions for SOLUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 14:04:16,838 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 14:04:17,066 - Retrieved non-zero balances
+2025-04-13 14:04:17,287 - Retrieved current price for BTCUSDT: 84719.19
+2025-04-13 14:04:17,507 - Retrieved current price for ETHUSDT: 1617.69
+2025-04-13 14:04:17,747 - Retrieved current price for XRPUSDT: 2.228
+2025-04-13 14:04:17,986 - Retrieved current price for SOLUSDT: 130.69
+2025-04-13 14:04:17,986 - Total account value: $140.78
+2025-04-13 14:04:17,987 - SUMMARY: === TRON 1 SCAN SUMMARY (2025-04-13 14:04:10) ===
+2025-04-13 14:04:17,987 - SUMMARY: Account Value: $140.78
+2025-04-13 14:04:17,987 - SUMMARY: --- NO ACTIVE TRADES ---
+2025-04-13 14:04:17,987 - SUMMARY: --- SCAN RESULTS ---
+2025-04-13 14:04:17,993 - SUMMARY: --- MARKET CONDITIONS ---
+2025-04-13 14:04:17,997 - SUMMARY: --- PERFORMANCE ---
+2025-04-13 14:04:17,997 - SUMMARY: Trades: 0 | Win Rate: 0.0% (0W/0L)
+2025-04-13 14:04:17,997 - SUMMARY: Growth: 0.01% since start
+2025-04-13 14:04:18,759 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 14:04:18,760 - Failed to send scan summary to Discord: 'SmallAccountStrategy' object has no attribute 'calculate_rsi'
+2025-04-13 14:06:45,585 - Binance API client initialized (testnet: False)
+2025-04-13 14:06:45,586 - Initialized Small Account Growth Strategy with strict risk controls
+2025-04-13 14:06:45,586 - Initialized optimized risk manager with max_risk_per_trade=0.03%, stop_loss_pct=0.02%, take_profit_pct=3.0%, max_trades_per_day=5, daily_loss_limit_pct=0.06%
+2025-04-13 14:06:45,586 - Initialized optimized trading bot with strategy: Small Account Growth Strategy, all available pairs: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'XRPUSDT', 'ADAUSDT', 'AVAXUSDT', 'DOGEUSDT', 'BNBUSDT'], testnet: False
+2025-04-13 14:06:45,806 - Retrieved server time: 2025-04-13 14:06:45.860000
+2025-04-13 14:06:45,806 - Connected to Binance API. Server time: 2025-04-13 14:06:45.860000
+2025-04-13 14:06:46,016 - Retrieved non-zero balances
+2025-04-13 14:06:46,234 - Retrieved current price for BTCUSDT: 84664.52
+2025-04-13 14:06:46,456 - Retrieved current price for ETHUSDT: 1614.6
+2025-04-13 14:06:47,026 - Retrieved current price for XRPUSDT: 2.2217
+2025-04-13 14:06:47,238 - Retrieved current price for SOLUSDT: 130.36
+2025-04-13 14:06:47,238 - Total account value: $140.60
+2025-04-13 14:06:47,239 - Initial account value: $140.60
+2025-04-13 14:06:47,239 - Selecting best trading pairs for small account...
+2025-04-13 14:06:47,688 - Retrieved 7 historical klines for BTCUSDT (1d)
+2025-04-13 14:06:47,689 - Error analyzing BTCUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 14:06:48,149 - Retrieved 7 historical klines for ETHUSDT (1d)
+2025-04-13 14:06:48,150 - Error analyzing ETHUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 14:06:48,601 - Retrieved 7 historical klines for SOLUSDT (1d)
+2025-04-13 14:06:48,601 - Error analyzing SOLUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 14:06:49,027 - Retrieved 7 historical klines for XRPUSDT (1d)
+2025-04-13 14:06:49,027 - Error analyzing XRPUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 14:06:49,476 - Retrieved 7 historical klines for ADAUSDT (1d)
+2025-04-13 14:06:49,476 - Error analyzing ADAUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 14:06:49,907 - Retrieved 7 historical klines for AVAXUSDT (1d)
+2025-04-13 14:06:49,907 - Error analyzing AVAXUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 14:06:50,328 - Retrieved 7 historical klines for DOGEUSDT (1d)
+2025-04-13 14:06:50,328 - Error analyzing DOGEUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 14:06:50,791 - Retrieved 7 historical klines for BNBUSDT (1d)
+2025-04-13 14:06:50,791 - Error analyzing BNBUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 14:06:50,791 - Selected best trading pairs: []
+2025-04-13 14:06:50,792 - Failed to select best pairs, using default pairs
+2025-04-13 14:06:50,792 - Selected best trading pairs: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT']
+2025-04-13 14:06:51,548 - Retrieved information for symbol BTCUSDT
+2025-04-13 14:06:51,548 - Validated trading pair: BTCUSDT
+2025-04-13 14:06:52,133 - Retrieved information for symbol ETHUSDT
+2025-04-13 14:06:52,133 - Validated trading pair: ETHUSDT
+2025-04-13 14:06:52,674 - Retrieved information for symbol SOLUSDT
+2025-04-13 14:06:52,674 - Validated trading pair: SOLUSDT
+2025-04-13 14:06:52,674 - Trading bot initialization completed successfully
+2025-04-13 14:06:53,343 - Sent initialization notification to Discord
+2025-04-13 14:06:53,344 - Using existing pair selection: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT']
+2025-04-13 14:06:53,562 - Retrieved non-zero balances
+2025-04-13 14:06:53,796 - Retrieved current price for BTCUSDT: 84664.52
+2025-04-13 14:06:54,027 - Retrieved current price for ETHUSDT: 1614.68
+2025-04-13 14:06:54,237 - Retrieved current price for XRPUSDT: 2.2223
+2025-04-13 14:06:54,444 - Retrieved current price for SOLUSDT: 130.38
+2025-04-13 14:06:54,444 - Total account value: $140.61
+2025-04-13 14:06:54,444 - Account growth: $140.61 (8.16%), Risk adjustment factor: 1.0
+2025-04-13 14:06:54,444 - Account growth: 8.16%, Risk factor: 1.0
+2025-04-13 14:06:54,444 - Processing trading pair: BTCUSDT
+2025-04-13 14:06:54,445 - Checking market conditions for BTCUSDT
+2025-04-13 14:06:54,902 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 14:06:54,902 - Error checking market conditions for BTCUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 14:06:54,902 - Market conditions unfavorable for BTCUSDT, skipping
+2025-04-13 14:06:54,902 - Processing trading pair: ETHUSDT
+2025-04-13 14:06:54,903 - Checking market conditions for ETHUSDT
+2025-04-13 14:06:55,348 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 14:06:55,348 - Error checking market conditions for ETHUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 14:06:55,348 - Market conditions unfavorable for ETHUSDT, skipping
+2025-04-13 14:06:55,348 - Processing trading pair: SOLUSDT
+2025-04-13 14:06:55,349 - Checking market conditions for SOLUSDT
+2025-04-13 14:06:55,814 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 14:06:55,815 - Error checking market conditions for SOLUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 14:06:55,815 - Market conditions unfavorable for SOLUSDT, skipping
+2025-04-13 14:06:56,036 - Retrieved non-zero balances
+2025-04-13 14:06:56,256 - Retrieved current price for BTCUSDT: 84664.53
+2025-04-13 14:06:56,494 - Retrieved current price for ETHUSDT: 1614.68
+2025-04-13 14:06:56,708 - Retrieved current price for XRPUSDT: 2.2224
+2025-04-13 14:06:56,947 - Retrieved current price for SOLUSDT: 130.38
+2025-04-13 14:06:56,947 - Total account value: $140.61
+2025-04-13 14:06:56,947 - Current drawdown: -0.01% (limit: 15.0%)
+2025-04-13 14:06:57,180 - Retrieved non-zero balances
+2025-04-13 14:06:57,398 - Retrieved current price for BTCUSDT: 84664.52
+2025-04-13 14:06:57,623 - Retrieved current price for ETHUSDT: 1614.68
+2025-04-13 14:06:57,838 - Retrieved current price for XRPUSDT: 2.2222
+2025-04-13 14:06:58,057 - Retrieved current price for SOLUSDT: 130.38
+2025-04-13 14:06:58,057 - Total account value: $140.61
+2025-04-13 14:06:58,501 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 14:06:58,937 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 14:06:59,391 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 14:06:59,832 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 14:06:59,833 - Error checking market conditions for BTCUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 14:07:00,670 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 14:07:01,142 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 14:07:01,143 - Error checking market conditions for ETHUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 14:07:01,591 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 14:07:02,044 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 14:07:02,044 - Error checking market conditions for SOLUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 14:07:02,871 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 14:07:03,098 - Retrieved non-zero balances
+2025-04-13 14:07:03,309 - Retrieved current price for BTCUSDT: 84661.84
+2025-04-13 14:07:03,529 - Retrieved current price for ETHUSDT: 1614.75
+2025-04-13 14:07:03,758 - Retrieved current price for XRPUSDT: 2.2228
+2025-04-13 14:07:03,976 - Retrieved current price for SOLUSDT: 130.37
+2025-04-13 14:07:03,978 - Total account value: $140.61
+2025-04-13 14:07:03,979 - SUMMARY: === TRON 1 SCAN SUMMARY (2025-04-13 14:06:56) ===
+2025-04-13 14:07:03,979 - SUMMARY: Account Value: $140.61
+2025-04-13 14:07:03,979 - SUMMARY: --- NO ACTIVE TRADES ---
+2025-04-13 14:07:03,979 - SUMMARY: --- SCAN RESULTS ---
+2025-04-13 14:07:03,979 - SUMMARY: BTCUSDT: [X] Error getting signal ('SmallAccountStrategy' object has no attribute 'calculate_rsi')
+2025-04-13 14:07:03,979 - SUMMARY: ETHUSDT: [X] Error getting signal ('SmallAccountStrategy' object has no attribute 'calculate_rsi')
+2025-04-13 14:07:03,979 - SUMMARY: SOLUSDT: [X] Error getting signal ('SmallAccountStrategy' object has no attribute 'calculate_rsi')
+2025-04-13 14:07:03,979 - SUMMARY: --- MARKET CONDITIONS ---
+2025-04-13 14:07:03,979 - SUMMARY: BTCUSDT: Unfavorable [X] | Vol: 0.21%
+2025-04-13 14:07:03,979 - SUMMARY: ETHUSDT: Unfavorable [X] | Vol: 0.38%
+2025-04-13 14:07:03,979 - SUMMARY: SOLUSDT: Unfavorable [X] | Vol: 0.58%
+2025-04-13 14:07:03,979 - SUMMARY: --- PERFORMANCE ---
+2025-04-13 14:07:03,979 - SUMMARY: Trades: 0 | Win Rate: 0.0% (0W/0L)
+2025-04-13 14:07:03,979 - SUMMARY: Growth: 0.01% since start
+2025-04-13 14:07:04,425 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 14:07:04,427 - Failed to send scan summary to Discord: 'SmallAccountStrategy' object has no attribute 'calculate_rsi'
+2025-04-13 16:41:36,315 - Binance API client initialized (testnet: False)
+2025-04-13 16:41:36,317 - Initialized Small Account Growth Strategy with strict risk controls
+2025-04-13 16:41:36,317 - Initialized optimized risk manager with max_risk_per_trade=0.03%, stop_loss_pct=0.02%, take_profit_pct=3.0%, max_trades_per_day=5, daily_loss_limit_pct=0.06%
+2025-04-13 16:41:36,317 - Initialized optimized trading bot with strategy: Small Account Growth Strategy, all available pairs: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'XRPUSDT', 'ADAUSDT', 'AVAXUSDT', 'DOGEUSDT', 'BNBUSDT'], testnet: False
+2025-04-13 16:41:36,539 - Retrieved server time: 2025-04-13 16:41:36.671000
+2025-04-13 16:41:36,539 - Connected to Binance API. Server time: 2025-04-13 16:41:36.671000
+2025-04-13 16:41:36,756 - Retrieved non-zero balances
+2025-04-13 16:41:36,977 - Retrieved current price for BTCUSDT: 84015.94
+2025-04-13 16:41:37,197 - Retrieved current price for ETHUSDT: 1594.78
+2025-04-13 16:41:37,427 - Retrieved current price for XRPUSDT: 2.1555
+2025-04-13 16:41:37,659 - Retrieved current price for SOLUSDT: 128.86
+2025-04-13 16:41:37,660 - Total account value: $138.94
+2025-04-13 16:41:37,660 - Initial account value: $138.94
+2025-04-13 16:41:37,660 - Selecting best trading pairs for small account...
+2025-04-13 16:41:38,127 - Retrieved 7 historical klines for BTCUSDT (1d)
+2025-04-13 16:41:38,127 - Error analyzing BTCUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:41:38,790 - Retrieved 7 historical klines for ETHUSDT (1d)
+2025-04-13 16:41:38,790 - Error analyzing ETHUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:41:39,470 - Retrieved 7 historical klines for SOLUSDT (1d)
+2025-04-13 16:41:39,470 - Error analyzing SOLUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:41:39,920 - Retrieved 7 historical klines for XRPUSDT (1d)
+2025-04-13 16:41:39,920 - Error analyzing XRPUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:41:40,367 - Retrieved 7 historical klines for ADAUSDT (1d)
+2025-04-13 16:41:40,367 - Error analyzing ADAUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:41:40,829 - Retrieved 7 historical klines for AVAXUSDT (1d)
+2025-04-13 16:41:40,829 - Error analyzing AVAXUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:41:41,307 - Retrieved 7 historical klines for DOGEUSDT (1d)
+2025-04-13 16:41:41,307 - Error analyzing DOGEUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:41:41,777 - Retrieved 7 historical klines for BNBUSDT (1d)
+2025-04-13 16:41:41,777 - Error analyzing BNBUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:41:41,777 - Selected best trading pairs: []
+2025-04-13 16:41:41,777 - Failed to select best pairs, using default pairs
+2025-04-13 16:41:41,778 - Selected best trading pairs: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT']
+2025-04-13 16:41:42,383 - Retrieved information for symbol BTCUSDT
+2025-04-13 16:41:42,383 - Validated trading pair: BTCUSDT
+2025-04-13 16:41:42,814 - Retrieved information for symbol ETHUSDT
+2025-04-13 16:41:42,815 - Validated trading pair: ETHUSDT
+2025-04-13 16:41:43,271 - Retrieved information for symbol SOLUSDT
+2025-04-13 16:41:43,271 - Validated trading pair: SOLUSDT
+2025-04-13 16:41:43,271 - Trading bot initialization completed successfully
+2025-04-13 16:41:43,718 - Sent initialization notification to Discord
+2025-04-13 16:41:43,719 - Using existing pair selection: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT']
+2025-04-13 16:41:43,940 - Retrieved non-zero balances
+2025-04-13 16:41:44,154 - Retrieved current price for BTCUSDT: 84015.94
+2025-04-13 16:41:44,377 - Retrieved current price for ETHUSDT: 1594.78
+2025-04-13 16:41:44,614 - Retrieved current price for XRPUSDT: 2.1551
+2025-04-13 16:41:44,844 - Retrieved current price for SOLUSDT: 128.88
+2025-04-13 16:41:44,844 - Total account value: $138.94
+2025-04-13 16:41:44,844 - Account growth: $138.94 (6.88%), Risk adjustment factor: 1.0
+2025-04-13 16:41:44,844 - Account growth: 6.88%, Risk factor: 1.0
+2025-04-13 16:41:44,844 - Processing trading pair: BTCUSDT
+2025-04-13 16:41:44,844 - Checking market conditions for BTCUSDT
+2025-04-13 16:41:45,298 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 16:41:45,298 - Error checking market conditions for BTCUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:41:45,298 - Market conditions unfavorable for BTCUSDT, skipping
+2025-04-13 16:41:45,298 - Processing trading pair: ETHUSDT
+2025-04-13 16:41:45,298 - Checking market conditions for ETHUSDT
+2025-04-13 16:41:45,771 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 16:41:45,771 - Error checking market conditions for ETHUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:41:45,771 - Market conditions unfavorable for ETHUSDT, skipping
+2025-04-13 16:41:45,771 - Processing trading pair: SOLUSDT
+2025-04-13 16:41:45,771 - Checking market conditions for SOLUSDT
+2025-04-13 16:41:46,239 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 16:41:46,239 - Error checking market conditions for SOLUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:41:46,239 - Market conditions unfavorable for SOLUSDT, skipping
+2025-04-13 16:41:46,467 - Retrieved non-zero balances
+2025-04-13 16:41:46,695 - Retrieved current price for BTCUSDT: 84019.12
+2025-04-13 16:41:46,926 - Retrieved current price for ETHUSDT: 1594.77
+2025-04-13 16:41:47,178 - Retrieved current price for XRPUSDT: 2.1551
+2025-04-13 16:41:47,397 - Retrieved current price for SOLUSDT: 128.87
+2025-04-13 16:41:47,398 - Total account value: $138.94
+2025-04-13 16:41:47,398 - Current drawdown: -0.00% (limit: 15.0%)
+2025-04-13 16:41:47,627 - Retrieved non-zero balances
+2025-04-13 16:41:47,836 - Retrieved current price for BTCUSDT: 84019.11
+2025-04-13 16:41:48,087 - Retrieved current price for ETHUSDT: 1594.63
+2025-04-13 16:41:48,317 - Retrieved current price for XRPUSDT: 2.1546
+2025-04-13 16:41:48,545 - Retrieved current price for SOLUSDT: 128.86
+2025-04-13 16:41:48,545 - Total account value: $138.94
+2025-04-13 16:41:49,011 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 16:41:49,021 - SELL signal at 16 - price: 83930.0 - conditions: RSI=83.6
+2025-04-13 16:41:49,021 - SELL signal at 23 - price: 83863.99 - conditions: RSI=75.3
+2025-04-13 16:41:49,021 - SELL signal at 26 - price: 83953.28 - conditions: RSI=73.3
+2025-04-13 16:41:49,021 - SELL signal at 31 - price: 83686.6 - conditions: price<MA8, MACD-
+2025-04-13 16:41:49,021 - SELL signal at 44 - price: 83369.08 - conditions: price<MA8, MACD-
+2025-04-13 16:41:49,021 - SELL signal at 66 - price: 83623.3 - conditions: RSI=78.2
+2025-04-13 16:41:49,021 - SELL signal at 70 - price: 83613.34 - conditions: RSI=74.0
+2025-04-13 16:41:49,022 - SELL signal at 76 - price: 83604.77 - conditions: price<MA8
+2025-04-13 16:41:49,022 - SELL signal at 87 - price: 83498.99 - conditions: price<MA8, MACD-
+2025-04-13 16:41:49,022 - SELL signal at 95 - price: 84177.94 - conditions: RSI=72.9
+2025-04-13 16:41:49,022 - SELL signal at 108 - price: 84659.19 - conditions: price<MA8, MACD-
+2025-04-13 16:41:49,022 - SELL signal at 123 - price: 85786.2 - conditions: RSI=82.4
+2025-04-13 16:41:49,022 - SELL signal at 128 - price: 85367.93 - conditions: MACD-
+2025-04-13 16:41:49,022 - SELL signal at 132 - price: 85336.01 - conditions: price<MA8, MACD-
+2025-04-13 16:41:49,022 - SELL signal at 138 - price: 85179.25 - conditions: price<MA8, MACD-
+2025-04-13 16:41:49,022 - SELL signal at 144 - price: 85259.77 - conditions: price<MA8, MACD-
+2025-04-13 16:41:49,022 - SELL signal at 150 - price: 85323.16 - conditions: price<MA8, MACD-
+2025-04-13 16:41:49,022 - SELL signal at 153 - price: 85140.36 - conditions: price<MA8, MACD-
+2025-04-13 16:41:49,022 - SELL signal at 173 - price: 84582.31 - conditions: price<MA8
+2025-04-13 16:41:49,022 - SELL signal at 178 - price: 84563.98 - conditions: price<MA8
+2025-04-13 16:41:49,023 - SELL signal at 182 - price: 84489.99 - conditions: price<MA8
+2025-04-13 16:41:49,023 - SELL signal at 184 - price: 84528.66 - conditions: price<MA8, MACD-
+2025-04-13 16:41:49,023 - SELL signal at 186 - price: 84283.01 - conditions: price<MA8, MACD-
+2025-04-13 16:41:49,828 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 16:41:49,834 - SELL signal at 9 - price: 1560.37 - conditions: price<MA8, MACD-
+2025-04-13 16:41:49,834 - SELL signal at 16 - price: 1580.11 - conditions: RSI=71.5
+2025-04-13 16:41:49,834 - SELL signal at 19 - price: 1569.47 - conditions: price<MA8
+2025-04-13 16:41:49,834 - SELL signal at 22 - price: 1568.26 - conditions: price<MA8, MACD-
+2025-04-13 16:41:49,834 - SELL signal at 28 - price: 1571.36 - conditions: price<MA8
+2025-04-13 16:41:49,834 - SELL signal at 33 - price: 1570.56 - conditions: price<MA8
+2025-04-13 16:41:49,834 - SELL signal at 35 - price: 1568.73 - conditions: price<MA8, MACD-
+2025-04-13 16:41:49,834 - SELL signal at 56 - price: 1554.4 - conditions: price<MA8, MACD-
+2025-04-13 16:41:49,834 - SELL signal at 63 - price: 1569.21 - conditions: RSI=71.2
+2025-04-13 16:41:49,834 - SELL signal at 65 - price: 1575.49 - conditions: RSI=70.8
+2025-04-13 16:41:49,834 - SELL signal at 78 - price: 1593.28 - conditions: RSI=71.4
+2025-04-13 16:41:49,834 - SELL signal at 80 - price: 1597.5 - conditions: RSI=72.2
+2025-04-13 16:41:49,835 - SELL signal at 83 - price: 1589.11 - conditions: price<MA8, MACD-
+2025-04-13 16:41:49,835 - SELL signal at 88 - price: 1594.06 - conditions: price<MA8, MACD-
+2025-04-13 16:41:49,835 - SELL signal at 93 - price: 1620.04 - conditions: RSI=73.8
+2025-04-13 16:41:49,835 - SELL signal at 118 - price: 1640.04 - conditions: price<MA8, MACD-
+2025-04-13 16:41:49,835 - SELL signal at 123 - price: 1653.92 - conditions: RSI=71.4, MACD-
+2025-04-13 16:41:49,835 - SELL signal at 133 - price: 1646.89 - conditions: price<MA8, MACD-
+2025-04-13 16:41:49,835 - SELL signal at 167 - price: 1612.1 - conditions: price<MA8
+2025-04-13 16:41:49,835 - SELL signal at 169 - price: 1609.43 - conditions: price<MA8
+2025-04-13 16:41:49,835 - SELL signal at 178 - price: 1613.88 - conditions: price<MA8
+2025-04-13 16:41:49,835 - SELL signal at 182 - price: 1603.4 - conditions: price<MA8, MACD-
+2025-04-13 16:41:50,285 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 16:41:50,291 - SELL signal at 9 - price: 119.13 - conditions: price<MA8, MACD-
+2025-04-13 16:41:50,291 - SELL signal at 20 - price: 119.93 - conditions: price<MA8
+2025-04-13 16:41:50,291 - SELL signal at 33 - price: 120.96 - conditions: price<MA8, MACD-
+2025-04-13 16:41:50,291 - SELL signal at 35 - price: 121.11 - conditions: price<MA8, MACD-
+2025-04-13 16:41:50,292 - SELL signal at 41 - price: 120.86 - conditions: price<MA8, MACD-
+2025-04-13 16:41:50,292 - SELL signal at 46 - price: 120.89 - conditions: price<MA8, MACD-
+2025-04-13 16:41:50,292 - SELL signal at 49 - price: 120.73 - conditions: price<MA8, MACD-
+2025-04-13 16:41:50,292 - SELL signal at 65 - price: 123.07 - conditions: RSI=72.7
+2025-04-13 16:41:50,292 - SELL signal at 81 - price: 124.74 - conditions: MACD-
+2025-04-13 16:41:50,292 - SELL signal at 91 - price: 125.98 - conditions: RSI=71.4, MACD-
+2025-04-13 16:41:50,292 - SELL signal at 123 - price: 133.56 - conditions: RSI=81.9
+2025-04-13 16:41:50,292 - SELL signal at 132 - price: 132.06 - conditions: price<MA8, MACD-
+2025-04-13 16:41:50,292 - SELL signal at 138 - price: 132.09 - conditions: price<MA8, MACD-
+2025-04-13 16:41:50,292 - SELL signal at 143 - price: 132.48 - conditions: price<MA8, MACD-
+2025-04-13 16:41:50,292 - SELL signal at 150 - price: 131.97 - conditions: price<MA8, MACD-
+2025-04-13 16:41:50,292 - SELL signal at 182 - price: 129.57 - conditions: price<MA8
+2025-04-13 16:41:50,292 - SELL signal at 184 - price: 129.82 - conditions: price<MA8, MACD-
+2025-04-13 16:41:50,292 - SELL signal at 186 - price: 129.5 - conditions: price<MA8, MACD-
+2025-04-13 16:41:50,755 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 16:41:50,755 - Error checking market conditions for BTCUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:41:51,231 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 16:41:51,696 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 16:41:51,697 - Error checking market conditions for ETHUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:41:52,162 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 16:41:52,612 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 16:41:52,613 - Error checking market conditions for SOLUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:41:53,075 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 16:41:53,309 - Retrieved non-zero balances
+2025-04-13 16:41:53,897 - Retrieved current price for BTCUSDT: 84019.12
+2025-04-13 16:41:54,457 - Retrieved current price for ETHUSDT: 1594.63
+2025-04-13 16:41:54,686 - Retrieved current price for XRPUSDT: 2.1548
+2025-04-13 16:41:54,919 - Retrieved current price for SOLUSDT: 128.86
+2025-04-13 16:41:54,919 - Total account value: $138.94
+2025-04-13 16:41:54,921 - SUMMARY: === TRON 1 SCAN SUMMARY (2025-04-13 16:41:47) ===
+2025-04-13 16:41:54,921 - SUMMARY: Account Value: $138.94
+2025-04-13 16:41:54,921 - SUMMARY: --- NO ACTIVE TRADES ---
+2025-04-13 16:41:54,921 - SUMMARY: --- SCAN RESULTS ---
+2025-04-13 16:41:54,940 - SUMMARY: --- MARKET CONDITIONS ---
+2025-04-13 16:41:54,940 - SUMMARY: BTCUSDT: Unfavorable NO | Vol: 0.29%
+2025-04-13 16:41:54,940 - SUMMARY: ETHUSDT: Unfavorable NO | Vol: 0.49%
+2025-04-13 16:41:54,940 - SUMMARY: SOLUSDT: Unfavorable NO | Vol: 0.63%
+2025-04-13 16:41:54,940 - SUMMARY: --- PERFORMANCE ---
+2025-04-13 16:41:54,940 - SUMMARY: Trades: 0 | Win Rate: 0.0% (0W/0L)
+2025-04-13 16:41:54,941 - SUMMARY: Growth: -0.00% since start
+2025-04-13 16:41:54,941 - Using cached signals for BTCUSDT (15m)
+2025-04-13 16:41:54,941 - Using cached signals for ETHUSDT (15m)
+2025-04-13 16:41:54,942 - Using cached signals for SOLUSDT (15m)
+2025-04-13 16:47:40,253 - Binance API client initialized (testnet: False)
+2025-04-13 16:47:40,253 - Initialized Small Account Growth Strategy with strict risk controls
+2025-04-13 16:47:40,253 - Initialized optimized risk manager with max_risk_per_trade=0.03%, stop_loss_pct=0.02%, take_profit_pct=3.0%, max_trades_per_day=5, daily_loss_limit_pct=0.06%
+2025-04-13 16:47:40,254 - Initialized optimized trading bot with strategy: Small Account Growth Strategy, all available pairs: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'XRPUSDT', 'ADAUSDT', 'AVAXUSDT', 'DOGEUSDT', 'BNBUSDT'], testnet: False
+2025-04-13 16:47:40,466 - Retrieved server time: 2025-04-13 16:47:40.608000
+2025-04-13 16:47:40,466 - Connected to Binance API. Server time: 2025-04-13 16:47:40.608000
+2025-04-13 16:47:40,682 - Retrieved non-zero balances
+2025-04-13 16:47:40,902 - Retrieved current price for BTCUSDT: 83866.6
+2025-04-13 16:47:41,122 - Retrieved current price for ETHUSDT: 1589.51
+2025-04-13 16:47:41,333 - Retrieved current price for XRPUSDT: 2.1543
+2025-04-13 16:47:41,563 - Retrieved current price for SOLUSDT: 128.25
+2025-04-13 16:47:41,564 - Total account value: $138.67
+2025-04-13 16:47:41,564 - Initial account value: $138.67
+2025-04-13 16:47:41,564 - Selecting best trading pairs for small account...
+2025-04-13 16:47:42,055 - Retrieved 7 historical klines for BTCUSDT (1d)
+2025-04-13 16:47:42,055 - Error analyzing BTCUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:47:42,490 - Retrieved 7 historical klines for ETHUSDT (1d)
+2025-04-13 16:47:42,491 - Error analyzing ETHUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:47:42,935 - Retrieved 7 historical klines for SOLUSDT (1d)
+2025-04-13 16:47:42,936 - Error analyzing SOLUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:47:43,402 - Retrieved 7 historical klines for XRPUSDT (1d)
+2025-04-13 16:47:43,403 - Error analyzing XRPUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:47:43,824 - Retrieved 7 historical klines for ADAUSDT (1d)
+2025-04-13 16:47:43,825 - Error analyzing ADAUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:47:44,276 - Retrieved 7 historical klines for AVAXUSDT (1d)
+2025-04-13 16:47:44,277 - Error analyzing AVAXUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:47:44,696 - Retrieved 7 historical klines for DOGEUSDT (1d)
+2025-04-13 16:47:44,696 - Error analyzing DOGEUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:47:45,134 - Retrieved 7 historical klines for BNBUSDT (1d)
+2025-04-13 16:47:45,134 - Error analyzing BNBUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:47:45,134 - Selected best trading pairs: []
+2025-04-13 16:47:45,134 - Failed to select best pairs, using default pairs
+2025-04-13 16:47:45,134 - Selected best trading pairs: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT']
+2025-04-13 16:47:45,616 - Retrieved information for symbol BTCUSDT
+2025-04-13 16:47:45,616 - Validated trading pair: BTCUSDT
+2025-04-13 16:47:46,337 - Retrieved information for symbol ETHUSDT
+2025-04-13 16:47:46,337 - Validated trading pair: ETHUSDT
+2025-04-13 16:47:46,922 - Retrieved information for symbol SOLUSDT
+2025-04-13 16:47:46,922 - Validated trading pair: SOLUSDT
+2025-04-13 16:47:46,922 - Trading bot initialization completed successfully
+2025-04-13 16:47:47,327 - Sent initialization notification to Discord
+2025-04-13 16:47:47,327 - Using existing pair selection: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT']
+2025-04-13 16:47:47,547 - Retrieved non-zero balances
+2025-04-13 16:47:47,772 - Retrieved current price for BTCUSDT: 83866.87
+2025-04-13 16:47:47,982 - Retrieved current price for ETHUSDT: 1589.16
+2025-04-13 16:47:48,202 - Retrieved current price for XRPUSDT: 2.1546
+2025-04-13 16:47:48,430 - Retrieved current price for SOLUSDT: 128.24
+2025-04-13 16:47:48,430 - Total account value: $138.67
+2025-04-13 16:47:48,430 - Account growth: $138.67 (6.67%), Risk adjustment factor: 1.0
+2025-04-13 16:47:48,430 - Account growth: 6.67%, Risk factor: 1.0
+2025-04-13 16:47:48,430 - Processing trading pair: BTCUSDT
+2025-04-13 16:47:48,430 - Checking market conditions for BTCUSDT
+2025-04-13 16:47:48,896 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 16:47:48,897 - Error checking market conditions for BTCUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:47:48,897 - Market conditions unfavorable for BTCUSDT, skipping
+2025-04-13 16:47:48,897 - Processing trading pair: ETHUSDT
+2025-04-13 16:47:48,897 - Checking market conditions for ETHUSDT
+2025-04-13 16:47:49,340 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 16:47:49,340 - Error checking market conditions for ETHUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:47:49,340 - Market conditions unfavorable for ETHUSDT, skipping
+2025-04-13 16:47:49,340 - Processing trading pair: SOLUSDT
+2025-04-13 16:47:49,340 - Checking market conditions for SOLUSDT
+2025-04-13 16:47:49,783 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 16:47:49,783 - Error checking market conditions for SOLUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:47:49,783 - Market conditions unfavorable for SOLUSDT, skipping
+2025-04-13 16:47:50,005 - Retrieved non-zero balances
+2025-04-13 16:47:50,233 - Retrieved current price for BTCUSDT: 83866.87
+2025-04-13 16:47:50,454 - Retrieved current price for ETHUSDT: 1589.42
+2025-04-13 16:47:50,672 - Retrieved current price for XRPUSDT: 2.1544
+2025-04-13 16:47:50,881 - Retrieved current price for SOLUSDT: 128.25
+2025-04-13 16:47:50,881 - Total account value: $138.67
+2025-04-13 16:47:50,881 - Current drawdown: -0.00% (limit: 15.0%)
+2025-04-13 16:47:51,092 - Retrieved non-zero balances
+2025-04-13 16:47:51,313 - Retrieved current price for BTCUSDT: 83866.87
+2025-04-13 16:47:51,524 - Retrieved current price for ETHUSDT: 1589.43
+2025-04-13 16:47:51,721 - Retrieved current price for XRPUSDT: 2.1543
+2025-04-13 16:47:51,931 - Retrieved current price for SOLUSDT: 128.25
+2025-04-13 16:47:51,931 - Total account value: $138.67
+2025-04-13 16:47:52,384 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 16:47:52,391 - SELL signal at 3 - price: 81898.0 - conditions: price<MA8, MACD-
+2025-04-13 16:47:52,391 - SELL signal at 15 - price: 83930.0 - conditions: RSI=83.6
+2025-04-13 16:47:52,391 - SELL signal at 22 - price: 83863.99 - conditions: RSI=75.3
+2025-04-13 16:47:52,391 - SELL signal at 25 - price: 83953.28 - conditions: RSI=73.3
+2025-04-13 16:47:52,391 - SELL signal at 30 - price: 83686.6 - conditions: price<MA8, MACD-
+2025-04-13 16:47:52,391 - SELL signal at 43 - price: 83369.08 - conditions: price<MA8, MACD-
+2025-04-13 16:47:52,391 - SELL signal at 65 - price: 83623.3 - conditions: RSI=78.2
+2025-04-13 16:47:52,391 - SELL signal at 69 - price: 83613.34 - conditions: RSI=74.0
+2025-04-13 16:47:52,391 - SELL signal at 75 - price: 83604.77 - conditions: price<MA8
+2025-04-13 16:47:52,391 - SELL signal at 86 - price: 83498.99 - conditions: price<MA8, MACD-
+2025-04-13 16:47:52,392 - SELL signal at 94 - price: 84177.94 - conditions: RSI=72.9
+2025-04-13 16:47:52,392 - SELL signal at 107 - price: 84659.19 - conditions: price<MA8, MACD-
+2025-04-13 16:47:52,392 - SELL signal at 122 - price: 85786.2 - conditions: RSI=82.4
+2025-04-13 16:47:52,392 - SELL signal at 127 - price: 85367.93 - conditions: MACD-
+2025-04-13 16:47:52,392 - SELL signal at 131 - price: 85336.01 - conditions: price<MA8, MACD-
+2025-04-13 16:47:52,392 - SELL signal at 137 - price: 85179.25 - conditions: price<MA8, MACD-
+2025-04-13 16:47:52,392 - SELL signal at 143 - price: 85259.77 - conditions: price<MA8, MACD-
+2025-04-13 16:47:52,392 - SELL signal at 149 - price: 85323.16 - conditions: price<MA8, MACD-
+2025-04-13 16:47:52,392 - SELL signal at 152 - price: 85140.36 - conditions: price<MA8, MACD-
+2025-04-13 16:47:52,392 - SELL signal at 172 - price: 84582.31 - conditions: price<MA8
+2025-04-13 16:47:52,392 - SELL signal at 177 - price: 84563.98 - conditions: price<MA8
+2025-04-13 16:47:52,392 - SELL signal at 181 - price: 84489.99 - conditions: price<MA8
+2025-04-13 16:47:52,392 - SELL signal at 183 - price: 84528.66 - conditions: price<MA8, MACD-
+2025-04-13 16:47:52,392 - SELL signal at 185 - price: 84283.01 - conditions: price<MA8, MACD-
+2025-04-13 16:47:52,838 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 16:47:52,853 - SELL signal at 15 - price: 1580.11 - conditions: RSI=71.5
+2025-04-13 16:47:52,853 - SELL signal at 18 - price: 1569.47 - conditions: price<MA8
+2025-04-13 16:47:52,853 - SELL signal at 21 - price: 1568.26 - conditions: price<MA8, MACD-
+2025-04-13 16:47:52,853 - SELL signal at 27 - price: 1571.36 - conditions: price<MA8, MACD-
+2025-04-13 16:47:52,853 - SELL signal at 32 - price: 1570.56 - conditions: price<MA8, MACD-
+2025-04-13 16:47:52,854 - SELL signal at 34 - price: 1568.73 - conditions: price<MA8, MACD-
+2025-04-13 16:47:52,854 - SELL signal at 55 - price: 1554.4 - conditions: price<MA8, MACD-
+2025-04-13 16:47:52,854 - SELL signal at 62 - price: 1569.21 - conditions: RSI=71.2
+2025-04-13 16:47:52,854 - SELL signal at 64 - price: 1575.49 - conditions: RSI=70.8
+2025-04-13 16:47:52,854 - SELL signal at 77 - price: 1593.28 - conditions: RSI=71.4
+2025-04-13 16:47:52,854 - SELL signal at 79 - price: 1597.5 - conditions: RSI=72.2
+2025-04-13 16:47:52,855 - SELL signal at 82 - price: 1589.11 - conditions: price<MA8, MACD-
+2025-04-13 16:47:52,855 - SELL signal at 87 - price: 1594.06 - conditions: price<MA8, MACD-
+2025-04-13 16:47:52,855 - SELL signal at 92 - price: 1620.04 - conditions: RSI=73.8
+2025-04-13 16:47:52,855 - SELL signal at 117 - price: 1640.04 - conditions: price<MA8, MACD-
+2025-04-13 16:47:52,855 - SELL signal at 122 - price: 1653.92 - conditions: RSI=71.4, MACD-
+2025-04-13 16:47:52,856 - SELL signal at 132 - price: 1646.89 - conditions: price<MA8, MACD-
+2025-04-13 16:47:52,856 - SELL signal at 166 - price: 1612.1 - conditions: price<MA8
+2025-04-13 16:47:52,856 - SELL signal at 168 - price: 1609.43 - conditions: price<MA8
+2025-04-13 16:47:52,856 - SELL signal at 177 - price: 1613.88 - conditions: price<MA8
+2025-04-13 16:47:52,856 - SELL signal at 181 - price: 1603.4 - conditions: price<MA8, MACD-
+2025-04-13 16:47:53,309 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 16:47:53,323 - SELL signal at 4 - price: 118.92 - conditions: price<MA8, MACD-
+2025-04-13 16:47:53,323 - SELL signal at 8 - price: 119.13 - conditions: price<MA8, MACD-
+2025-04-13 16:47:53,323 - SELL signal at 19 - price: 119.93 - conditions: price<MA8
+2025-04-13 16:47:53,323 - SELL signal at 32 - price: 120.96 - conditions: price<MA8, MACD-
+2025-04-13 16:47:53,323 - SELL signal at 34 - price: 121.11 - conditions: price<MA8, MACD-
+2025-04-13 16:47:53,323 - SELL signal at 40 - price: 120.86 - conditions: price<MA8, MACD-
+2025-04-13 16:47:53,323 - SELL signal at 45 - price: 120.89 - conditions: price<MA8, MACD-
+2025-04-13 16:47:53,323 - SELL signal at 48 - price: 120.73 - conditions: price<MA8, MACD-
+2025-04-13 16:47:53,323 - SELL signal at 64 - price: 123.07 - conditions: RSI=72.7
+2025-04-13 16:47:53,323 - SELL signal at 80 - price: 124.74 - conditions: MACD-
+2025-04-13 16:47:53,323 - SELL signal at 90 - price: 125.98 - conditions: RSI=71.4, MACD-
+2025-04-13 16:47:53,323 - SELL signal at 122 - price: 133.56 - conditions: RSI=81.9
+2025-04-13 16:47:53,323 - SELL signal at 131 - price: 132.06 - conditions: price<MA8, MACD-
+2025-04-13 16:47:53,323 - SELL signal at 137 - price: 132.09 - conditions: price<MA8, MACD-
+2025-04-13 16:47:53,323 - SELL signal at 142 - price: 132.48 - conditions: price<MA8, MACD-
+2025-04-13 16:47:53,325 - SELL signal at 149 - price: 131.97 - conditions: price<MA8, MACD-
+2025-04-13 16:47:53,325 - SELL signal at 181 - price: 129.57 - conditions: price<MA8
+2025-04-13 16:47:53,325 - SELL signal at 183 - price: 129.82 - conditions: price<MA8, MACD-
+2025-04-13 16:47:53,325 - SELL signal at 185 - price: 129.5 - conditions: price<MA8, MACD-
+2025-04-13 16:47:53,778 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 16:47:53,778 - Error checking market conditions for BTCUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:47:54,216 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 16:47:54,665 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 16:47:54,665 - Error checking market conditions for ETHUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:47:55,119 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 16:47:55,597 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 16:47:55,597 - Error checking market conditions for SOLUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:47:56,034 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 16:47:56,262 - Retrieved non-zero balances
+2025-04-13 16:47:56,482 - Retrieved current price for BTCUSDT: 83860.44
+2025-04-13 16:47:56,701 - Retrieved current price for ETHUSDT: 1588.66
+2025-04-13 16:47:56,901 - Retrieved current price for XRPUSDT: 2.1544
+2025-04-13 16:47:57,122 - Retrieved current price for SOLUSDT: 128.11
+2025-04-13 16:47:57,122 - Total account value: $138.64
+2025-04-13 16:47:57,122 - SUMMARY: === TRON 1 SCAN SUMMARY (2025-04-13 16:47:50) ===
+2025-04-13 16:47:57,122 - SUMMARY: Account Value: $138.67
+2025-04-13 16:47:57,122 - SUMMARY: --- NO ACTIVE TRADES ---
+2025-04-13 16:47:57,122 - SUMMARY: --- SCAN RESULTS ---
+2025-04-13 16:47:57,126 - SUMMARY: --- MARKET CONDITIONS ---
+2025-04-13 16:47:57,126 - SUMMARY: BTCUSDT: Unfavorable NO | Vol: 0.30%
+2025-04-13 16:47:57,126 - SUMMARY: ETHUSDT: Unfavorable NO | Vol: 0.53%
+2025-04-13 16:47:57,126 - SUMMARY: SOLUSDT: Unfavorable NO | Vol: 0.67%
+2025-04-13 16:47:57,126 - SUMMARY: --- PERFORMANCE ---
+2025-04-13 16:47:57,126 - SUMMARY: Trades: 0 | Win Rate: 0.0% (0W/0L)
+2025-04-13 16:47:57,127 - SUMMARY: Growth: -0.02% since start
+2025-04-13 16:47:57,127 - Using cached signals for BTCUSDT (15m)
+2025-04-13 16:47:57,127 - Using cached signals for ETHUSDT (15m)
+2025-04-13 16:47:57,127 - Using cached signals for SOLUSDT (15m)
+2025-04-13 16:50:52,749 - Binance API client initialized (testnet: False)
+2025-04-13 16:50:52,749 - Initialized Small Account Growth Strategy with strict risk controls
+2025-04-13 16:50:52,750 - Initialized optimized risk manager with max_risk_per_trade=0.03%, stop_loss_pct=0.02%, take_profit_pct=3.0%, max_trades_per_day=5, daily_loss_limit_pct=0.06%
+2025-04-13 16:50:52,750 - Initialized optimized trading bot with strategy: Small Account Growth Strategy, all available pairs: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'XRPUSDT', 'ADAUSDT', 'AVAXUSDT', 'DOGEUSDT', 'BNBUSDT'], testnet: False
+2025-04-13 16:50:52,970 - Retrieved server time: 2025-04-13 16:50:53.111000
+2025-04-13 16:50:52,971 - Connected to Binance API. Server time: 2025-04-13 16:50:53.111000
+2025-04-13 16:50:53,190 - Retrieved non-zero balances
+2025-04-13 16:50:53,409 - Retrieved current price for BTCUSDT: 83830.18
+2025-04-13 16:50:53,639 - Retrieved current price for ETHUSDT: 1586.01
+2025-04-13 16:50:53,870 - Retrieved current price for XRPUSDT: 2.1486
+2025-04-13 16:50:54,089 - Retrieved current price for SOLUSDT: 127.61
+2025-04-13 16:50:54,089 - Total account value: $138.48
+2025-04-13 16:50:54,089 - Initial account value: $138.48
+2025-04-13 16:50:54,090 - Selecting best trading pairs for small account...
+2025-04-13 16:50:54,914 - Retrieved 7 historical klines for BTCUSDT (1d)
+2025-04-13 16:50:54,915 - Error analyzing BTCUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:50:55,725 - Retrieved 7 historical klines for ETHUSDT (1d)
+2025-04-13 16:50:55,725 - Error analyzing ETHUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:50:56,194 - Retrieved 7 historical klines for SOLUSDT (1d)
+2025-04-13 16:50:56,195 - Error analyzing SOLUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:50:56,971 - Retrieved 7 historical klines for XRPUSDT (1d)
+2025-04-13 16:50:56,971 - Error analyzing XRPUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:50:58,295 - Retrieved 7 historical klines for ADAUSDT (1d)
+2025-04-13 16:50:58,296 - Error analyzing ADAUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:50:59,081 - Retrieved 7 historical klines for AVAXUSDT (1d)
+2025-04-13 16:50:59,081 - Error analyzing AVAXUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:50:59,900 - Retrieved 7 historical klines for DOGEUSDT (1d)
+2025-04-13 16:50:59,902 - Error analyzing DOGEUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:51:00,700 - Retrieved 7 historical klines for BNBUSDT (1d)
+2025-04-13 16:51:00,700 - Error analyzing BNBUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:51:00,700 - Selected best trading pairs: []
+2025-04-13 16:51:00,700 - Failed to select best pairs, using default pairs
+2025-04-13 16:51:00,700 - Selected best trading pairs: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT']
+2025-04-13 16:51:01,764 - Retrieved information for symbol BTCUSDT
+2025-04-13 16:51:01,764 - Validated trading pair: BTCUSDT
+2025-04-13 16:51:02,360 - Retrieved information for symbol ETHUSDT
+2025-04-13 16:51:02,361 - Validated trading pair: ETHUSDT
+2025-04-13 16:51:02,808 - Retrieved information for symbol SOLUSDT
+2025-04-13 16:51:02,808 - Validated trading pair: SOLUSDT
+2025-04-13 16:51:02,808 - Trading bot initialization completed successfully
+2025-04-13 16:51:03,270 - Sent initialization notification to Discord
+2025-04-13 16:51:03,271 - Using existing pair selection: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT']
+2025-04-13 16:51:03,509 - Retrieved non-zero balances
+2025-04-13 16:51:03,742 - Retrieved current price for BTCUSDT: 83755.01
+2025-04-13 16:51:03,970 - Retrieved current price for ETHUSDT: 1584.21
+2025-04-13 16:51:04,203 - Retrieved current price for XRPUSDT: 2.1471
+2025-04-13 16:51:04,424 - Retrieved current price for SOLUSDT: 127.37
+2025-04-13 16:51:04,425 - Total account value: $138.35
+2025-04-13 16:51:04,425 - Account growth: $138.35 (6.42%), Risk adjustment factor: 1.0
+2025-04-13 16:51:04,425 - Account growth: 6.42%, Risk factor: 1.0
+2025-04-13 16:51:04,425 - Processing trading pair: BTCUSDT
+2025-04-13 16:51:04,425 - Checking market conditions for BTCUSDT
+2025-04-13 16:51:04,908 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 16:51:04,908 - Error checking market conditions for BTCUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:51:04,908 - Market conditions unfavorable for BTCUSDT, skipping
+2025-04-13 16:51:04,908 - Processing trading pair: ETHUSDT
+2025-04-13 16:51:04,908 - Checking market conditions for ETHUSDT
+2025-04-13 16:51:05,387 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 16:51:05,387 - Error checking market conditions for ETHUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:51:05,387 - Market conditions unfavorable for ETHUSDT, skipping
+2025-04-13 16:51:05,387 - Processing trading pair: SOLUSDT
+2025-04-13 16:51:05,387 - Checking market conditions for SOLUSDT
+2025-04-13 16:51:05,876 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 16:51:05,876 - Error checking market conditions for SOLUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:51:05,876 - Market conditions unfavorable for SOLUSDT, skipping
+2025-04-13 16:51:06,094 - Retrieved non-zero balances
+2025-04-13 16:51:06,310 - Retrieved current price for BTCUSDT: 83755.01
+2025-04-13 16:51:06,530 - Retrieved current price for ETHUSDT: 1583.63
+2025-04-13 16:51:06,760 - Retrieved current price for XRPUSDT: 2.1459
+2025-04-13 16:51:06,990 - Retrieved current price for SOLUSDT: 127.4
+2025-04-13 16:51:06,990 - Total account value: $138.33
+2025-04-13 16:51:06,990 - Current drawdown: 0.11% (limit: 15.0%)
+2025-04-13 16:51:07,219 - Retrieved non-zero balances
+2025-04-13 16:51:07,459 - Retrieved current price for BTCUSDT: 83755.01
+2025-04-13 16:51:07,670 - Retrieved current price for ETHUSDT: 1583.57
+2025-04-13 16:51:07,903 - Retrieved current price for XRPUSDT: 2.1457
+2025-04-13 16:51:08,139 - Retrieved current price for SOLUSDT: 127.36
+2025-04-13 16:51:08,139 - Total account value: $138.32
+2025-04-13 16:51:08,595 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 16:51:08,603 - SELL signal at 3 - price: 81898.0 - conditions: price<MA8, MACD-
+2025-04-13 16:51:08,603 - SELL signal at 15 - price: 83930.0 - conditions: RSI=83.6
+2025-04-13 16:51:08,603 - SELL signal at 22 - price: 83863.99 - conditions: RSI=75.3
+2025-04-13 16:51:08,603 - SELL signal at 25 - price: 83953.28 - conditions: RSI=73.3
+2025-04-13 16:51:08,603 - SELL signal at 30 - price: 83686.6 - conditions: price<MA8, MACD-
+2025-04-13 16:51:08,604 - SELL signal at 43 - price: 83369.08 - conditions: price<MA8, MACD-
+2025-04-13 16:51:08,604 - SELL signal at 65 - price: 83623.3 - conditions: RSI=78.2
+2025-04-13 16:51:08,604 - SELL signal at 69 - price: 83613.34 - conditions: RSI=74.0
+2025-04-13 16:51:08,604 - SELL signal at 75 - price: 83604.77 - conditions: price<MA8
+2025-04-13 16:51:08,604 - SELL signal at 86 - price: 83498.99 - conditions: price<MA8, MACD-
+2025-04-13 16:51:08,604 - SELL signal at 94 - price: 84177.94 - conditions: RSI=72.9
+2025-04-13 16:51:08,604 - SELL signal at 107 - price: 84659.19 - conditions: price<MA8, MACD-
+2025-04-13 16:51:08,604 - SELL signal at 122 - price: 85786.2 - conditions: RSI=82.4
+2025-04-13 16:51:08,604 - SELL signal at 127 - price: 85367.93 - conditions: MACD-
+2025-04-13 16:51:08,604 - SELL signal at 131 - price: 85336.01 - conditions: price<MA8, MACD-
+2025-04-13 16:51:08,604 - SELL signal at 137 - price: 85179.25 - conditions: price<MA8, MACD-
+2025-04-13 16:51:08,604 - SELL signal at 143 - price: 85259.77 - conditions: price<MA8, MACD-
+2025-04-13 16:51:08,604 - SELL signal at 149 - price: 85323.16 - conditions: price<MA8, MACD-
+2025-04-13 16:51:08,604 - SELL signal at 152 - price: 85140.36 - conditions: price<MA8, MACD-
+2025-04-13 16:51:08,604 - SELL signal at 172 - price: 84582.31 - conditions: price<MA8
+2025-04-13 16:51:08,605 - SELL signal at 177 - price: 84563.98 - conditions: price<MA8
+2025-04-13 16:51:08,605 - SELL signal at 181 - price: 84489.99 - conditions: price<MA8
+2025-04-13 16:51:08,605 - SELL signal at 183 - price: 84528.66 - conditions: price<MA8, MACD-
+2025-04-13 16:51:08,605 - SELL signal at 185 - price: 84283.01 - conditions: price<MA8, MACD-
+2025-04-13 16:51:09,056 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 16:51:09,062 - SELL signal at 15 - price: 1580.11 - conditions: RSI=71.5
+2025-04-13 16:51:09,062 - SELL signal at 18 - price: 1569.47 - conditions: price<MA8
+2025-04-13 16:51:09,062 - SELL signal at 21 - price: 1568.26 - conditions: price<MA8, MACD-
+2025-04-13 16:51:09,062 - SELL signal at 27 - price: 1571.36 - conditions: price<MA8, MACD-
+2025-04-13 16:51:09,062 - SELL signal at 32 - price: 1570.56 - conditions: price<MA8, MACD-
+2025-04-13 16:51:09,062 - SELL signal at 34 - price: 1568.73 - conditions: price<MA8, MACD-
+2025-04-13 16:51:09,062 - SELL signal at 55 - price: 1554.4 - conditions: price<MA8, MACD-
+2025-04-13 16:51:09,062 - SELL signal at 62 - price: 1569.21 - conditions: RSI=71.2
+2025-04-13 16:51:09,063 - SELL signal at 64 - price: 1575.49 - conditions: RSI=70.8
+2025-04-13 16:51:09,063 - SELL signal at 77 - price: 1593.28 - conditions: RSI=71.4
+2025-04-13 16:51:09,063 - SELL signal at 79 - price: 1597.5 - conditions: RSI=72.2
+2025-04-13 16:51:09,063 - SELL signal at 82 - price: 1589.11 - conditions: price<MA8, MACD-
+2025-04-13 16:51:09,063 - SELL signal at 87 - price: 1594.06 - conditions: price<MA8, MACD-
+2025-04-13 16:51:09,063 - SELL signal at 92 - price: 1620.04 - conditions: RSI=73.8
+2025-04-13 16:51:09,063 - SELL signal at 117 - price: 1640.04 - conditions: price<MA8, MACD-
+2025-04-13 16:51:09,063 - SELL signal at 122 - price: 1653.92 - conditions: RSI=71.4, MACD-
+2025-04-13 16:51:09,063 - SELL signal at 132 - price: 1646.89 - conditions: price<MA8, MACD-
+2025-04-13 16:51:09,063 - SELL signal at 166 - price: 1612.1 - conditions: price<MA8
+2025-04-13 16:51:09,063 - SELL signal at 168 - price: 1609.43 - conditions: price<MA8
+2025-04-13 16:51:09,063 - SELL signal at 177 - price: 1613.88 - conditions: price<MA8
+2025-04-13 16:51:09,063 - SELL signal at 181 - price: 1603.4 - conditions: price<MA8, MACD-
+2025-04-13 16:51:09,519 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 16:51:09,526 - SELL signal at 4 - price: 118.92 - conditions: price<MA8, MACD-
+2025-04-13 16:51:09,526 - SELL signal at 8 - price: 119.13 - conditions: price<MA8, MACD-
+2025-04-13 16:51:09,526 - SELL signal at 19 - price: 119.93 - conditions: price<MA8
+2025-04-13 16:51:09,526 - SELL signal at 32 - price: 120.96 - conditions: price<MA8, MACD-
+2025-04-13 16:51:09,527 - SELL signal at 34 - price: 121.11 - conditions: price<MA8, MACD-
+2025-04-13 16:51:09,527 - SELL signal at 40 - price: 120.86 - conditions: price<MA8, MACD-
+2025-04-13 16:51:09,527 - SELL signal at 45 - price: 120.89 - conditions: price<MA8, MACD-
+2025-04-13 16:51:09,527 - SELL signal at 48 - price: 120.73 - conditions: price<MA8, MACD-
+2025-04-13 16:51:09,527 - SELL signal at 64 - price: 123.07 - conditions: RSI=72.7
+2025-04-13 16:51:09,527 - SELL signal at 80 - price: 124.74 - conditions: MACD-
+2025-04-13 16:51:09,527 - SELL signal at 90 - price: 125.98 - conditions: RSI=71.4, MACD-
+2025-04-13 16:51:09,527 - SELL signal at 122 - price: 133.56 - conditions: RSI=81.9
+2025-04-13 16:51:09,527 - SELL signal at 131 - price: 132.06 - conditions: price<MA8, MACD-
+2025-04-13 16:51:09,527 - SELL signal at 137 - price: 132.09 - conditions: price<MA8, MACD-
+2025-04-13 16:51:09,527 - SELL signal at 142 - price: 132.48 - conditions: price<MA8, MACD-
+2025-04-13 16:51:09,527 - SELL signal at 149 - price: 131.97 - conditions: price<MA8, MACD-
+2025-04-13 16:51:09,527 - SELL signal at 181 - price: 129.57 - conditions: price<MA8
+2025-04-13 16:51:09,527 - SELL signal at 183 - price: 129.82 - conditions: price<MA8, MACD-
+2025-04-13 16:51:09,527 - SELL signal at 185 - price: 129.5 - conditions: price<MA8, MACD-
+2025-04-13 16:51:10,018 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 16:51:10,018 - Error checking market conditions for BTCUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:51:10,452 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 16:51:10,911 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 16:51:10,912 - Error checking market conditions for ETHUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:51:11,386 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 16:51:11,845 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 16:51:11,845 - Error checking market conditions for SOLUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:51:12,335 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 16:51:12,552 - Retrieved non-zero balances
+2025-04-13 16:51:12,780 - Retrieved current price for BTCUSDT: 83743.03
+2025-04-13 16:51:13,010 - Retrieved current price for ETHUSDT: 1582.37
+2025-04-13 16:51:13,232 - Retrieved current price for XRPUSDT: 2.1448
+2025-04-13 16:51:13,453 - Retrieved current price for SOLUSDT: 127.32
+2025-04-13 16:51:13,454 - Total account value: $138.29
+2025-04-13 16:51:13,455 - SUMMARY: === TRON 1 SCAN SUMMARY (2025-04-13 16:51:06) ===
+2025-04-13 16:51:13,455 - SUMMARY: Account Value: $138.32
+2025-04-13 16:51:13,455 - SUMMARY: --- NO ACTIVE TRADES ---
+2025-04-13 16:51:13,455 - SUMMARY: --- SCAN RESULTS ---
+2025-04-13 16:51:13,471 - SUMMARY: --- MARKET CONDITIONS ---
+2025-04-13 16:51:13,471 - SUMMARY: BTCUSDT: Unfavorable NO | Vol: 0.30%
+2025-04-13 16:51:13,471 - SUMMARY: ETHUSDT: Unfavorable NO | Vol: 0.53%
+2025-04-13 16:51:13,471 - SUMMARY: SOLUSDT: Unfavorable NO | Vol: 0.68%
+2025-04-13 16:51:13,471 - SUMMARY: --- PERFORMANCE ---
+2025-04-13 16:51:13,471 - SUMMARY: Trades: 0 | Win Rate: 0.0% (0W/0L)
+2025-04-13 16:51:13,471 - SUMMARY: Growth: -0.14% since start
+2025-04-13 16:51:13,471 - Using cached signals for BTCUSDT (15m)
+2025-04-13 16:51:13,472 - Using cached signals for ETHUSDT (15m)
+2025-04-13 16:51:13,472 - Using cached signals for SOLUSDT (15m)
+2025-04-13 16:53:08,127 - Binance API client initialized (testnet: False)
+2025-04-13 16:53:08,128 - Initialized Small Account Growth Strategy with strict risk controls
+2025-04-13 16:53:08,128 - Initialized optimized risk manager with max_risk_per_trade=0.03%, stop_loss_pct=0.02%, take_profit_pct=3.0%, max_trades_per_day=5, daily_loss_limit_pct=0.06%
+2025-04-13 16:53:08,128 - Initialized optimized trading bot with strategy: Small Account Growth Strategy, all available pairs: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'XRPUSDT', 'ADAUSDT', 'AVAXUSDT', 'DOGEUSDT', 'BNBUSDT'], testnet: False
+2025-04-13 16:53:08,338 - Retrieved server time: 2025-04-13 16:53:08.481000
+2025-04-13 16:53:08,338 - Connected to Binance API. Server time: 2025-04-13 16:53:08.481000
+2025-04-13 16:53:08,573 - Retrieved non-zero balances
+2025-04-13 16:53:08,787 - Retrieved current price for BTCUSDT: 83649.21
+2025-04-13 16:53:08,990 - Retrieved current price for ETHUSDT: 1575.1
+2025-04-13 16:53:09,218 - Retrieved current price for XRPUSDT: 2.1403
+2025-04-13 16:53:09,449 - Retrieved current price for SOLUSDT: 126.99
+2025-04-13 16:53:09,450 - Total account value: $138.04
+2025-04-13 16:53:09,450 - Initial account value: $138.04
+2025-04-13 16:53:09,451 - Selecting best trading pairs for small account...
+2025-04-13 16:53:09,919 - Retrieved 7 historical klines for BTCUSDT (1d)
+2025-04-13 16:53:09,919 - Error analyzing BTCUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:53:10,387 - Retrieved 7 historical klines for ETHUSDT (1d)
+2025-04-13 16:53:10,387 - Error analyzing ETHUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:53:10,831 - Retrieved 7 historical klines for SOLUSDT (1d)
+2025-04-13 16:53:10,832 - Error analyzing SOLUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:53:11,267 - Retrieved 7 historical klines for XRPUSDT (1d)
+2025-04-13 16:53:11,267 - Error analyzing XRPUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:53:11,730 - Retrieved 7 historical klines for ADAUSDT (1d)
+2025-04-13 16:53:11,731 - Error analyzing ADAUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:53:12,183 - Retrieved 7 historical klines for AVAXUSDT (1d)
+2025-04-13 16:53:12,183 - Error analyzing AVAXUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:53:12,634 - Retrieved 7 historical klines for DOGEUSDT (1d)
+2025-04-13 16:53:12,635 - Error analyzing DOGEUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:53:13,083 - Retrieved 7 historical klines for BNBUSDT (1d)
+2025-04-13 16:53:13,084 - Error analyzing BNBUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:53:13,084 - Selected best trading pairs: []
+2025-04-13 16:53:13,084 - Failed to select best pairs, using default pairs
+2025-04-13 16:53:13,084 - Selected best trading pairs: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT']
+2025-04-13 16:53:13,707 - Retrieved information for symbol BTCUSDT
+2025-04-13 16:53:13,707 - Validated trading pair: BTCUSDT
+2025-04-13 16:53:14,309 - Retrieved information for symbol ETHUSDT
+2025-04-13 16:53:14,310 - Validated trading pair: ETHUSDT
+2025-04-13 16:53:14,877 - Retrieved information for symbol SOLUSDT
+2025-04-13 16:53:14,878 - Validated trading pair: SOLUSDT
+2025-04-13 16:53:14,878 - Trading bot initialization completed successfully
+2025-04-13 16:53:15,398 - Sent initialization notification to Discord
+2025-04-13 16:53:15,398 - Using existing pair selection: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT']
+2025-04-13 16:53:15,622 - Retrieved non-zero balances
+2025-04-13 16:53:15,847 - Retrieved current price for BTCUSDT: 83635.19
+2025-04-13 16:53:16,067 - Retrieved current price for ETHUSDT: 1575.16
+2025-04-13 16:53:16,288 - Retrieved current price for XRPUSDT: 2.1408
+2025-04-13 16:53:16,518 - Retrieved current price for SOLUSDT: 127.0
+2025-04-13 16:53:16,518 - Total account value: $138.04
+2025-04-13 16:53:16,518 - Account growth: $138.04 (6.18%), Risk adjustment factor: 1.0
+2025-04-13 16:53:16,519 - Account growth: 6.18%, Risk factor: 1.0
+2025-04-13 16:53:16,519 - Processing trading pair: BTCUSDT
+2025-04-13 16:53:16,519 - Checking market conditions for BTCUSDT
+2025-04-13 16:53:17,010 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 16:53:17,011 - Error checking market conditions for BTCUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:53:17,011 - Market conditions unfavorable for BTCUSDT, skipping
+2025-04-13 16:53:17,011 - Processing trading pair: ETHUSDT
+2025-04-13 16:53:17,011 - Checking market conditions for ETHUSDT
+2025-04-13 16:53:17,467 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 16:53:17,467 - Error checking market conditions for ETHUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:53:17,468 - Market conditions unfavorable for ETHUSDT, skipping
+2025-04-13 16:53:17,469 - Processing trading pair: SOLUSDT
+2025-04-13 16:53:17,469 - Checking market conditions for SOLUSDT
+2025-04-13 16:53:17,925 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 16:53:17,925 - Error checking market conditions for SOLUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:53:17,925 - Market conditions unfavorable for SOLUSDT, skipping
+2025-04-13 16:53:18,146 - Retrieved non-zero balances
+2025-04-13 16:53:18,377 - Retrieved current price for BTCUSDT: 83634.94
+2025-04-13 16:53:18,618 - Retrieved current price for ETHUSDT: 1574.96
+2025-04-13 16:53:18,847 - Retrieved current price for XRPUSDT: 2.1407
+2025-04-13 16:53:19,069 - Retrieved current price for SOLUSDT: 127.01
+2025-04-13 16:53:19,069 - Total account value: $138.03
+2025-04-13 16:53:19,069 - Current drawdown: 0.01% (limit: 15.0%)
+2025-04-13 16:53:19,298 - Retrieved non-zero balances
+2025-04-13 16:53:19,509 - Retrieved current price for BTCUSDT: 83634.93
+2025-04-13 16:53:19,730 - Retrieved current price for ETHUSDT: 1574.89
+2025-04-13 16:53:19,944 - Retrieved current price for XRPUSDT: 2.1406
+2025-04-13 16:53:20,176 - Retrieved current price for SOLUSDT: 126.98
+2025-04-13 16:53:20,176 - Total account value: $138.03
+2025-04-13 16:53:20,645 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 16:53:20,654 - SELL signal at 3 - price: 81898.0 - conditions: price<MA8, MACD-
+2025-04-13 16:53:20,654 - SELL signal at 15 - price: 83930.0 - conditions: RSI=83.6
+2025-04-13 16:53:20,654 - SELL signal at 22 - price: 83863.99 - conditions: RSI=75.3
+2025-04-13 16:53:20,654 - SELL signal at 25 - price: 83953.28 - conditions: RSI=73.3
+2025-04-13 16:53:20,654 - SELL signal at 30 - price: 83686.6 - conditions: price<MA8, MACD-
+2025-04-13 16:53:20,654 - SELL signal at 43 - price: 83369.08 - conditions: price<MA8, MACD-
+2025-04-13 16:53:20,654 - SELL signal at 65 - price: 83623.3 - conditions: RSI=78.2
+2025-04-13 16:53:20,654 - SELL signal at 69 - price: 83613.34 - conditions: RSI=74.0
+2025-04-13 16:53:20,654 - SELL signal at 75 - price: 83604.77 - conditions: price<MA8
+2025-04-13 16:53:20,654 - SELL signal at 86 - price: 83498.99 - conditions: price<MA8, MACD-
+2025-04-13 16:53:20,655 - SELL signal at 94 - price: 84177.94 - conditions: RSI=72.9
+2025-04-13 16:53:20,655 - SELL signal at 107 - price: 84659.19 - conditions: price<MA8, MACD-
+2025-04-13 16:53:20,655 - SELL signal at 122 - price: 85786.2 - conditions: RSI=82.4
+2025-04-13 16:53:20,655 - SELL signal at 127 - price: 85367.93 - conditions: MACD-
+2025-04-13 16:53:20,655 - SELL signal at 131 - price: 85336.01 - conditions: price<MA8, MACD-
+2025-04-13 16:53:20,655 - SELL signal at 137 - price: 85179.25 - conditions: price<MA8, MACD-
+2025-04-13 16:53:20,655 - SELL signal at 143 - price: 85259.77 - conditions: price<MA8, MACD-
+2025-04-13 16:53:20,655 - SELL signal at 149 - price: 85323.16 - conditions: price<MA8, MACD-
+2025-04-13 16:53:20,655 - SELL signal at 152 - price: 85140.36 - conditions: price<MA8, MACD-
+2025-04-13 16:53:20,655 - SELL signal at 172 - price: 84582.31 - conditions: price<MA8
+2025-04-13 16:53:20,655 - SELL signal at 177 - price: 84563.98 - conditions: price<MA8
+2025-04-13 16:53:20,655 - SELL signal at 181 - price: 84489.99 - conditions: price<MA8
+2025-04-13 16:53:20,655 - SELL signal at 183 - price: 84528.66 - conditions: price<MA8, MACD-
+2025-04-13 16:53:20,655 - SELL signal at 185 - price: 84283.01 - conditions: price<MA8, MACD-
+2025-04-13 16:53:21,103 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 16:53:21,109 - SELL signal at 15 - price: 1580.11 - conditions: RSI=71.5
+2025-04-13 16:53:21,110 - SELL signal at 18 - price: 1569.47 - conditions: price<MA8
+2025-04-13 16:53:21,110 - SELL signal at 21 - price: 1568.26 - conditions: price<MA8, MACD-
+2025-04-13 16:53:21,110 - SELL signal at 27 - price: 1571.36 - conditions: price<MA8, MACD-
+2025-04-13 16:53:21,110 - SELL signal at 32 - price: 1570.56 - conditions: price<MA8, MACD-
+2025-04-13 16:53:21,110 - SELL signal at 34 - price: 1568.73 - conditions: price<MA8, MACD-
+2025-04-13 16:53:21,110 - SELL signal at 55 - price: 1554.4 - conditions: price<MA8, MACD-
+2025-04-13 16:53:21,110 - SELL signal at 62 - price: 1569.21 - conditions: RSI=71.2
+2025-04-13 16:53:21,110 - SELL signal at 64 - price: 1575.49 - conditions: RSI=70.8
+2025-04-13 16:53:21,110 - SELL signal at 77 - price: 1593.28 - conditions: RSI=71.4
+2025-04-13 16:53:21,110 - SELL signal at 79 - price: 1597.5 - conditions: RSI=72.2
+2025-04-13 16:53:21,110 - SELL signal at 82 - price: 1589.11 - conditions: price<MA8, MACD-
+2025-04-13 16:53:21,110 - SELL signal at 87 - price: 1594.06 - conditions: price<MA8, MACD-
+2025-04-13 16:53:21,110 - SELL signal at 92 - price: 1620.04 - conditions: RSI=73.8
+2025-04-13 16:53:21,110 - SELL signal at 117 - price: 1640.04 - conditions: price<MA8, MACD-
+2025-04-13 16:53:21,111 - SELL signal at 122 - price: 1653.92 - conditions: RSI=71.4, MACD-
+2025-04-13 16:53:21,111 - SELL signal at 132 - price: 1646.89 - conditions: price<MA8, MACD-
+2025-04-13 16:53:21,111 - SELL signal at 166 - price: 1612.1 - conditions: price<MA8
+2025-04-13 16:53:21,111 - SELL signal at 168 - price: 1609.43 - conditions: price<MA8
+2025-04-13 16:53:21,111 - SELL signal at 177 - price: 1613.88 - conditions: price<MA8
+2025-04-13 16:53:21,111 - SELL signal at 181 - price: 1603.4 - conditions: price<MA8, MACD-
+2025-04-13 16:53:21,579 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 16:53:21,585 - SELL signal at 4 - price: 118.92 - conditions: price<MA8, MACD-
+2025-04-13 16:53:21,585 - SELL signal at 8 - price: 119.13 - conditions: price<MA8, MACD-
+2025-04-13 16:53:21,585 - SELL signal at 19 - price: 119.93 - conditions: price<MA8
+2025-04-13 16:53:21,585 - SELL signal at 32 - price: 120.96 - conditions: price<MA8, MACD-
+2025-04-13 16:53:21,585 - SELL signal at 34 - price: 121.11 - conditions: price<MA8, MACD-
+2025-04-13 16:53:21,585 - SELL signal at 40 - price: 120.86 - conditions: price<MA8, MACD-
+2025-04-13 16:53:21,585 - SELL signal at 45 - price: 120.89 - conditions: price<MA8, MACD-
+2025-04-13 16:53:21,585 - SELL signal at 48 - price: 120.73 - conditions: price<MA8, MACD-
+2025-04-13 16:53:21,585 - SELL signal at 64 - price: 123.07 - conditions: RSI=72.7
+2025-04-13 16:53:21,585 - SELL signal at 80 - price: 124.74 - conditions: MACD-
+2025-04-13 16:53:21,585 - SELL signal at 90 - price: 125.98 - conditions: RSI=71.4, MACD-
+2025-04-13 16:53:21,585 - SELL signal at 122 - price: 133.56 - conditions: RSI=81.9
+2025-04-13 16:53:21,585 - SELL signal at 131 - price: 132.06 - conditions: price<MA8, MACD-
+2025-04-13 16:53:21,586 - SELL signal at 137 - price: 132.09 - conditions: price<MA8, MACD-
+2025-04-13 16:53:21,586 - SELL signal at 142 - price: 132.48 - conditions: price<MA8, MACD-
+2025-04-13 16:53:21,586 - SELL signal at 149 - price: 131.97 - conditions: price<MA8, MACD-
+2025-04-13 16:53:21,586 - SELL signal at 181 - price: 129.57 - conditions: price<MA8
+2025-04-13 16:53:21,586 - SELL signal at 183 - price: 129.82 - conditions: price<MA8, MACD-
+2025-04-13 16:53:21,586 - SELL signal at 185 - price: 129.5 - conditions: price<MA8, MACD-
+2025-04-13 16:53:22,067 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 16:53:22,067 - Error checking market conditions for BTCUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:53:22,563 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 16:53:23,025 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 16:53:23,025 - Error checking market conditions for ETHUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:53:23,506 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 16:53:23,979 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 16:53:23,979 - Error checking market conditions for SOLUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:53:24,466 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 16:53:25,022 - Retrieved non-zero balances
+2025-04-13 16:53:25,258 - Retrieved current price for BTCUSDT: 83629.09
+2025-04-13 16:53:25,818 - Retrieved current price for ETHUSDT: 1574.68
+2025-04-13 16:53:26,047 - Retrieved current price for XRPUSDT: 2.1405
+2025-04-13 16:53:26,276 - Retrieved current price for SOLUSDT: 127.01
+2025-04-13 16:53:26,276 - Total account value: $138.02
+2025-04-13 16:53:26,277 - SUMMARY: === TRON 1 SCAN SUMMARY (2025-04-13 16:53:19) ===
+2025-04-13 16:53:26,278 - SUMMARY: Account Value: $138.03
+2025-04-13 16:53:26,278 - SUMMARY: --- NO ACTIVE TRADES ---
+2025-04-13 16:53:26,278 - SUMMARY: --- SCAN RESULTS ---
+2025-04-13 16:53:26,286 - SUMMARY: --- MARKET CONDITIONS ---
+2025-04-13 16:53:26,286 - SUMMARY: BTCUSDT: Unfavorable NO | Vol: 0.31%
+2025-04-13 16:53:26,286 - SUMMARY: ETHUSDT: Unfavorable NO | Vol: 0.57%
+2025-04-13 16:53:26,286 - SUMMARY: SOLUSDT: Unfavorable NO | Vol: 0.70%
+2025-04-13 16:53:26,286 - SUMMARY: --- PERFORMANCE ---
+2025-04-13 16:53:26,286 - SUMMARY: Trades: 0 | Win Rate: 0.0% (0W/0L)
+2025-04-13 16:53:26,286 - SUMMARY: Growth: -0.01% since start
+2025-04-13 16:53:26,286 - Using cached signals for BTCUSDT (15m)
+2025-04-13 16:53:26,287 - Using cached signals for ETHUSDT (15m)
+2025-04-13 16:53:26,287 - Using cached signals for SOLUSDT (15m)
+2025-04-13 16:57:15,423 - Binance API client initialized (testnet: False)
+2025-04-13 16:57:15,424 - Initialized Small Account Growth Strategy with strict risk controls
+2025-04-13 16:57:15,424 - Initialized optimized risk manager with max_risk_per_trade=0.03%, stop_loss_pct=0.02%, take_profit_pct=3.0%, max_trades_per_day=5, daily_loss_limit_pct=0.06%
+2025-04-13 16:57:15,424 - Initialized optimized trading bot with strategy: Small Account Growth Strategy, all available pairs: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'XRPUSDT', 'ADAUSDT', 'AVAXUSDT', 'DOGEUSDT', 'BNBUSDT'], testnet: False
+2025-04-13 16:57:15,645 - Retrieved server time: 2025-04-13 16:57:15.793000
+2025-04-13 16:57:15,647 - Connected to Binance API. Server time: 2025-04-13 16:57:15.793000
+2025-04-13 16:57:15,877 - Retrieved non-zero balances
+2025-04-13 16:57:16,096 - Retrieved current price for BTCUSDT: 83560.01
+2025-04-13 16:57:16,306 - Retrieved current price for ETHUSDT: 1569.73
+2025-04-13 16:57:16,525 - Retrieved current price for XRPUSDT: 2.1354
+2025-04-13 16:57:16,756 - Retrieved current price for SOLUSDT: 126.96
+2025-04-13 16:57:16,756 - Total account value: $137.85
+2025-04-13 16:57:16,756 - Initial account value: $137.85
+2025-04-13 16:57:16,756 - Selecting best trading pairs for small account...
+2025-04-13 16:57:17,226 - Retrieved 7 historical klines for BTCUSDT (1d)
+2025-04-13 16:57:17,226 - Error analyzing BTCUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:57:17,673 - Retrieved 7 historical klines for ETHUSDT (1d)
+2025-04-13 16:57:17,673 - Error analyzing ETHUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:57:18,106 - Retrieved 7 historical klines for SOLUSDT (1d)
+2025-04-13 16:57:18,107 - Error analyzing SOLUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:57:18,555 - Retrieved 7 historical klines for XRPUSDT (1d)
+2025-04-13 16:57:18,556 - Error analyzing XRPUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:57:19,026 - Retrieved 7 historical klines for ADAUSDT (1d)
+2025-04-13 16:57:19,026 - Error analyzing ADAUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:57:19,499 - Retrieved 7 historical klines for AVAXUSDT (1d)
+2025-04-13 16:57:19,500 - Error analyzing AVAXUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:57:19,975 - Retrieved 7 historical klines for DOGEUSDT (1d)
+2025-04-13 16:57:19,975 - Error analyzing DOGEUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:57:20,425 - Retrieved 7 historical klines for BNBUSDT (1d)
+2025-04-13 16:57:20,425 - Error analyzing BNBUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:57:20,425 - Selected best trading pairs: []
+2025-04-13 16:57:20,425 - Failed to select best pairs, using default pairs
+2025-04-13 16:57:20,425 - Selected best trading pairs: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT']
+2025-04-13 16:57:20,999 - Retrieved information for symbol BTCUSDT
+2025-04-13 16:57:20,999 - Validated trading pair: BTCUSDT
+2025-04-13 16:57:21,565 - Retrieved information for symbol ETHUSDT
+2025-04-13 16:57:21,565 - Validated trading pair: ETHUSDT
+2025-04-13 16:57:22,139 - Retrieved information for symbol SOLUSDT
+2025-04-13 16:57:22,139 - Validated trading pair: SOLUSDT
+2025-04-13 16:57:22,139 - Trading bot initialization completed successfully
+2025-04-13 16:57:22,637 - Sent initialization notification to Discord
+2025-04-13 16:57:22,639 - Using existing pair selection: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT']
+2025-04-13 16:57:22,881 - Retrieved non-zero balances
+2025-04-13 16:57:23,114 - Retrieved current price for BTCUSDT: 83543.34
+2025-04-13 16:57:23,344 - Retrieved current price for ETHUSDT: 1568.9
+2025-04-13 16:57:23,565 - Retrieved current price for XRPUSDT: 2.1344
+2025-04-13 16:57:23,786 - Retrieved current price for SOLUSDT: 126.89
+2025-04-13 16:57:23,786 - Total account value: $137.81
+2025-04-13 16:57:23,786 - Account growth: $137.81 (6.00%), Risk adjustment factor: 1.0
+2025-04-13 16:57:23,787 - Account growth: 6.00%, Risk factor: 1.0
+2025-04-13 16:57:23,787 - Processing trading pair: BTCUSDT
+2025-04-13 16:57:23,787 - Checking market conditions for BTCUSDT
+2025-04-13 16:57:24,250 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 16:57:24,250 - Error checking market conditions for BTCUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:57:24,250 - Market conditions unfavorable for BTCUSDT, skipping
+2025-04-13 16:57:24,250 - Processing trading pair: ETHUSDT
+2025-04-13 16:57:24,250 - Checking market conditions for ETHUSDT
+2025-04-13 16:57:24,709 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 16:57:24,709 - Error checking market conditions for ETHUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:57:24,709 - Market conditions unfavorable for ETHUSDT, skipping
+2025-04-13 16:57:24,709 - Processing trading pair: SOLUSDT
+2025-04-13 16:57:24,709 - Checking market conditions for SOLUSDT
+2025-04-13 16:57:25,161 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 16:57:25,161 - Error checking market conditions for SOLUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:57:25,161 - Market conditions unfavorable for SOLUSDT, skipping
+2025-04-13 16:57:25,386 - Retrieved non-zero balances
+2025-04-13 16:57:25,615 - Retrieved current price for BTCUSDT: 83543.34
+2025-04-13 16:57:25,845 - Retrieved current price for ETHUSDT: 1568.56
+2025-04-13 16:57:26,074 - Retrieved current price for XRPUSDT: 2.1347
+2025-04-13 16:57:26,305 - Retrieved current price for SOLUSDT: 126.92
+2025-04-13 16:57:26,305 - Total account value: $137.81
+2025-04-13 16:57:26,305 - Current drawdown: 0.03% (limit: 15.0%)
+2025-04-13 16:57:26,525 - Retrieved non-zero balances
+2025-04-13 16:57:26,755 - Retrieved current price for BTCUSDT: 83543.34
+2025-04-13 16:57:27,003 - Retrieved current price for ETHUSDT: 1568.32
+2025-04-13 16:57:27,229 - Retrieved current price for XRPUSDT: 2.1347
+2025-04-13 16:57:27,441 - Retrieved current price for SOLUSDT: 126.93
+2025-04-13 16:57:27,441 - Total account value: $137.81
+2025-04-13 16:57:28,262 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 16:57:28,268 - SELL signal at 3 - price: 81898.0 - conditions: price<MA8, MACD-
+2025-04-13 16:57:28,269 - SELL signal at 15 - price: 83930.0 - conditions: RSI=83.6
+2025-04-13 16:57:28,269 - SELL signal at 22 - price: 83863.99 - conditions: RSI=75.3
+2025-04-13 16:57:28,269 - SELL signal at 25 - price: 83953.28 - conditions: RSI=73.3
+2025-04-13 16:57:28,269 - SELL signal at 30 - price: 83686.6 - conditions: price<MA8, MACD-
+2025-04-13 16:57:28,269 - SELL signal at 43 - price: 83369.08 - conditions: price<MA8, MACD-
+2025-04-13 16:57:28,269 - SELL signal at 65 - price: 83623.3 - conditions: RSI=78.2
+2025-04-13 16:57:28,269 - SELL signal at 69 - price: 83613.34 - conditions: RSI=74.0
+2025-04-13 16:57:28,269 - SELL signal at 75 - price: 83604.77 - conditions: price<MA8
+2025-04-13 16:57:28,269 - SELL signal at 86 - price: 83498.99 - conditions: price<MA8, MACD-
+2025-04-13 16:57:28,269 - SELL signal at 94 - price: 84177.94 - conditions: RSI=72.9
+2025-04-13 16:57:28,269 - SELL signal at 107 - price: 84659.19 - conditions: price<MA8, MACD-
+2025-04-13 16:57:28,269 - SELL signal at 122 - price: 85786.2 - conditions: RSI=82.4
+2025-04-13 16:57:28,269 - SELL signal at 127 - price: 85367.93 - conditions: MACD-
+2025-04-13 16:57:28,269 - SELL signal at 131 - price: 85336.01 - conditions: price<MA8, MACD-
+2025-04-13 16:57:28,269 - SELL signal at 137 - price: 85179.25 - conditions: price<MA8, MACD-
+2025-04-13 16:57:28,269 - SELL signal at 143 - price: 85259.77 - conditions: price<MA8, MACD-
+2025-04-13 16:57:28,270 - SELL signal at 149 - price: 85323.16 - conditions: price<MA8, MACD-
+2025-04-13 16:57:28,270 - SELL signal at 152 - price: 85140.36 - conditions: price<MA8, MACD-
+2025-04-13 16:57:28,270 - SELL signal at 172 - price: 84582.31 - conditions: price<MA8
+2025-04-13 16:57:28,270 - SELL signal at 177 - price: 84563.98 - conditions: price<MA8
+2025-04-13 16:57:28,270 - SELL signal at 181 - price: 84489.99 - conditions: price<MA8
+2025-04-13 16:57:28,270 - SELL signal at 183 - price: 84528.66 - conditions: price<MA8, MACD-
+2025-04-13 16:57:28,270 - SELL signal at 185 - price: 84283.01 - conditions: price<MA8, MACD-
+2025-04-13 16:57:28,752 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 16:57:28,759 - SELL signal at 15 - price: 1580.11 - conditions: RSI=71.5
+2025-04-13 16:57:28,759 - SELL signal at 18 - price: 1569.47 - conditions: price<MA8
+2025-04-13 16:57:28,759 - SELL signal at 21 - price: 1568.26 - conditions: price<MA8, MACD-
+2025-04-13 16:57:28,759 - SELL signal at 27 - price: 1571.36 - conditions: price<MA8, MACD-
+2025-04-13 16:57:28,759 - SELL signal at 32 - price: 1570.56 - conditions: price<MA8, MACD-
+2025-04-13 16:57:28,759 - SELL signal at 34 - price: 1568.73 - conditions: price<MA8, MACD-
+2025-04-13 16:57:28,759 - SELL signal at 55 - price: 1554.4 - conditions: price<MA8, MACD-
+2025-04-13 16:57:28,759 - SELL signal at 62 - price: 1569.21 - conditions: RSI=71.2
+2025-04-13 16:57:28,760 - SELL signal at 64 - price: 1575.49 - conditions: RSI=70.8
+2025-04-13 16:57:28,760 - SELL signal at 77 - price: 1593.28 - conditions: RSI=71.4
+2025-04-13 16:57:28,760 - SELL signal at 79 - price: 1597.5 - conditions: RSI=72.2
+2025-04-13 16:57:28,760 - SELL signal at 82 - price: 1589.11 - conditions: price<MA8, MACD-
+2025-04-13 16:57:28,760 - SELL signal at 87 - price: 1594.06 - conditions: price<MA8, MACD-
+2025-04-13 16:57:28,760 - SELL signal at 92 - price: 1620.04 - conditions: RSI=73.8
+2025-04-13 16:57:28,760 - SELL signal at 117 - price: 1640.04 - conditions: price<MA8, MACD-
+2025-04-13 16:57:28,760 - SELL signal at 122 - price: 1653.92 - conditions: RSI=71.4, MACD-
+2025-04-13 16:57:28,760 - SELL signal at 132 - price: 1646.89 - conditions: price<MA8, MACD-
+2025-04-13 16:57:28,760 - SELL signal at 166 - price: 1612.1 - conditions: price<MA8
+2025-04-13 16:57:28,760 - SELL signal at 168 - price: 1609.43 - conditions: price<MA8
+2025-04-13 16:57:28,760 - SELL signal at 177 - price: 1613.88 - conditions: price<MA8
+2025-04-13 16:57:28,760 - SELL signal at 181 - price: 1603.4 - conditions: price<MA8, MACD-
+2025-04-13 16:57:29,233 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 16:57:29,239 - SELL signal at 4 - price: 118.92 - conditions: price<MA8, MACD-
+2025-04-13 16:57:29,239 - SELL signal at 8 - price: 119.13 - conditions: price<MA8, MACD-
+2025-04-13 16:57:29,239 - SELL signal at 19 - price: 119.93 - conditions: price<MA8
+2025-04-13 16:57:29,239 - SELL signal at 32 - price: 120.96 - conditions: price<MA8, MACD-
+2025-04-13 16:57:29,239 - SELL signal at 34 - price: 121.11 - conditions: price<MA8, MACD-
+2025-04-13 16:57:29,239 - SELL signal at 40 - price: 120.86 - conditions: price<MA8, MACD-
+2025-04-13 16:57:29,239 - SELL signal at 45 - price: 120.89 - conditions: price<MA8, MACD-
+2025-04-13 16:57:29,239 - SELL signal at 48 - price: 120.73 - conditions: price<MA8, MACD-
+2025-04-13 16:57:29,239 - SELL signal at 64 - price: 123.07 - conditions: RSI=72.7
+2025-04-13 16:57:29,239 - SELL signal at 80 - price: 124.74 - conditions: MACD-
+2025-04-13 16:57:29,239 - SELL signal at 90 - price: 125.98 - conditions: RSI=71.4, MACD-
+2025-04-13 16:57:29,240 - SELL signal at 122 - price: 133.56 - conditions: RSI=81.9
+2025-04-13 16:57:29,240 - SELL signal at 131 - price: 132.06 - conditions: price<MA8, MACD-
+2025-04-13 16:57:29,240 - SELL signal at 137 - price: 132.09 - conditions: price<MA8, MACD-
+2025-04-13 16:57:29,240 - SELL signal at 142 - price: 132.48 - conditions: price<MA8, MACD-
+2025-04-13 16:57:29,240 - SELL signal at 149 - price: 131.97 - conditions: price<MA8, MACD-
+2025-04-13 16:57:29,240 - SELL signal at 181 - price: 129.57 - conditions: price<MA8
+2025-04-13 16:57:29,240 - SELL signal at 183 - price: 129.82 - conditions: price<MA8, MACD-
+2025-04-13 16:57:29,240 - SELL signal at 185 - price: 129.5 - conditions: price<MA8, MACD-
+2025-04-13 16:57:29,700 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 16:57:29,700 - Error checking market conditions for BTCUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:57:30,161 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 16:57:30,617 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 16:57:30,617 - Error checking market conditions for ETHUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:57:31,088 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 16:57:31,560 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 16:57:31,560 - Error checking market conditions for SOLUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 16:57:32,039 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 16:57:32,275 - Retrieved non-zero balances
+2025-04-13 16:57:32,502 - Retrieved current price for BTCUSDT: 83540.21
+2025-04-13 16:57:32,725 - Retrieved current price for ETHUSDT: 1568.07
+2025-04-13 16:57:33,404 - Retrieved current price for XRPUSDT: 2.1342
+2025-04-13 16:57:33,675 - Retrieved current price for SOLUSDT: 126.99
+2025-04-13 16:57:33,675 - Total account value: $137.80
+2025-04-13 16:57:33,676 - SUMMARY: === TRON 1 SCAN SUMMARY (2025-04-13 16:57:26) ===
+2025-04-13 16:57:33,676 - SUMMARY: Account Value: $137.81
+2025-04-13 16:57:33,676 - SUMMARY: --- NO ACTIVE TRADES ---
+2025-04-13 16:57:33,676 - SUMMARY: --- SCAN RESULTS ---
+2025-04-13 16:57:33,676 - SUMMARY: BTCUSDT: =HOLD= HOLD | RSI: 27.5 | Price: 83543.34 | MACD: -215.7476 | MACD d: -88.3064 | ATR%: 0.34%
+2025-04-13 16:57:33,676 - SUMMARY: ETHUSDT: =HOLD= HOLD | RSI: 18.1 | Price: 1569.08 | MACD: -8.6469 | MACD d: -3.4146 | ATR%: 0.64%
+2025-04-13 16:57:33,676 - SUMMARY: SOLUSDT: =HOLD= HOLD | RSI: 23.9 | Price: 126.94 | MACD: -0.5357 | MACD d: -0.2624 | ATR%: 0.75%
+2025-04-13 16:57:33,676 - SUMMARY: --- MARKET CONDITIONS ---
+2025-04-13 16:57:33,676 - SUMMARY: BTCUSDT: Unfavorable NO | Vol: 0.31%
+2025-04-13 16:57:33,676 - SUMMARY: ETHUSDT: Unfavorable NO | Vol: 0.58%
+2025-04-13 16:57:33,676 - SUMMARY: SOLUSDT: Unfavorable NO | Vol: 0.70%
+2025-04-13 16:57:33,676 - SUMMARY: --- PERFORMANCE ---
+2025-04-13 16:57:33,676 - SUMMARY: Trades: 0 | Win Rate: 0.0% (0W/0L)
+2025-04-13 16:57:33,676 - SUMMARY: Growth: -0.03% since start
+2025-04-13 16:57:33,676 - Using cached signals for BTCUSDT (15m)
+2025-04-13 16:57:33,678 - Using cached signals for ETHUSDT (15m)
+2025-04-13 16:57:33,678 - Using cached signals for SOLUSDT (15m)
+2025-04-13 17:12:34,148 - Using existing pair selection: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT']
+2025-04-13 17:12:34,567 - Retrieved non-zero balances
+2025-04-13 17:12:34,782 - Retrieved current price for BTCUSDT: 83836.99
+2025-04-13 17:12:35,023 - Retrieved current price for ETHUSDT: 1579.15
+2025-04-13 17:12:35,243 - Retrieved current price for XRPUSDT: 2.1498
+2025-04-13 17:12:35,452 - Retrieved current price for SOLUSDT: 128.13
+2025-04-13 17:12:35,452 - Total account value: $138.48
+2025-04-13 17:12:35,454 - Account growth: $138.48 (6.52%), Risk adjustment factor: 1.0
+2025-04-13 17:12:35,455 - Account growth: 6.52%, Risk factor: 1.0
+2025-04-13 17:12:35,456 - Processing trading pair: BTCUSDT
+2025-04-13 17:12:35,457 - Checking market conditions for BTCUSDT
+2025-04-13 17:12:35,910 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 17:12:35,911 - Error checking market conditions for BTCUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 17:12:35,912 - Market conditions unfavorable for BTCUSDT, skipping
+2025-04-13 17:12:35,912 - Processing trading pair: ETHUSDT
+2025-04-13 17:12:35,912 - Checking market conditions for ETHUSDT
+2025-04-13 17:12:36,396 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 17:12:36,396 - Error checking market conditions for ETHUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 17:12:36,396 - Market conditions unfavorable for ETHUSDT, skipping
+2025-04-13 17:12:36,396 - Processing trading pair: SOLUSDT
+2025-04-13 17:12:36,396 - Checking market conditions for SOLUSDT
+2025-04-13 17:12:36,845 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 17:12:36,845 - Error checking market conditions for SOLUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 17:12:36,845 - Market conditions unfavorable for SOLUSDT, skipping
+2025-04-13 17:12:37,057 - Retrieved non-zero balances
+2025-04-13 17:12:37,283 - Retrieved current price for BTCUSDT: 83836.99
+2025-04-13 17:12:37,526 - Retrieved current price for ETHUSDT: 1579.02
+2025-04-13 17:12:37,753 - Retrieved current price for XRPUSDT: 2.1497
+2025-04-13 17:12:37,973 - Retrieved current price for SOLUSDT: 128.13
+2025-04-13 17:12:37,974 - Total account value: $138.48
+2025-04-13 17:12:37,975 - Current drawdown: -0.46% (limit: 15.0%)
+2025-04-13 17:12:38,194 - Retrieved non-zero balances
+2025-04-13 17:12:38,415 - Retrieved current price for BTCUSDT: 83836.99
+2025-04-13 17:12:38,651 - Retrieved current price for ETHUSDT: 1579.03
+2025-04-13 17:12:38,882 - Retrieved current price for XRPUSDT: 2.1496
+2025-04-13 17:12:39,117 - Retrieved current price for SOLUSDT: 128.13
+2025-04-13 17:12:39,117 - Total account value: $138.48
+2025-04-13 17:12:39,117 - Cache expired for BTCUSDT, regenerating signals
+2025-04-13 17:12:39,597 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 17:12:39,608 - SELL signal at 1 - price: 82018.01 - conditions: RSI=100.0
+2025-04-13 17:12:39,608 - SELL signal at 21 - price: 83863.99 - conditions: RSI=75.3
+2025-04-13 17:12:39,608 - SELL signal at 29 - price: 83686.6 - conditions: price<MA8, MACD-
+2025-04-13 17:12:39,609 - SELL signal at 42 - price: 83369.08 - conditions: price<MA8, MACD-
+2025-04-13 17:12:39,609 - SELL signal at 64 - price: 83623.3 - conditions: RSI=78.2
+2025-04-13 17:12:39,609 - SELL signal at 68 - price: 83613.34 - conditions: RSI=74.0
+2025-04-13 17:12:39,609 - SELL signal at 74 - price: 83604.77 - conditions: price<MA8
+2025-04-13 17:12:39,609 - SELL signal at 85 - price: 83498.99 - conditions: price<MA8, MACD-
+2025-04-13 17:12:39,610 - SELL signal at 93 - price: 84177.94 - conditions: RSI=72.9
+2025-04-13 17:12:39,610 - SELL signal at 106 - price: 84659.19 - conditions: price<MA8, MACD-
+2025-04-13 17:12:39,610 - SELL signal at 121 - price: 85786.2 - conditions: RSI=82.4
+2025-04-13 17:12:39,610 - SELL signal at 126 - price: 85367.93 - conditions: MACD-
+2025-04-13 17:12:39,610 - SELL signal at 130 - price: 85336.01 - conditions: price<MA8, MACD-
+2025-04-13 17:12:39,610 - SELL signal at 136 - price: 85179.25 - conditions: price<MA8, MACD-
+2025-04-13 17:12:39,610 - SELL signal at 142 - price: 85259.77 - conditions: price<MA8, MACD-
+2025-04-13 17:12:39,611 - SELL signal at 148 - price: 85323.16 - conditions: price<MA8, MACD-
+2025-04-13 17:12:39,611 - SELL signal at 151 - price: 85140.36 - conditions: price<MA8, MACD-
+2025-04-13 17:12:39,611 - SELL signal at 171 - price: 84582.31 - conditions: price<MA8
+2025-04-13 17:12:39,611 - SELL signal at 176 - price: 84563.98 - conditions: price<MA8
+2025-04-13 17:12:39,611 - SELL signal at 180 - price: 84489.99 - conditions: price<MA8
+2025-04-13 17:12:39,611 - SELL signal at 182 - price: 84528.66 - conditions: price<MA8, MACD-
+2025-04-13 17:12:39,612 - SELL signal at 184 - price: 84283.01 - conditions: price<MA8, MACD-
+2025-04-13 17:12:39,612 - Cache expired for ETHUSDT, regenerating signals
+2025-04-13 17:12:40,029 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 17:12:40,034 - SELL signal at 1 - price: 1557.59 - conditions: RSI=100.0
+2025-04-13 17:12:40,034 - SELL signal at 17 - price: 1569.47 - conditions: price<MA8
+2025-04-13 17:12:40,034 - SELL signal at 20 - price: 1568.26 - conditions: price<MA8, MACD-
+2025-04-13 17:12:40,034 - SELL signal at 26 - price: 1571.36 - conditions: price<MA8, MACD-
+2025-04-13 17:12:40,034 - SELL signal at 31 - price: 1570.56 - conditions: price<MA8, MACD-
+2025-04-13 17:12:40,034 - SELL signal at 33 - price: 1568.73 - conditions: price<MA8, MACD-
+2025-04-13 17:12:40,034 - SELL signal at 54 - price: 1554.4 - conditions: price<MA8, MACD-
+2025-04-13 17:12:40,034 - SELL signal at 61 - price: 1569.21 - conditions: RSI=71.2
+2025-04-13 17:12:40,034 - SELL signal at 63 - price: 1575.49 - conditions: RSI=70.8
+2025-04-13 17:12:40,035 - SELL signal at 76 - price: 1593.28 - conditions: RSI=71.4
+2025-04-13 17:12:40,035 - SELL signal at 78 - price: 1597.5 - conditions: RSI=72.2
+2025-04-13 17:12:40,035 - SELL signal at 81 - price: 1589.11 - conditions: price<MA8, MACD-
+2025-04-13 17:12:40,035 - SELL signal at 86 - price: 1594.06 - conditions: price<MA8, MACD-
+2025-04-13 17:12:40,035 - SELL signal at 91 - price: 1620.04 - conditions: RSI=73.8
+2025-04-13 17:12:40,035 - SELL signal at 116 - price: 1640.04 - conditions: price<MA8, MACD-
+2025-04-13 17:12:40,035 - SELL signal at 121 - price: 1653.92 - conditions: RSI=71.4, MACD-
+2025-04-13 17:12:40,035 - SELL signal at 131 - price: 1646.89 - conditions: price<MA8, MACD-
+2025-04-13 17:12:40,035 - SELL signal at 165 - price: 1612.1 - conditions: price<MA8
+2025-04-13 17:12:40,035 - SELL signal at 167 - price: 1609.43 - conditions: price<MA8
+2025-04-13 17:12:40,035 - SELL signal at 176 - price: 1613.88 - conditions: price<MA8
+2025-04-13 17:12:40,035 - SELL signal at 180 - price: 1603.4 - conditions: price<MA8, MACD-
+2025-04-13 17:12:40,036 - Cache expired for SOLUSDT, regenerating signals
+2025-04-13 17:12:40,491 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 17:12:40,500 - SELL signal at 1 - price: 119.49 - conditions: RSI=100.0
+2025-04-13 17:12:40,500 - SELL signal at 7 - price: 119.13 - conditions: price<MA8
+2025-04-13 17:12:40,500 - SELL signal at 18 - price: 119.93 - conditions: price<MA8
+2025-04-13 17:12:40,500 - SELL signal at 20 - price: 120.6 - conditions: MACD-
+2025-04-13 17:12:40,500 - SELL signal at 30 - price: 121.15 - conditions: MACD-
+2025-04-13 17:12:40,500 - SELL signal at 33 - price: 121.11 - conditions: price<MA8, MACD-
+2025-04-13 17:12:40,501 - SELL signal at 39 - price: 120.86 - conditions: price<MA8, MACD-
+2025-04-13 17:12:40,501 - SELL signal at 44 - price: 120.89 - conditions: price<MA8, MACD-
+2025-04-13 17:12:40,501 - SELL signal at 47 - price: 120.73 - conditions: price<MA8, MACD-
+2025-04-13 17:12:40,501 - SELL signal at 63 - price: 123.07 - conditions: RSI=72.7
+2025-04-13 17:12:40,501 - SELL signal at 79 - price: 124.74 - conditions: MACD-
+2025-04-13 17:12:40,501 - SELL signal at 89 - price: 125.98 - conditions: RSI=71.4, MACD-
+2025-04-13 17:12:40,501 - SELL signal at 121 - price: 133.56 - conditions: RSI=81.9
+2025-04-13 17:12:40,501 - SELL signal at 130 - price: 132.06 - conditions: price<MA8, MACD-
+2025-04-13 17:12:40,501 - SELL signal at 136 - price: 132.09 - conditions: price<MA8, MACD-
+2025-04-13 17:12:40,501 - SELL signal at 141 - price: 132.48 - conditions: price<MA8, MACD-
+2025-04-13 17:12:40,501 - SELL signal at 148 - price: 131.97 - conditions: price<MA8, MACD-
+2025-04-13 17:12:40,501 - SELL signal at 180 - price: 129.57 - conditions: price<MA8
+2025-04-13 17:12:40,501 - SELL signal at 182 - price: 129.82 - conditions: price<MA8, MACD-
+2025-04-13 17:12:40,501 - SELL signal at 184 - price: 129.5 - conditions: price<MA8, MACD-
+2025-04-13 17:12:40,950 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 17:12:40,950 - Error checking market conditions for BTCUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 17:12:41,405 - Retrieved 192 historical klines for BTCUSDT (15m)
+2025-04-13 17:12:41,894 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 17:12:41,895 - Error checking market conditions for ETHUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 17:12:42,347 - Retrieved 192 historical klines for ETHUSDT (15m)
+2025-04-13 17:12:42,798 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 17:12:42,798 - Error checking market conditions for SOLUSDT: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-13 17:12:43,257 - Retrieved 192 historical klines for SOLUSDT (15m)
+2025-04-13 17:12:43,491 - Retrieved non-zero balances
+2025-04-13 17:12:43,710 - Retrieved current price for BTCUSDT: 83828.61
+2025-04-13 17:12:43,943 - Retrieved current price for ETHUSDT: 1578.77
+2025-04-13 17:12:44,167 - Retrieved current price for XRPUSDT: 2.1491
+2025-04-13 17:12:44,399 - Retrieved current price for SOLUSDT: 128.13
+2025-04-13 17:12:44,399 - Total account value: $138.46
+2025-04-13 17:12:44,400 - SUMMARY: === TRON 1 SCAN SUMMARY (2025-04-13 17:12:37) ===
+2025-04-13 17:12:44,400 - SUMMARY: Account Value: $138.48
+2025-04-13 17:12:44,400 - SUMMARY: --- NO ACTIVE TRADES ---
+2025-04-13 17:12:44,400 - SUMMARY: --- SCAN RESULTS ---
+2025-04-13 17:12:44,400 - SUMMARY: BTCUSDT: =HOLD= HOLD | RSI: 34.0 | Price: 83836.98 | MACD: -227.6489 | MACD d: -80.8788 | ATR%: 0.36%
+2025-04-13 17:12:44,400 - SUMMARY: ETHUSDT: =HOLD= HOLD | RSI: 23.4 | Price: 1579.02 | MACD: -9.1358 | MACD d: -3.1889 | ATR%: 0.68%
+2025-04-13 17:12:44,400 - SUMMARY: SOLUSDT: =HOLD= HOLD | RSI: 31.3 | Price: 128.14 | MACD: -0.5256 | MACD d: -0.2108 | ATR%: 0.78%
+2025-04-13 17:12:44,400 - SUMMARY: --- MARKET CONDITIONS ---
+2025-04-13 17:12:44,400 - SUMMARY: BTCUSDT: Unfavorable NO | Vol: 0.33%
+2025-04-13 17:12:44,400 - SUMMARY: ETHUSDT: Unfavorable NO | Vol: 0.61%
+2025-04-13 17:12:44,400 - SUMMARY: SOLUSDT: Unfavorable NO | Vol: 0.73%
+2025-04-13 17:12:44,401 - SUMMARY: --- PERFORMANCE ---
+2025-04-13 17:12:44,401 - SUMMARY: Trades: 0 | Win Rate: 0.0% (0W/0L)
+2025-04-13 17:12:44,401 - SUMMARY: Growth: 0.44% since start
+2025-04-13 17:12:44,401 - Using cached signals for BTCUSDT (15m)
+2025-04-13 17:12:44,401 - Using cached signals for ETHUSDT (15m)
+2025-04-13 17:12:44,401 - Using cached signals for SOLUSDT (15m)

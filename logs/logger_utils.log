@@ -1,0 +1,796 @@
+2025-04-15 17:00:44,950 - crypto_bot.logger_utils - INFO - Database module imported successfully
+2025-04-15 17:03:12,955 - crypto_bot.logger_utils - INFO - Database module imported successfully
+2025-04-15 17:03:17,637 - crypto_bot.logger_utils - INFO - Bot status logged to database: STARTED
+2025-04-15 17:03:23,978 - crypto_bot.logger_utils - INFO - Market scan logged to database: BTCUSDT SELL @ 85450.58
+2025-04-15 17:03:23,978 - crypto_bot.logger_utils - INFO - Logging scan for BTCUSDT to latest_scan.txt
+2025-04-15 17:03:23,978 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 17:03:23,980 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 17:03:23,980 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: BTCUSDT @ $85450.58
+2025-04-15 17:03:25,462 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1624.92
+2025-04-15 17:03:25,462 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 17:03:25,462 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 17:03:25,463 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 17:03:25,463 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1624.92
+2025-04-15 17:03:27,150 - crypto_bot.logger_utils - INFO - Market scan logged to database: BTCUSDT SELL @ 85445.93
+2025-04-15 17:03:27,150 - crypto_bot.logger_utils - INFO - Logging scan for BTCUSDT to latest_scan.txt
+2025-04-15 17:03:27,150 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 17:03:27,150 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 17:03:27,150 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: BTCUSDT @ $85445.93
+2025-04-15 17:03:28,012 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1624.89
+2025-04-15 17:03:28,012 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 17:03:28,012 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 17:03:28,012 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 17:03:28,012 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1624.89
+2025-04-15 17:03:31,472 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1625.4
+2025-04-15 17:03:31,472 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 17:03:31,472 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 17:03:31,472 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 17:03:31,472 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1625.40
+2025-04-15 17:13:19,892 - crypto_bot.logger_utils - INFO - Database module imported successfully
+2025-04-15 17:13:24,370 - crypto_bot.logger_utils - INFO - Bot status logged to database: STARTED
+2025-04-15 17:13:28,344 - crypto_bot.logger_utils - INFO - Market scan logged to database: BTCUSDT HOLD @ 85957.81
+2025-04-15 17:13:28,344 - crypto_bot.logger_utils - INFO - Logging scan for BTCUSDT to latest_scan.txt
+2025-04-15 17:13:28,344 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 17:13:28,344 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 17:13:29,571 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1636.43
+2025-04-15 17:13:29,571 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 17:13:29,572 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 17:13:29,572 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 17:13:29,572 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1636.43
+2025-04-15 17:13:31,201 - crypto_bot.logger_utils - INFO - Market scan logged to database: BTCUSDT HOLD @ 85968.68
+2025-04-15 17:13:31,201 - crypto_bot.logger_utils - INFO - Logging scan for BTCUSDT to latest_scan.txt
+2025-04-15 17:13:31,201 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 17:13:31,201 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 17:13:31,976 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1636.4
+2025-04-15 17:13:31,976 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 17:13:31,976 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 17:13:31,977 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 17:13:31,977 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1636.40
+2025-04-15 17:13:34,691 - crypto_bot.logger_utils - INFO - Market scan logged to database: BTCUSDT HOLD @ 85911.8
+2025-04-15 17:13:34,691 - crypto_bot.logger_utils - INFO - Logging scan for BTCUSDT to latest_scan.txt
+2025-04-15 17:13:34,691 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 17:13:34,691 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 17:13:37,049 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1634.72
+2025-04-15 17:13:37,049 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 17:13:37,049 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 17:13:37,050 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 17:13:37,050 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1634.72
+2025-04-15 17:13:53,688 - crypto_bot.logger_utils - INFO - Database module imported successfully
+2025-04-15 17:13:58,136 - crypto_bot.logger_utils - INFO - Bot status logged to database: STARTED
+2025-04-15 17:14:01,864 - crypto_bot.logger_utils - INFO - Market scan logged to database: BTCUSDT SELL @ 85782.39
+2025-04-15 17:14:01,864 - crypto_bot.logger_utils - INFO - Logging scan for BTCUSDT to latest_scan.txt
+2025-04-15 17:14:01,864 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 17:14:01,864 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 17:14:01,865 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: BTCUSDT @ $85782.39
+2025-04-15 17:14:03,028 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1632.48
+2025-04-15 17:14:03,028 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 17:14:03,028 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 17:14:03,028 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 17:14:03,028 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1632.48
+2025-04-15 17:14:04,704 - crypto_bot.logger_utils - INFO - Market scan logged to database: BTCUSDT HOLD @ 85820.99
+2025-04-15 17:14:04,705 - crypto_bot.logger_utils - INFO - Logging scan for BTCUSDT to latest_scan.txt
+2025-04-15 17:14:04,705 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 17:14:04,705 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 17:14:05,417 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1632.9
+2025-04-15 17:14:05,417 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 17:14:05,417 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 17:14:05,417 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 17:14:05,417 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1632.90
+2025-04-15 17:14:08,144 - crypto_bot.logger_utils - INFO - Market scan logged to database: BTCUSDT HOLD @ 85839.62
+2025-04-15 17:14:08,144 - crypto_bot.logger_utils - INFO - Logging scan for BTCUSDT to latest_scan.txt
+2025-04-15 17:14:08,144 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 17:14:08,145 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 17:14:10,184 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1632.81
+2025-04-15 17:14:10,184 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 17:14:10,184 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 17:14:10,184 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 17:14:10,184 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1632.81
+2025-04-15 17:19:13,422 - crypto_bot.logger_utils - INFO - Market scan logged to database: BTCUSDT SELL @ 85210.12
+2025-04-15 17:19:13,422 - crypto_bot.logger_utils - INFO - Logging scan for BTCUSDT to latest_scan.txt
+2025-04-15 17:19:13,422 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 17:19:13,423 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 17:19:13,423 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: BTCUSDT @ $85210.12
+2025-04-15 17:19:14,128 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1617.88
+2025-04-15 17:19:14,128 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 17:19:14,128 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 17:19:14,128 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 17:19:14,128 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1617.88
+2025-04-15 17:19:17,294 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1614.85
+2025-04-15 17:19:17,295 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 17:19:17,295 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 17:19:17,295 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 17:19:17,295 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1614.85
+2025-04-15 17:24:29,563 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 17:24:30,362 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1611.77
+2025-04-15 17:24:30,362 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 17:24:30,362 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 17:24:30,364 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 17:24:30,364 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1611.77
+2025-04-15 17:24:33,577 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1612.88
+2025-04-15 17:24:33,577 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 17:24:33,577 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 17:24:33,577 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 17:24:33,577 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1612.88
+2025-04-15 17:29:46,059 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 17:29:46,925 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1612.57
+2025-04-15 17:29:46,925 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 17:29:46,925 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 17:29:46,926 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 17:29:46,926 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1612.57
+2025-04-15 17:29:50,188 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1612.57
+2025-04-15 17:29:50,188 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 17:29:50,188 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 17:29:50,189 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 17:29:50,189 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1612.57
+2025-04-15 17:35:02,677 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 17:35:03,519 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1613.13
+2025-04-15 17:35:03,519 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 17:35:03,519 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 17:35:03,520 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 17:35:03,520 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1613.13
+2025-04-15 17:35:06,733 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1612.12
+2025-04-15 17:35:06,733 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 17:35:06,733 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 17:35:06,734 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 17:35:06,734 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1612.12
+2025-04-15 17:40:19,120 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 17:40:19,977 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1614.46
+2025-04-15 17:40:19,977 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 17:40:19,979 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 17:40:19,979 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 17:40:19,979 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1614.46
+2025-04-15 17:40:23,250 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1613.51
+2025-04-15 17:40:23,250 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 17:40:23,250 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 17:40:23,250 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 17:40:23,250 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1613.51
+2025-04-15 17:45:35,610 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 17:45:36,462 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1625.96
+2025-04-15 17:45:36,462 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 17:45:36,462 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 17:45:36,462 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 17:45:39,666 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1626.2
+2025-04-15 17:45:39,666 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 17:45:39,666 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 17:45:39,666 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 17:50:52,458 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 17:50:53,348 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1621.36
+2025-04-15 17:50:53,348 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 17:50:53,348 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 17:50:53,350 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 17:50:56,740 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1621.36
+2025-04-15 17:50:56,740 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 17:50:56,740 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 17:50:56,740 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 17:56:09,811 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 17:56:10,679 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1625.74
+2025-04-15 17:56:10,681 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 17:56:10,681 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 17:56:10,681 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 17:56:14,047 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1625.57
+2025-04-15 17:56:14,049 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 17:56:14,049 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 17:56:14,049 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 18:01:17,105 - crypto_bot.logger_utils - INFO - Market scan logged to database: BTCUSDT HOLD @ 85174.0
+2025-04-15 18:01:17,105 - crypto_bot.logger_utils - INFO - Logging scan for BTCUSDT to latest_scan.txt
+2025-04-15 18:01:17,105 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 18:01:17,106 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 18:01:17,795 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1623.19
+2025-04-15 18:01:17,795 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 18:01:17,795 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 18:01:17,795 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 18:01:20,945 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1622.9
+2025-04-15 18:01:20,945 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 18:01:20,945 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 18:01:20,945 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 18:06:33,270 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 18:06:34,135 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1624.33
+2025-04-15 18:06:34,135 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 18:06:34,135 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 18:06:34,136 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 18:06:37,321 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1624.31
+2025-04-15 18:06:37,321 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 18:06:37,321 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 18:06:37,321 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 18:11:49,926 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 18:11:50,842 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1624.63
+2025-04-15 18:11:50,842 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 18:11:50,842 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 18:11:50,843 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 18:11:54,252 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1623.97
+2025-04-15 18:11:54,252 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 18:11:54,252 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 18:11:54,252 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 18:17:06,953 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 18:17:07,944 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1627.88
+2025-04-15 18:17:07,944 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 18:17:07,944 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 18:17:07,945 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 18:17:11,290 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1628.39
+2025-04-15 18:17:11,291 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 18:17:11,291 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 18:17:11,291 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 18:22:24,259 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 18:22:25,133 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1629.55
+2025-04-15 18:22:25,133 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 18:22:25,133 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 18:22:25,134 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 18:22:28,374 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1629.42
+2025-04-15 18:22:28,374 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 18:22:28,374 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 18:22:28,374 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 18:27:40,562 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 18:27:41,488 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1626.71
+2025-04-15 18:27:41,488 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 18:27:41,488 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 18:27:41,489 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 18:27:41,489 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1626.71
+2025-04-15 18:27:44,667 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1626.82
+2025-04-15 18:27:44,667 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 18:27:44,667 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 18:27:44,668 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 18:27:44,668 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1626.82
+2025-04-15 18:32:57,112 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 18:32:57,992 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1622.51
+2025-04-15 18:32:57,993 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 18:32:57,993 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 18:32:57,993 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 18:33:01,192 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1622.63
+2025-04-15 18:33:01,192 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 18:33:01,192 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 18:33:01,192 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 18:38:13,761 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 18:38:14,667 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1615.13
+2025-04-15 18:38:14,667 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 18:38:14,667 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 18:38:14,667 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 18:38:18,195 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1615.51
+2025-04-15 18:38:18,195 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 18:38:18,195 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 18:38:18,195 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 18:43:30,949 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 18:43:31,823 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1616.29
+2025-04-15 18:43:31,823 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 18:43:31,823 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 18:43:31,824 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 18:43:31,824 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1616.29
+2025-04-15 18:43:35,026 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1616.21
+2025-04-15 18:43:35,026 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 18:43:35,026 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 18:43:35,027 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 18:43:35,027 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1616.21
+2025-04-15 18:48:38,010 - crypto_bot.logger_utils - INFO - Market scan logged to database: BTCUSDT SELL @ 84766.07
+2025-04-15 18:48:38,010 - crypto_bot.logger_utils - INFO - Logging scan for BTCUSDT to latest_scan.txt
+2025-04-15 18:48:38,010 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 18:48:38,012 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 18:48:38,012 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: BTCUSDT @ $84766.07
+2025-04-15 18:48:38,720 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1615.4
+2025-04-15 18:48:38,720 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 18:48:38,720 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 18:48:38,720 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 18:48:38,720 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1615.40
+2025-04-15 18:48:41,980 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1615.41
+2025-04-15 18:48:41,980 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 18:48:41,980 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 18:48:41,980 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 18:48:41,980 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1615.41
+2025-04-15 18:53:54,769 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 18:53:55,641 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1618.6
+2025-04-15 18:53:55,641 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 18:53:55,641 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 18:53:55,642 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 18:53:55,642 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1618.60
+2025-04-15 18:53:59,134 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1618.6
+2025-04-15 18:53:59,135 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 18:53:59,135 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 18:53:59,135 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 18:53:59,135 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1618.60
+2025-04-15 18:59:12,358 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 18:59:13,192 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1619.83
+2025-04-15 18:59:13,192 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 18:59:13,192 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 18:59:13,192 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 18:59:13,192 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1619.83
+2025-04-15 18:59:16,433 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1619.99
+2025-04-15 18:59:16,433 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 18:59:16,433 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 18:59:16,435 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 20:23:47,207 - crypto_bot.logger_utils - INFO - Database module imported successfully
+2025-04-15 20:23:54,853 - crypto_bot.logger_utils - INFO - Bot status logged to database: STARTED
+2025-04-15 20:23:58,704 - crypto_bot.logger_utils - INFO - Market scan logged to database: BTCUSDT HOLD @ 84777.99
+2025-04-15 20:23:58,704 - crypto_bot.logger_utils - INFO - Logging scan for BTCUSDT to latest_scan.txt
+2025-04-15 20:23:58,704 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 20:23:58,704 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 20:23:59,889 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1618.3
+2025-04-15 20:23:59,889 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 20:23:59,889 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 20:23:59,891 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 20:23:59,891 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1618.30
+2025-04-15 20:24:02,232 - crypto_bot.logger_utils - INFO - Market scan logged to database: BTCUSDT HOLD @ 84768.01
+2025-04-15 20:24:02,232 - crypto_bot.logger_utils - INFO - Logging scan for BTCUSDT to latest_scan.txt
+2025-04-15 20:24:02,232 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 20:24:02,232 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 20:24:02,931 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1618.03
+2025-04-15 20:24:02,931 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 20:24:02,931 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 20:24:02,931 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 20:24:02,931 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1618.03
+2025-04-15 20:24:06,047 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1618.6
+2025-04-15 20:24:06,047 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 20:24:06,047 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 20:24:06,048 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 20:24:06,048 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1618.60
+2025-04-15 20:29:08,884 - crypto_bot.logger_utils - INFO - Market scan logged to database: BTCUSDT SELL @ 84773.11
+2025-04-15 20:29:08,884 - crypto_bot.logger_utils - INFO - Logging scan for BTCUSDT to latest_scan.txt
+2025-04-15 20:29:08,884 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 20:29:08,884 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 20:29:08,884 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: BTCUSDT @ $84773.11
+2025-04-15 20:29:09,553 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1617.63
+2025-04-15 20:29:09,553 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 20:29:09,553 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 20:29:09,554 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 20:29:09,554 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1617.63
+2025-04-15 20:29:12,715 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1617.64
+2025-04-15 20:29:12,715 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 20:29:12,715 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 20:29:12,715 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 20:29:12,716 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1617.64
+2025-04-15 20:34:25,062 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 20:34:25,954 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1615.71
+2025-04-15 20:34:25,955 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 20:34:25,955 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 20:34:25,955 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 20:34:25,955 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1615.71
+2025-04-15 20:34:29,214 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1616.6
+2025-04-15 20:34:29,214 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 20:34:29,214 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 20:34:29,214 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 20:34:29,214 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1616.60
+2025-04-15 20:39:41,504 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 20:39:42,333 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1622.0
+2025-04-15 20:39:42,333 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 20:39:42,333 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 20:39:42,334 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 20:39:45,789 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1621.85
+2025-04-15 20:39:45,789 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 20:39:45,789 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 20:39:45,790 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 20:44:58,364 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 20:44:59,333 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1620.92
+2025-04-15 20:44:59,333 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 20:44:59,333 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 20:44:59,333 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 20:45:03,048 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1621.33
+2025-04-15 20:45:03,048 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 20:45:03,048 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 20:45:03,048 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 20:50:15,913 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 20:50:16,824 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1621.93
+2025-04-15 20:50:16,824 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 20:50:16,824 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 20:50:16,825 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 20:50:20,143 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1621.86
+2025-04-15 20:50:20,143 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 20:50:20,143 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 20:50:20,144 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 20:55:32,393 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 20:55:33,312 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1613.97
+2025-04-15 20:55:33,312 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 20:55:33,312 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 20:55:33,313 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 20:55:33,313 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1613.97
+2025-04-15 20:55:36,712 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1614.12
+2025-04-15 20:55:36,712 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 20:55:36,712 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 20:55:36,712 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 20:55:36,712 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1614.12
+2025-04-15 21:00:50,858 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 21:00:51,846 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1616.15
+2025-04-15 21:00:51,846 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 21:00:51,846 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 21:00:51,846 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 21:00:51,846 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1616.15
+2025-04-15 21:00:55,352 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1616.28
+2025-04-15 21:00:55,352 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 21:00:55,352 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 21:00:55,353 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 21:00:55,353 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1616.28
+2025-04-15 21:06:07,686 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 21:06:08,567 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1615.46
+2025-04-15 21:06:08,567 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 21:06:08,567 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 21:06:08,568 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 21:06:08,568 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1615.46
+2025-04-15 21:06:12,118 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1616.1
+2025-04-15 21:06:12,118 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 21:06:12,118 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 21:06:12,119 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 21:06:12,119 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1616.10
+2025-04-15 21:11:24,737 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 21:11:25,658 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1618.28
+2025-04-15 21:11:25,658 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 21:11:25,658 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 21:11:25,660 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 21:11:25,660 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1618.28
+2025-04-15 21:11:29,476 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1618.28
+2025-04-15 21:11:29,476 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 21:11:29,477 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 21:11:29,477 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 21:11:29,477 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1618.28
+2025-04-15 21:16:41,850 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 21:16:42,827 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1608.75
+2025-04-15 21:16:42,827 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 21:16:42,828 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 21:16:42,828 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 21:16:42,828 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1608.75
+2025-04-15 21:16:46,865 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1608.99
+2025-04-15 21:16:46,865 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 21:16:46,865 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 21:16:46,866 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 21:16:46,866 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1608.99
+2025-04-15 21:21:59,188 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 21:22:00,130 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1606.75
+2025-04-15 21:22:00,130 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 21:22:00,130 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 21:22:00,131 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 21:22:00,131 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1606.75
+2025-04-15 21:22:03,981 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1606.75
+2025-04-15 21:22:03,981 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 21:22:03,981 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 21:22:03,981 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 21:22:03,981 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1606.75
+2025-04-15 21:27:16,648 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 21:27:17,751 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1609.58
+2025-04-15 21:27:17,751 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 21:27:17,751 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 21:27:17,753 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 21:27:17,753 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1609.58
+2025-04-15 21:27:21,319 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1609.35
+2025-04-15 21:27:21,319 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 21:27:21,319 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 21:27:21,319 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 21:27:21,321 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1609.35
+2025-04-15 21:32:34,279 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 21:32:35,166 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1608.46
+2025-04-15 21:32:35,166 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 21:32:35,166 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 21:32:35,167 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 21:32:35,167 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1608.46
+2025-04-15 21:32:38,954 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1609.1
+2025-04-15 21:32:38,954 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 21:32:38,954 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 21:32:38,955 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 21:32:38,955 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1609.10
+2025-04-15 21:37:51,456 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 21:37:52,534 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1611.26
+2025-04-15 21:37:52,534 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 21:37:52,534 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 21:37:52,534 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 21:37:52,534 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1611.26
+2025-04-15 21:37:56,207 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1611.54
+2025-04-15 21:37:56,207 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 21:37:56,207 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 21:37:56,208 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 21:37:56,208 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1611.54
+2025-04-15 21:43:08,638 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 21:43:09,648 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1613.29
+2025-04-15 21:43:09,648 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 21:43:09,648 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 21:43:09,648 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 21:43:13,125 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1612.93
+2025-04-15 21:43:13,125 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 21:43:13,125 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 21:43:13,127 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 21:48:25,563 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 21:48:26,435 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1613.7
+2025-04-15 21:48:26,435 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 21:48:26,435 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 21:48:26,436 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 21:48:30,042 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1613.57
+2025-04-15 21:48:30,042 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 21:48:30,042 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 21:48:30,043 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 21:53:42,627 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 21:53:43,478 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1610.75
+2025-04-15 21:53:43,478 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 21:53:43,478 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 21:53:43,478 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 21:53:43,478 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1610.75
+2025-04-15 21:53:47,164 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1610.7
+2025-04-15 21:53:47,164 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 21:53:47,165 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 21:53:47,165 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 21:53:47,165 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1610.70
+2025-04-15 21:58:59,483 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 21:59:00,404 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1610.69
+2025-04-15 21:59:00,404 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 21:59:00,404 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 21:59:00,405 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 21:59:00,405 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1610.69
+2025-04-15 21:59:04,024 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1610.7
+2025-04-15 21:59:04,024 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 21:59:04,024 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 21:59:04,025 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 21:59:04,025 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1610.70
+2025-04-15 22:04:07,516 - crypto_bot.logger_utils - INFO - Market scan logged to database: BTCUSDT SELL @ 84123.01
+2025-04-15 22:04:07,516 - crypto_bot.logger_utils - INFO - Logging scan for BTCUSDT to latest_scan.txt
+2025-04-15 22:04:07,516 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 22:04:07,516 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 22:04:07,516 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: BTCUSDT @ $84123.01
+2025-04-15 22:04:08,295 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1606.44
+2025-04-15 22:04:08,295 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 22:04:08,295 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 22:04:08,296 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 22:04:08,296 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1606.44
+2025-04-15 22:04:11,907 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1606.32
+2025-04-15 22:04:11,907 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 22:04:11,907 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 22:04:11,907 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 22:04:11,908 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1606.32
+2025-04-15 22:09:24,434 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 22:09:25,307 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1609.3
+2025-04-15 22:09:25,307 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 22:09:25,307 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 22:09:25,307 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 22:09:25,307 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1609.30
+2025-04-15 22:09:28,793 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1609.26
+2025-04-15 22:09:28,793 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 22:09:28,793 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 22:09:28,793 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 22:09:28,794 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1609.26
+2025-04-15 22:14:31,790 - crypto_bot.logger_utils - INFO - Market scan logged to database: BTCUSDT SELL @ 84099.99
+2025-04-15 22:14:31,790 - crypto_bot.logger_utils - INFO - Logging scan for BTCUSDT to latest_scan.txt
+2025-04-15 22:14:31,790 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 22:14:31,790 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 22:14:31,790 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: BTCUSDT @ $84099.99
+2025-04-15 22:14:32,516 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1610.59
+2025-04-15 22:14:32,516 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 22:14:32,516 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 22:14:32,516 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 22:14:32,516 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1610.59
+2025-04-15 22:14:36,156 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1610.81
+2025-04-15 22:14:36,156 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 22:14:36,156 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 22:14:36,158 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 22:14:36,158 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1610.81
+2025-04-15 22:19:48,477 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 22:19:49,312 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1612.45
+2025-04-15 22:19:49,312 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 22:19:49,312 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 22:19:49,312 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 22:19:52,645 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1612.38
+2025-04-15 22:19:52,645 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 22:19:52,645 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 22:19:52,645 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 22:25:05,087 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 22:25:05,978 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1607.01
+2025-04-15 22:25:05,978 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 22:25:05,978 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 22:25:05,978 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 22:25:05,978 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1607.01
+2025-04-15 22:25:09,879 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1606.56
+2025-04-15 22:25:09,879 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 22:25:09,879 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 22:25:09,881 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 22:25:09,881 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1606.56
+2025-04-15 22:30:22,418 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 22:30:23,265 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1603.11
+2025-04-15 22:30:23,265 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 22:30:23,265 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 22:30:23,266 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 22:30:23,266 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1603.11
+2025-04-15 22:30:26,725 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1603.11
+2025-04-15 22:30:26,725 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 22:30:26,727 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 22:30:26,727 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 22:30:26,727 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1603.11
+2025-04-15 22:35:39,745 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 22:35:40,732 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1605.74
+2025-04-15 22:35:40,732 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 22:35:40,733 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 22:35:40,733 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 22:35:40,733 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1605.74
+2025-04-15 22:35:44,880 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1605.95
+2025-04-15 22:35:44,880 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 22:35:44,880 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 22:35:44,880 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 22:35:44,880 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1605.95
+2025-04-15 22:40:58,100 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 22:40:58,964 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1607.61
+2025-04-15 22:40:58,964 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 22:40:58,964 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 22:40:58,965 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 22:40:58,965 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1607.61
+2025-04-15 22:41:02,636 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1607.75
+2025-04-15 22:41:02,636 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 22:41:02,636 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 22:41:02,636 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 22:46:05,695 - crypto_bot.logger_utils - INFO - Market scan logged to database: BTCUSDT HOLD @ 83989.94
+2025-04-15 22:46:05,695 - crypto_bot.logger_utils - INFO - Logging scan for BTCUSDT to latest_scan.txt
+2025-04-15 22:46:05,695 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 22:46:05,695 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 22:46:06,478 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1605.88
+2025-04-15 22:46:06,478 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 22:46:06,478 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 22:46:06,479 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 22:46:10,110 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1605.61
+2025-04-15 22:46:10,110 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 22:46:10,110 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 22:46:10,110 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 22:46:10,111 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1605.61
+2025-04-15 22:51:22,448 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 22:51:23,422 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1604.62
+2025-04-15 22:51:23,422 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 22:51:23,422 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 22:51:23,422 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 22:51:23,422 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1604.62
+2025-04-15 22:51:26,958 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1605.15
+2025-04-15 22:51:26,958 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 22:51:26,958 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 22:51:26,960 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 22:51:26,960 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1605.15
+2025-04-15 22:56:39,630 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 22:56:40,610 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1607.75
+2025-04-15 22:56:40,610 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 22:56:40,612 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 22:56:40,612 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 22:56:44,189 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1607.88
+2025-04-15 22:56:44,189 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 22:56:44,189 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 22:56:44,190 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 23:01:56,767 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 23:01:57,753 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1607.78
+2025-04-15 23:01:57,753 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 23:01:57,753 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 23:01:57,754 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 23:02:01,342 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1607.95
+2025-04-15 23:02:01,343 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 23:02:01,343 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 23:02:01,343 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 23:07:14,306 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 23:07:15,291 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1610.41
+2025-04-15 23:07:15,291 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 23:07:15,291 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 23:07:15,292 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 23:07:18,761 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1610.71
+2025-04-15 23:07:18,761 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 23:07:18,761 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 23:07:18,761 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 23:12:30,958 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 23:12:31,824 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1611.96
+2025-04-15 23:12:31,824 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 23:12:31,824 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 23:12:31,825 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 23:12:35,404 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1611.95
+2025-04-15 23:12:35,404 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 23:12:35,405 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 23:12:35,405 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 23:17:47,732 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 23:17:48,610 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1612.95
+2025-04-15 23:17:48,611 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 23:17:48,611 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 23:17:48,611 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 23:17:52,135 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1612.96
+2025-04-15 23:17:52,135 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 23:17:52,135 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 23:17:52,135 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 23:23:04,639 - crypto_bot.logger_utils - ERROR - API ERROR - BTCUSDT - get_historical_klines: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+2025-04-15 23:23:05,451 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1613.01
+2025-04-15 23:23:05,451 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 23:23:05,452 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 23:23:05,452 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 23:23:08,770 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1613.14
+2025-04-15 23:23:08,770 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 23:23:08,770 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 23:23:08,770 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 23:39:58,451 - crypto_bot.logger_utils - INFO - Database module imported successfully
+2025-04-15 23:40:03,672 - crypto_bot.logger_utils - INFO - Bot status logged to database: STARTED
+2025-04-15 23:40:08,519 - crypto_bot.logger_utils - INFO - Market scan logged to database: BTCUSDT HOLD @ 84107.52
+2025-04-15 23:40:08,519 - crypto_bot.logger_utils - INFO - Logging scan for BTCUSDT to latest_scan.txt
+2025-04-15 23:40:08,519 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 23:40:08,520 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 23:40:09,955 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1610.72
+2025-04-15 23:40:09,956 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 23:40:09,956 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 23:40:09,956 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 23:40:11,653 - crypto_bot.logger_utils - INFO - Market scan logged to database: BTCUSDT HOLD @ 84107.52
+2025-04-15 23:40:11,653 - crypto_bot.logger_utils - INFO - Logging scan for BTCUSDT to latest_scan.txt
+2025-04-15 23:40:11,653 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 23:40:11,655 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 23:40:12,467 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1610.72
+2025-04-15 23:40:12,467 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 23:40:12,467 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 23:40:12,467 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 23:40:16,435 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1610.71
+2025-04-15 23:40:16,435 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 23:40:16,435 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 23:40:16,436 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 23:45:19,588 - crypto_bot.logger_utils - INFO - Market scan logged to database: BTCUSDT HOLD @ 83950.0
+2025-04-15 23:45:19,588 - crypto_bot.logger_utils - INFO - Logging scan for BTCUSDT to latest_scan.txt
+2025-04-15 23:45:19,588 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 23:45:19,589 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 23:45:20,284 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1606.61
+2025-04-15 23:45:20,285 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 23:45:20,285 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 23:45:20,285 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 23:45:23,455 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT HOLD @ 1606.72
+2025-04-15 23:45:23,455 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 23:45:23,455 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 23:45:23,456 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 23:50:26,352 - crypto_bot.logger_utils - INFO - Market scan logged to database: BTCUSDT HOLD @ 83899.24
+2025-04-15 23:50:26,352 - crypto_bot.logger_utils - INFO - Logging scan for BTCUSDT to latest_scan.txt
+2025-04-15 23:50:26,352 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 23:50:26,353 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 23:50:27,065 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1601.65
+2025-04-15 23:50:27,065 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 23:50:27,066 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 23:50:27,066 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 23:50:27,066 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1601.65
+2025-04-15 23:50:30,464 - crypto_bot.logger_utils - INFO - Market scan logged to database: ETHUSDT SELL @ 1601.65
+2025-04-15 23:50:30,464 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-15 23:50:30,464 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-15 23:50:30,465 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-15 23:50:30,465 - crypto_bot.logger_utils - WARNING - SELL SIGNAL: ETHUSDT @ $1601.65
+2025-04-16 00:39:17,947 - crypto_bot.logger_utils - WARNING - Database module not found, falling back to CSV logging
+2025-04-16 00:40:01,478 - crypto_bot.logger_utils - WARNING - Database module not found, falling back to CSV logging
+2025-04-16 00:40:18,379 - crypto_bot.logger_utils - WARNING - Database module not found, falling back to CSV logging
+2025-04-16 00:40:38,172 - crypto_bot.logger_utils - WARNING - Database module not found, falling back to CSV logging
+2025-04-16 00:41:20,989 - crypto_bot.logger_utils - WARNING - Database module not found, falling back to CSV logging
+2025-04-16 00:41:30,136 - crypto_bot.logger_utils - INFO - Logging scan for BTCUSDT to latest_scan.txt
+2025-04-16 00:41:30,136 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-16 00:41:30,136 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-16 00:41:31,642 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-16 00:41:31,642 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-16 00:41:31,642 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-16 00:41:33,163 - crypto_bot.logger_utils - INFO - Logging scan for BNBUSDT to latest_scan.txt
+2025-04-16 00:41:33,163 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-16 00:41:33,163 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-16 00:41:34,738 - crypto_bot.logger_utils - INFO - Logging scan for SOLUSDT to latest_scan.txt
+2025-04-16 00:41:34,741 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-16 00:41:34,741 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-16 00:41:36,286 - crypto_bot.logger_utils - INFO - Logging scan for AVAXUSDT to latest_scan.txt
+2025-04-16 00:41:36,286 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-16 00:41:36,286 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-16 00:43:31,143 - crypto_bot.logger_utils - WARNING - Database module not found, falling back to CSV logging
+2025-04-16 00:43:38,614 - crypto_bot.logger_utils - INFO - Logging scan for BTCUSDT to latest_scan.txt
+2025-04-16 00:43:38,615 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-16 00:43:38,615 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-16 00:43:40,228 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-16 00:43:40,228 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-16 00:43:40,229 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-16 00:43:40,229 - crypto_bot.logger_utils - WARNING - BUY SIGNAL: ETHUSDT @ $1603.49
+2025-04-16 00:43:41,650 - crypto_bot.logger_utils - INFO - Logging scan for BNBUSDT to latest_scan.txt
+2025-04-16 00:43:41,650 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-16 00:43:41,650 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-16 00:43:43,197 - crypto_bot.logger_utils - INFO - Logging scan for SOLUSDT to latest_scan.txt
+2025-04-16 00:43:43,197 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-16 00:43:43,197 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-16 00:43:44,545 - crypto_bot.logger_utils - INFO - Logging scan for AVAXUSDT to latest_scan.txt
+2025-04-16 00:43:44,545 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-16 00:43:44,547 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-16 00:43:46,155 - crypto_bot.logger_utils - INFO - Logging scan for BTCUSDT to latest_scan.txt
+2025-04-16 00:43:46,155 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-16 00:43:46,155 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-16 00:43:47,027 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-16 00:43:47,027 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-16 00:43:47,027 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-16 00:43:47,027 - crypto_bot.logger_utils - WARNING - BUY SIGNAL: ETHUSDT @ $1603.40
+2025-04-16 00:43:47,943 - crypto_bot.logger_utils - INFO - Logging scan for BNBUSDT to latest_scan.txt
+2025-04-16 00:43:47,943 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-16 00:43:47,943 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-16 00:43:48,831 - crypto_bot.logger_utils - INFO - Logging scan for SOLUSDT to latest_scan.txt
+2025-04-16 00:43:48,831 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-16 00:43:48,833 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-16 00:43:49,914 - crypto_bot.logger_utils - INFO - Logging scan for AVAXUSDT to latest_scan.txt
+2025-04-16 00:43:49,914 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-16 00:43:49,914 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-16 00:43:53,354 - crypto_bot.logger_utils - INFO - Logging scan for ETHUSDT to latest_scan.txt
+2025-04-16 00:43:53,354 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-16 00:43:53,356 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-16 00:43:53,356 - crypto_bot.logger_utils - WARNING - BUY SIGNAL: ETHUSDT @ $1603.48
+2025-04-16 00:43:56,128 - crypto_bot.logger_utils - INFO - Logging scan for SOLUSDT to latest_scan.txt
+2025-04-16 00:43:56,128 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-16 00:43:56,128 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt
+2025-04-16 00:43:58,545 - crypto_bot.logger_utils - INFO - Logging scan for AVAXUSDT to latest_scan.txt
+2025-04-16 00:43:58,545 - crypto_bot.logger_utils - INFO - Writing 15 lines to latest_scan.txt
+2025-04-16 00:43:58,545 - crypto_bot.logger_utils - INFO - Successfully wrote to latest_scan.txt

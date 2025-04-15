@@ -1,0 +1,17 @@
+====== LATEST MARKET SCAN ======
+Time: 2025-04-15 20:50:30
+Pair: ETHUSDT
+Signal: 🔴 SELL
+Price: $1601.6500
+Interval: 5m
+Strategy: TRON 1.1 - Aggressive Growth
+
+Indicators:
+  close: 1601.6500
+  volume: 19.6029
+  rsi: 40.5716
+  short_ma: 1608.3525
+  long_ma: 1608.0686
+  ma_diff: 0.2839
+
+==============================

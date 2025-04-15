@@ -1,0 +1,129 @@
+2025-04-14 23:37:18,671 - ERROR - root - Error getting historical klines for BTCUSDT: APIError(code=-1120): Invalid interval.
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\binance_api.py:174
+
+2025-04-14 23:37:18,691 - ERROR - root - No data available for BTCUSDT
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\strategies.py:585
+
+2025-04-14 23:37:18,901 - ERROR - root - Error getting historical klines for BTCUSDT: APIError(code=-1120): Invalid interval.
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\binance_api.py:174
+
+2025-04-14 23:37:18,905 - ERROR - root - No data available for BTCUSDT
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\strategies.py:585
+
+2025-04-14 23:37:18,908 - ERROR - root - No data available for BTCUSDT
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\strategies.py:714
+
+2025-04-14 23:37:19,341 - ERROR - root - Error getting historical klines for ETHUSDT: APIError(code=-1120): Invalid interval.
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\binance_api.py:174
+
+2025-04-14 23:37:19,345 - ERROR - root - No data available for ETHUSDT
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\strategies.py:585
+
+2025-04-14 23:37:19,571 - ERROR - root - Error getting historical klines for ETHUSDT: APIError(code=-1120): Invalid interval.
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\binance_api.py:174
+
+2025-04-14 23:37:19,574 - ERROR - root - No data available for ETHUSDT
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\strategies.py:585
+
+2025-04-14 23:37:19,574 - ERROR - root - No data available for ETHUSDT
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\strategies.py:714
+
+2025-04-14 23:37:20,021 - ERROR - root - Error getting historical klines for SOLUSDT: APIError(code=-1120): Invalid interval.
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\binance_api.py:174
+
+2025-04-14 23:37:20,028 - ERROR - root - No data available for SOLUSDT
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\strategies.py:585
+
+2025-04-14 23:37:20,244 - ERROR - root - Error getting historical klines for SOLUSDT: APIError(code=-1120): Invalid interval.
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\binance_api.py:174
+
+2025-04-14 23:37:20,248 - ERROR - root - No data available for SOLUSDT
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\strategies.py:585
+
+2025-04-14 23:37:20,249 - ERROR - root - No data available for SOLUSDT
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\strategies.py:714
+
+2025-04-14 23:37:20,702 - ERROR - root - Error getting historical klines for XRPUSDT: APIError(code=-1120): Invalid interval.
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\binance_api.py:174
+
+2025-04-14 23:37:20,704 - ERROR - root - No data available for XRPUSDT
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\strategies.py:585
+
+2025-04-14 23:37:20,922 - ERROR - root - Error getting historical klines for XRPUSDT: APIError(code=-1120): Invalid interval.
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\binance_api.py:174
+
+2025-04-14 23:37:20,927 - ERROR - root - No data available for XRPUSDT
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\strategies.py:585
+
+2025-04-14 23:37:20,929 - ERROR - root - No data available for XRPUSDT
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\strategies.py:714
+
+2025-04-14 23:37:21,642 - ERROR - crypto_bot.notifier - Failed to send status update. Status: 200
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\notifier.py:169
+
+2025-04-14 23:37:22,114 - ERROR - crypto_bot.notifier - Failed to send cycle update. Status: 200
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\notifier.py:223
+
+2025-04-14 23:37:22,344 - ERROR - root - Error getting historical klines for BTCUSDT: APIError(code=-1120): Invalid interval.
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\binance_api.py:174
+
+2025-04-14 23:37:22,346 - ERROR - root - No data available for BTCUSDT
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\strategies.py:585
+
+2025-04-14 23:37:22,347 - ERROR - root - No data available for BTCUSDT
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\strategies.py:714
+
+2025-04-14 23:37:22,780 - ERROR - root - Error getting historical klines for ETHUSDT: APIError(code=-1120): Invalid interval.
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\binance_api.py:174
+
+2025-04-14 23:37:22,784 - ERROR - root - No data available for ETHUSDT
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\strategies.py:585
+
+2025-04-14 23:37:22,785 - ERROR - root - No data available for ETHUSDT
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\strategies.py:714
+
+2025-04-14 23:37:23,222 - ERROR - root - Error getting historical klines for SOLUSDT: APIError(code=-1120): Invalid interval.
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\binance_api.py:174
+
+2025-04-14 23:37:23,227 - ERROR - root - No data available for SOLUSDT
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\strategies.py:585
+
+2025-04-14 23:37:23,229 - ERROR - root - No data available for SOLUSDT
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\strategies.py:714
+
+2025-04-14 23:37:23,661 - ERROR - root - Error getting historical klines for XRPUSDT: APIError(code=-1120): Invalid interval.
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\binance_api.py:174
+
+2025-04-14 23:37:23,664 - ERROR - root - No data available for XRPUSDT
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\strategies.py:585
+
+2025-04-14 23:37:23,664 - ERROR - root - No data available for XRPUSDT
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\strategies.py:714
+
+2025-04-14 23:37:25,211 - ERROR - root - Error getting historical klines for BTCUSDT: APIError(code=-1120): Invalid interval.
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\binance_api.py:174
+
+2025-04-14 23:37:25,221 - ERROR - root - No data available for BTCUSDT
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\strategies.py:745
+
+2025-04-14 23:37:25,451 - ERROR - root - Error getting historical klines for ETHUSDT: APIError(code=-1120): Invalid interval.
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\binance_api.py:174
+
+2025-04-14 23:37:25,454 - ERROR - root - No data available for ETHUSDT
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\strategies.py:745
+
+2025-04-14 23:37:25,663 - ERROR - root - Error getting historical klines for SOLUSDT: APIError(code=-1120): Invalid interval.
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\binance_api.py:174
+
+2025-04-14 23:37:25,669 - ERROR - root - No data available for SOLUSDT
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\strategies.py:745
+
+2025-04-14 23:37:25,882 - ERROR - root - Error getting historical klines for XRPUSDT: APIError(code=-1120): Invalid interval.
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\binance_api.py:174
+
+2025-04-14 23:37:25,887 - ERROR - root - No data available for XRPUSDT
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\strategies.py:745
+
+2025-04-14 23:45:56,554 - ERROR - crypto_bot.notifier - Failed to send status update. Status: 200
+C:\Users\pc\OneDrive\Desktop\All Bots\Crypto Bot\notifier.py:169
+

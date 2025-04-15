@@ -1,0 +1,17 @@
+====== LATEST MARKET SCAN ======
+Time: 2025-04-15 21:43:58
+Pair: AVAXUSDT
+Signal: ⚪ HOLD
+Price: $19.4000
+Interval: 5m
+Strategy: TRON 1.1 - Aggressive Growth
+
+Indicators:
+  close: 19.4000
+  volume: 2388.3700
+  rsi: 50.7937
+  short_ma: 19.3313
+  long_ma: 19.3429
+  ma_diff: -0.0116
+
+==============================
